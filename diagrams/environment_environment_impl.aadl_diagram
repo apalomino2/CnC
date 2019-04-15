@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="8c4830f2-de0c-4c9a-9ee5-1872d12ec0d1" manual="true">
+    <element uuid="5650b3cd-6436-44bd-9bb2-a9e5925588e1" outline="#009900">
+      <element uuid="c1beb479-5e5c-4f6f-bcbf-7a7460a47827">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>environment_impl_new_connection</seg>
+      </bo>
+      <bendpoints>
+        <point x="371.0" y="166.0"/>
+        <point x="371.0" y="88.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="ff5f67de-9048-48ba-b15f-99a7fd150cc0" outline="#009900">
+      <element uuid="d8eb1a2a-12b9-4e3e-8883-e9b8b4d11b41">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>environment_impl_new_connection2</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="496a6318-55ca-4046-a006-4b1fd4cb6a1e" outline="#000099">
+      <element uuid="2c1ff6bc-9e67-4350-b5cc-c9cc5b350ce8">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>environment_impl_new_connection3</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="25ad6b3d-909a-4e6e-a101-5fa57b22d624" outline="#000099">
+      <element uuid="79503e3f-b3d8-4a23-a8bb-4fd4b11aaab8">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>environment_impl_new_connection4</seg>
+      </bo>
+      <bendpoints>
+        <point x="90.0" y="88.0"/>
+        <point x="90.0" y="166.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="a85486b5-33d6-48ac-8e0b-2f6428617bae" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>env_input</seg>
+      </bo>
+      <position x="381.0" y="46.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="da6c5705-1015-41f3-b523-ffe66c4c1245" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>env_io</seg>
+      </bo>
+      <position y="46.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="e2c09228-1510-4c23-a2e5-f77981e59a04">
+      <element uuid="203fd654-889e-494b-8ea7-76250ae6cb0d" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>hum_event</seg>
+        </bo>
+        <position y="10.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="a8ddf237-4d8d-4cdf-90d9-b793e2d4c004" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>hum_input</seg>
+        </bo>
+        <position x="171.0" y="10.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>hum</seg>
+      </bo>
+      <position x="94.0" y="36.0"/>
+      <size width="249.0" height="58.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element uuid="2f9df619-8f09-40c3-bf32-2a53977d6ead">
+      <element uuid="1148c000-e975-44bb-af1a-6aa7ba40b39e" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>temp_event</seg>
+        </bo>
+        <position y="10.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="b020302a-90ba-4775-96e1-f2da4651c4bf" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>temp_input</seg>
+        </bo>
+        <position x="179.0" y="10.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>temp</seg>
+      </bo>
+      <position x="88.0" y="114.0"/>
+      <size width="261.0" height="58.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>environment.impl</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="455.0" height="184.0"/>
+    <contentFilters>
+      <filter>features</filter>
+      <filter>internalFeatures</filter>
+      <filter>processorFeatures</filter>
+      <filter>connections</filter>
+      <filter>flowSpecifications</filter>
+      <filter>subcomponents</filter>
+    </contentFilters>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>environment::environment.impl</seg>
+    </context>
+  </config>
+</diagram:Diagram>

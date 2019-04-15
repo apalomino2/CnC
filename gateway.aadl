@@ -1,0 +1,35 @@
+package gateway
+public
+	system gateway
+		features
+			gate_input: in out data port;
+			device_input: in out event port;
+			sensor_input: in data port;
+--			gate_output: out data port;		
+	end gateway;
+	
+	system implementation gateway.impl
+		subcomponents
+			rf: device radio_frequency;
+			bb: device broadband;
+		connections
+			gateway_impl_new_connection3: port gate_input -> bb.ip_input;
+			gateway_impl_new_connection: port gate_input -> rf.radio_input;
+			gateway_impl_new_connection2: port device_input -> rf.radio_event;
+			gateway_impl_new_connection4: port sensor_input -> rf.radio_stream;
+	end gateway.impl;
+	
+	device radio_frequency
+		features
+			radio_input: in out data port;
+			radio_stream: in data port;
+			radio_event: in out event port;
+--			radio_output: out data port;		
+	end radio_frequency;
+	
+	device broadband
+		features
+			ip_input: in out data port;
+--			ip_output: out data port;		
+	end broadband;
+end gateway;

@@ -1,0 +1,29 @@
+package devices
+public
+	with dh_devices;
+	
+	system devices_layer
+		features
+			dl_input: in out data port;
+			dl_stream: out data port;
+			dl_output: out event port;
+	end devices_layer;
+	
+	system implementation devices_layer.impl
+		subcomponents
+			sensor: device dh_devices::sensor;
+			alarm: device dh_devices::alarm;
+			switch: device dh_devices::switch;
+			controller: device dh_devices::controller;
+		connections
+			devices_layer_impl_new_connection: port alarm.data_input -> dl_input;
+			devices_layer_impl_new_connection3: port switch.data_input -> dl_input;
+			devices_layer_impl_new_connection5: port sensor.sensor_input -> dl_input;
+			devices_layer_impl_new_connection8: port controller.data_input -> dl_input;
+			devices_layer_impl_new_connection2: port alarm.device_event -> dl_output;
+			devices_layer_impl_new_connection4: port sensor.device_event -> dl_output;
+			devices_layer_impl_new_connection7: port controller.device_event -> dl_output;
+			devices_layer_impl_new_connection9: port switch.device_event -> dl_output;
+			devices_layer_impl_new_connection6: port sensor.sensor_stream -> dl_stream;
+	end devices_layer.impl;
+end devices;

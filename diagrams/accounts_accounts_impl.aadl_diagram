@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="7f21127e-a79d-43dc-8b5a-e8aa4670103b" manual="true">
+    <element uuid="34cdaeff-183c-4f9a-a243-14552bc17558" outline="#009900">
+      <element uuid="b68edbcb-170a-4aca-aee4-f6def953ac36">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>accounts_impl_new_connection</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="c647e5ae-560e-435a-b748-e81aab518141" outline="#009900">
+      <element uuid="66e59871-22a3-4ba4-bd90-bae4bb7d645a">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>accounts_impl_new_connection2</seg>
+      </bo>
+      <bendpoints>
+        <point x="306.0" y="166.0"/>
+        <point x="306.0" y="88.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="09e02da3-48ae-461d-9c50-6c720f2ce917" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>account_input</seg>
+      </bo>
+      <position x="316.0" y="46.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="e8c501c8-50d9-4da8-aed5-989ce1d11db6">
+      <element uuid="f3e0ce19-d9fe-4e84-aa08-314971e68d43" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>auth_input</seg>
+        </bo>
+        <position x="163.0" y="10.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>auth</seg>
+      </bo>
+      <position x="43.0" y="114.0"/>
+      <size width="241.0" height="58.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element uuid="5d36ee61-9def-4f25-b1dd-357a204ac4a6">
+      <element uuid="db8c6d2c-44b9-463a-a3e8-379db81288b9" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>settings_input</seg>
+        </bo>
+        <position x="173.0" y="10.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>us</seg>
+      </bo>
+      <position x="12.0" y="36.0"/>
+      <size width="272.0" height="58.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>accounts.impl</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="415.0" height="184.0"/>
+    <contentFilters>
+      <filter>features</filter>
+      <filter>internalFeatures</filter>
+      <filter>processorFeatures</filter>
+      <filter>connections</filter>
+      <filter>flowSpecifications</filter>
+      <filter>subcomponents</filter>
+    </contentFilters>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>accounts::accounts.impl</seg>
+    </context>
+  </config>
+</diagram:Diagram>

@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="7788bb3f-f1ab-4a6e-8bf9-74e9221afb18" manual="true">
+    <element uuid="ed2667ba-d35e-4b6f-b04c-75efc2ea8a6d" outline="#009900">
+      <element uuid="f348b40c-4fb5-404b-afd5-da0c88f8ca5e">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>gateway_impl_new_connection</seg>
+      </bo>
+      <bendpoints>
+        <point x="127.0" y="262.0"/>
+        <point x="127.0" y="184.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="45ffeb87-849e-4f0b-bb1c-cd3569dc9d20" outline="#000099">
+      <element uuid="42ae66bf-1c0d-41c8-9b07-806e3b6d8710">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>gateway_impl_new_connection2</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="e6f3728d-6d3d-4877-8ba7-6f0a8935446a" outline="#009900">
+      <element uuid="cff7946e-2bf0-49c4-9a33-4bd7e20f2a83">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>gateway_impl_new_connection3</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="d63bcdf0-3ec2-4833-be7f-3fe885b33849" outline="#990000">
+      <element uuid="8565dabf-3c70-48cf-bf37-1a26779be449">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>gateway_impl_new_connection4</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="daf96d6c-c587-4cb6-995e-f611fc8aa3c7" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>device_input</seg>
+      </bo>
+      <position y="46.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="f1bed2c5-5ce3-4c20-9c6c-36333ad22484" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>gate_input</seg>
+      </bo>
+      <position y="220.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="c093e60a-e28a-4326-96ca-7dc702c3241e" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>sensor_input</seg>
+      </bo>
+      <position y="94.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="5a004de4-e59a-449f-82dc-09393b2ddaf7">
+      <element uuid="915e4b61-533d-4360-98d4-6ee88077cc8b" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>ip_input</seg>
+        </bo>
+        <position y="10.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>bb</seg>
+      </bo>
+      <position x="125.0" y="210.0"/>
+      <size width="200.0" height="58.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element uuid="c9b99eea-a3fc-4e0c-9882-4f68b961b302">
+      <element uuid="2ee338e1-9ce7-4703-9c96-6e70cce50b25" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>radio_event</seg>
+        </bo>
+        <position y="10.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="69091445-f9f5-4bb8-8c93-383076554293" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>radio_input</seg>
+        </bo>
+        <position y="106.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="d365755a-54cd-4106-8c8b-d29a28092ac3" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>radio_stream</seg>
+        </bo>
+        <position y="58.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>rf</seg>
+      </bo>
+      <position x="125.0" y="36.0"/>
+      <size width="259.0" height="154.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>gateway.impl</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="396.0" height="280.0"/>
+    <contentFilters>
+      <filter>features</filter>
+      <filter>internalFeatures</filter>
+      <filter>processorFeatures</filter>
+      <filter>connections</filter>
+      <filter>flowSpecifications</filter>
+      <filter>subcomponents</filter>
+    </contentFilters>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>gateway::gateway.impl</seg>
+    </context>
+  </config>
+</diagram:Diagram>

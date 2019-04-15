@@ -1,0 +1,31 @@
+package dh_devices
+public
+	device sensor
+		features
+			sensor_input: in out data port;
+			sensor_stream: out data port;
+--			sensor_response: out data port;	
+			device_event: out event port;
+	end sensor;
+	
+	device alarm
+		features
+			data_input: in out data port;
+--			data_output: out data port;	
+			device_event: out event port;
+	end alarm;
+	
+	device controller
+		features
+			data_input: in out data port;
+--			data_output: out data port;	
+			device_event: out event port;
+	end controller;
+	
+	device switch
+		features
+			data_input: in out data port;
+--			data_output: out data port;		
+			device_event: out event port;
+	end switch;
+end dh_devices;

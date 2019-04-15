@@ -1,0 +1,34 @@
+package environment
+public
+	system environment
+		features
+			env_input: in out data port;
+			env_io: in event port;
+--			env_output: out data port;
+	end environment;
+	
+	system implementation environment.impl
+		subcomponents
+			temp: device temperature;
+			hum: device humidity;
+		connections
+			environment_impl_new_connection: port temp.temp_input -> env_input;
+			environment_impl_new_connection2: port hum.hum_input -> env_input;
+			environment_impl_new_connection3: port env_io -> hum.hum_event;
+			environment_impl_new_connection4: port env_io -> temp.temp_event;
+	end environment.impl;
+	
+	device temperature
+		features
+			temp_input: in out data port;
+			temp_event: in event port;
+--			temp_output: out data port;
+	end temperature;
+
+	device humidity
+		features
+			hum_input: in out data port;
+			hum_event: in event port;
+--			hum_output: out data port;		
+	end humidity;
+end environment;

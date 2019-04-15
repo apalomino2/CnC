@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="62602d6e-43a7-4e7d-b01a-182911144a37" manual="true">
+    <element uuid="75f6a10b-9c85-4f92-bef4-be78da3883b7" outline="#009900">
+      <element uuid="f3d3bf66-488d-48f7-9bfc-e8e794058944">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>command_impl_new_connection</seg>
+      </bo>
+      <bendpoints>
+        <point x="296.0" y="166.0"/>
+        <point x="296.0" y="88.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="f6d8fb8d-a81e-4f20-b87c-a3d581a2ab84" outline="#009900">
+      <element uuid="69480da3-f62d-44d8-a549-a30f5c36979a">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>command_impl_new_connection2</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="482c64cc-08e9-4a40-8a11-f159ae144221" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>command_input</seg>
+      </bo>
+      <position x="306.0" y="46.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="57003fb5-2a32-4118-97d7-625f423ac7c7">
+      <element uuid="3e855395-c7fe-4d95-827c-307f31271151" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>touch_input</seg>
+        </bo>
+        <position x="177.0" y="10.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>touch</seg>
+      </bo>
+      <position x="12.0" y="114.0"/>
+      <size width="262.0" height="58.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element uuid="3cdbfc12-cff6-4854-b3f7-915185e91734">
+      <element uuid="370609cf-610e-4579-bc96-01cdfa6541ec" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>voice_input</seg>
+        </bo>
+        <position x="175.0" y="10.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>voice</seg>
+      </bo>
+      <position x="15.0" y="36.0"/>
+      <size width="259.0" height="58.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>command.impl</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="416.0" height="184.0"/>
+    <contentFilters>
+      <filter>features</filter>
+      <filter>internalFeatures</filter>
+      <filter>processorFeatures</filter>
+      <filter>connections</filter>
+      <filter>flowSpecifications</filter>
+      <filter>subcomponents</filter>
+    </contentFilters>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>command::command.impl</seg>
+    </context>
+  </config>
+</diagram:Diagram>

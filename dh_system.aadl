@@ -1,0 +1,26 @@
+package dh_system
+public
+	with user_interface;
+	with business_logic;
+	with database;
+	with devices;
+	
+	system digital_home
+
+	end digital_home;
+	
+	system implementation digital_home.impl
+		subcomponents
+			gui: system user_interface::gui;
+			bl: system business_logic::business_logic.impl;
+			dl: system database::data_layer.impl;
+			dev: system devices::devices_layer.impl;
+		connections
+			digital_home_impl_new_connection: port dev.dl_input -> dl.dl_input;
+			digital_home_impl_new_connection2: port dl.dl_input -> bl.bl_input;
+			digital_home_impl_new_connection3: port gui.user_input -> bl.bl_input;
+			digital_home_impl_new_connection4: port dev.dl_output -> dl.event_io;
+			digital_home_impl_new_connection5: port dl.event_io -> bl.bl_event_io;
+			digital_home_impl_new_connection6: port dev.dl_stream -> dl.dl_stream;
+	end digital_home.impl;
+end dh_system;
