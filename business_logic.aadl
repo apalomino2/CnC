@@ -1,17 +1,21 @@
 package business_logic
 public
 	with accounts;
+
 	with backup_recovery;
+
 	with schedule;
+
 	with environment;
+
 	with command;
-	
+
 	system business_logic
 		features
 			bl_input: in out data port;
 			bl_event_io: in event port;
 	end business_logic;
-	
+
 	system implementation business_logic.impl
 		subcomponents
 			br: system backup_recovery::backup_recovery.impl;
@@ -22,9 +26,10 @@ public
 		connections
 			business_logic_impl_new_connection: port account.account_input -> bl_input;
 			business_logic_impl_new_connection2: port cmd.command_input -> bl_input;
-			business_logic_impl_new_connection3: port br.br_input -> bl_input;
 			business_logic_impl_new_connection4: port env.env_input -> bl_input;
 			business_logic_impl_new_connection5: port schedule.schedule_input -> bl_input;
 			business_logic_impl_new_connection6: port bl_event_io -> env.env_io;
+			business_logic_impl_new_connection7: port bl_input -> br.backup_input;
+			business_logic_impl_new_connection8: port bl_input -> br.recovery_input;
 	end business_logic.impl;
 end business_logic;
