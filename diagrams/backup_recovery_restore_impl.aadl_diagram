@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="90eaa7e7-6e81-4972-b317-6ed8601b9973" manual="true">
+    <element uuid="efba56b7-deaa-40bd-9258-f5e9b9459db0" outline="#994c00">
+      <element uuid="5be7fdbc-899e-48b7-a667-1b5257c3fbe8">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>restore_impl_new_connection</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="e65b6519-109f-4c86-8f9b-826448159192" outline="#994c00">
+      <element uuid="55b5c4eb-2721-41c1-b857-5742c40cbef2">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>restore_impl_new_connection2</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="304269c5-6e0f-4a59-9346-dfc149ae59a0" outline="#994c00">
+      <element uuid="4b63b314-d9aa-45a9-b232-bb1e8d948ea2">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>restore_impl_new_connection3</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="91ed7469-6811-4ae8-9c29-133d7ca1a41d" outline="#994c00">
+      <element uuid="a118937c-6478-4209-abd3-13533c442872">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>restore_impl_new_connection4</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="4d7fee0a-4e5d-49f6-9c68-8d8909e693e3" outline="#994c00">
+      <element uuid="aad2832b-24aa-4b44-b815-43efb3ea3289">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>restore_impl_new_connection5</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="778a6d24-e47a-4e6d-83c7-38282e269486" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>br_input</seg>
+      </bo>
+      <position y="158.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="13ee7b8d-1ea9-4db4-8508-5876ccfa097d" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>br_output</seg>
+      </bo>
+      <position x="946.0" y="148.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="d14478c1-b034-4c42-9fec-bd895ed5eb13">
+      <element uuid="341f7983-0a11-46e1-9786-f210689a2458" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>decompress_in</seg>
+        </bo>
+        <position y="38.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="48c39980-7287-4923-b19d-e9f4242dc660" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>decompress_out</seg>
+        </bo>
+        <position x="123.0" y="38.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>recovery_decompress</seg>
+      </bo>
+      <position x="408.0" y="123.0"/>
+      <size width="252.0" height="109.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element uuid="71d7f229-a523-4817-ad6a-ffbe4e9b92b5">
+      <element uuid="eb53d494-e0b0-40f4-b9cf-f1c99e4185fb" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>data_layer_data</seg>
+        </bo>
+        <position y="40.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="7403596b-7e8d-44f6-a6e9-a833811cfffc" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>r_read_out</seg>
+        </bo>
+        <position x="142.0" y="60.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="c299c276-5896-40bb-bbc1-167aa871c811" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>settings</seg>
+        </bo>
+        <position y="99.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>recovery_read</seg>
+      </bo>
+      <position x="128.0" y="97.0"/>
+      <size width="231.0" height="162.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element uuid="fb98541b-c056-4fd2-9b8f-132c7c3f2fcf">
+      <element uuid="4c12d437-52c3-4352-baf4-e4ccaa63f746" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>r_write_in</seg>
+        </bo>
+        <position y="25.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="b853acc2-272b-4333-8161-5a46d7b8ed04" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>r_write_out</seg>
+        </bo>
+        <position x="119.0" y="35.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>recovery_write</seg>
+      </bo>
+      <position x="708.0" y="125.0"/>
+      <size width="211.0" height="106.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>restore.impl</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="1029.0" height="339.0"/>
+    <contentFilters>
+      <filter>features</filter>
+      <filter>internalFeatures</filter>
+      <filter>processorFeatures</filter>
+      <filter>connections</filter>
+      <filter>flowSpecifications</filter>
+      <filter>subcomponents</filter>
+    </contentFilters>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>backup_recovery::restore.impl</seg>
+    </context>
+  </config>
+</diagram:Diagram>

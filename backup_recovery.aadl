@@ -2,32 +2,104 @@ package backup_recovery
 public
 	system backup_recovery
 		features
-			br_input: in out data port;
+			backup_input: in out data port;
+			recovery_input: in out data port;
 --			br_output: out data port;
 	end backup_recovery;
 	
 	system implementation backup_recovery.impl
 		subcomponents
-			read: process readFromDataProcess;
-			compress: process compressProcess;
+			backup: process backup;
+			restore: process restore;
+--			read: process readFromDataProcess;
+--			compress: process compressProcess;
+--		connections
+--			backup_recovery_impl_new_connection: port br_input -> read.settings;
+--			backup_recovery_impl_new_connection2: port br_input -> read.data_layer_data;
+--			backup_recovery_impl_new_connection3: port read.to_compress -> compress.to_compress;
+--			backup_recovery_impl_new_connection4: port compress.compressed -> br_input;
 		connections
-			backup_recovery_impl_new_connection: port br_input -> read.settings;
-			backup_recovery_impl_new_connection2: port br_input -> read.data_layer_data;
-			backup_recovery_impl_new_connection3: port read.to_compress -> compress.to_compress;
-			backup_recovery_impl_new_connection4: port compress.compressed -> br_input;
+			backup_recovery_impl_new_connection: port backup_input -> backup.br_input;
+			backup_recovery_impl_new_connection3: port recovery_input -> restore.br_input;
+			backup_recovery_impl_new_connection2: port backup.b_output -> backup_input;
+			backup_recovery_impl_new_connection4: port restore.r_output -> recovery_input;
 	end backup_recovery.impl;
 	
-	process readFromDataProcess
+	process backup
+		features
+			br_input: in out data port;
+			b_output: out data port;
+	end backup;
+	
+	process implementation backup.impl
+		subcomponents
+			backup_read: thread readFromDataToCompress;
+			backup_compress: thread compress;
+			backup_write: thread writeCompressedData;
+		connections
+			backup_impl_new_connection: port br_input -> backup_read.data_layer_data;
+			backup_impl_new_connection2: port br_input -> backup_read.settings;
+			backup_impl_new_connection3: port backup_read.b_read_out -> backup_compress.compress_in;
+			backup_impl_new_connection4: port backup_compress.compress_out -> backup_write.b_write_in;
+			backup_impl_new_connection5: port backup_write.b_write_out -> b_output;
+	end backup.impl;
+	
+	thread readFromDataToCompress
 		features
 			settings: in data port;
-			to_compress: out data port;
-			data_layer_data: in out data port;
-	end readFromDataProcess;
+			b_read_out: out data port;
+			data_layer_data: in data port;
+	end readFromDataToCompress;
 		
-	process compressProcess
+	thread compress
 		features
-			to_compress: in data port;
-			compressed: out data port;
-	end compressProcess;
+			compress_in: in data port;
+			compress_out: out data port;
+	end compress;
+	
+	thread writeCompressedData
+		features
+			b_write_in: in data port;
+			b_write_out: out data port;
+	end writeCompressedData;
+	
+	
+	process restore
+		features
+			br_input: in data port;
+			r_output: out data port;
+	end restore;
+	
+	process implementation restore.impl
+		subcomponents
+			recovery_read: thread readFromDataToDecompress;
+			recovery_decompress: thread decompress;
+			recovery_write: thread writeDecompressedData;
+		connections
+			restore_impl_new_connection: port br_input -> recovery_read.data_layer_data;
+			restore_impl_new_connection2: port br_input -> recovery_read.settings;
+			restore_impl_new_connection3: port recovery_read.r_read_out -> recovery_decompress.decompress_in;
+			restore_impl_new_connection4: port recovery_decompress.decompress_out -> recovery_write.r_write_in;
+			restore_impl_new_connection5: port recovery_write.r_write_out -> r_output;
+	end restore.impl;
+	
+	thread readFromDataToDecompress
+		features
+			settings: in data port;
+			r_read_out: out data port;
+			data_layer_data: in out data port;
+	end readFromDataToDecompress;
+	
+	thread decompress
+		features
+			decompress_in: in data port;
+			decompress_out: out data port;
+	end decompress;
+	
+	thread writeDecompressedData
+		features
+			r_write_in: in data port;
+			r_write_out: out data port;
+	end writeDecompressedData;
 	
 end backup_recovery;
