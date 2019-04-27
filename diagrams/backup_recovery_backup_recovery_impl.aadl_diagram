@@ -62,7 +62,7 @@
         <seg>feature</seg>
         <seg>backup_input</seg>
       </bo>
-      <position y="88.0"/>
+      <position y="128.0"/>
       <contentFilters/>
     </element>
     <element uuid="d3452a0f-0681-43cd-8803-70d06aad1f9e" dockArea="left">
@@ -70,7 +70,7 @@
         <seg>feature</seg>
         <seg>recovery_input</seg>
       </bo>
-      <position y="178.0"/>
+      <position y="173.0"/>
       <contentFilters/>
     </element>
     <element uuid="ef93e892-f87d-4705-b0a7-7273d2fb6eee">

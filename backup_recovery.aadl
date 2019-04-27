@@ -33,34 +33,34 @@ public
 	
 	process implementation backup.impl
 		subcomponents
-			read: thread readFromDataToCompress;
-			compress: thread compress;
-			write: thread writeCompressedData;
+			backup_read: thread readFromDataToCompress;
+			backup_compress: thread compress;
+			backup_write: thread writeCompressedData;
 		connections
-			backup_impl_new_connection: port br_input -> read.data_layer_data;
-			backup_impl_new_connection2: port br_input -> read.settings;
-			backup_impl_new_connection3: port read.to_compress -> compress.to_compress;
-			backup_impl_new_connection4: port compress.compressed -> write.compressed;
-			backup_impl_new_connection5: port write.write_data -> br_out;
+			backup_impl_new_connection: port br_input -> backup_read.data_layer_data;
+			backup_impl_new_connection2: port br_input -> backup_read.settings;
+			backup_impl_new_connection3: port backup_read.b_read_out -> backup_compress.compress_in;
+			backup_impl_new_connection4: port backup_compress.compress_out -> backup_write.b_write_in;
+			backup_impl_new_connection5: port backup_write.b_write_out -> br_out;
 	end backup.impl;
 	
 	thread readFromDataToCompress
 		features
 			settings: in data port;
-			to_compress: out data port;
-			data_layer_data: in out data port;
+			b_read_out: out data port;
+			data_layer_data: in data port;
 	end readFromDataToCompress;
 		
 	thread compress
 		features
-			to_compress: in data port;
-			compressed: out data port;
+			compress_in: in data port;
+			compress_out: out data port;
 	end compress;
 	
 	thread writeCompressedData
 		features
-			compressed: in data port;
-			write_data: out data port;
+			b_write_in: in data port;
+			b_write_out: out data port;
 	end writeCompressedData;
 	
 	
@@ -72,34 +72,34 @@ public
 	
 	process implementation restore.impl
 		subcomponents
-			read: thread readFromDataToDecompress;
-			decompress: thread decompress;
-			write: thread writeDecompressedData;
+			recovery_read: thread readFromDataToDecompress;
+			recovery_decompress: thread decompress;
+			recovery_write: thread writeDecompressedData;
 		connections
-			restore_impl_new_connection: port br_input -> read.data_layer_data;
-			restore_impl_new_connection2: port br_input -> read.settings;
-			restore_impl_new_connection3: port read.to_decompress -> decompress.to_decompress;
-			restore_impl_new_connection4: port decompress.decompressed -> write.decompressed;
-			restore_impl_new_connection5: port write.write_data -> br_output;
+			restore_impl_new_connection: port br_input -> recovery_read.data_layer_data;
+			restore_impl_new_connection2: port br_input -> recovery_read.settings;
+			restore_impl_new_connection3: port recovery_read.r_read_out -> recovery_decompress.decompress_in;
+			restore_impl_new_connection4: port recovery_decompress.decompress_out -> recovery_write.r_write_in;
+			restore_impl_new_connection5: port recovery_write.r_write_out -> br_output;
 	end restore.impl;
 	
 	thread readFromDataToDecompress
 		features
 			settings: in data port;
-			to_decompress: out data port;
+			r_read_out: out data port;
 			data_layer_data: in out data port;
 	end readFromDataToDecompress;
 	
 	thread decompress
 		features
-			to_decompress: in data port;
-			decompressed: out data port;
+			decompress_in: in data port;
+			decompress_out: out data port;
 	end decompress;
 	
 	thread writeDecompressedData
 		features
-			decompressed: in data port;
-			write_data: out data port;
+			r_write_in: in data port;
+			r_write_out: out data port;
 	end writeDecompressedData;
 	
 end backup_recovery;

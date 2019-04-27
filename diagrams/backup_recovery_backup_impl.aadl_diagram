@@ -76,7 +76,7 @@
         <seg>feature</seg>
         <seg>br_input</seg>
       </bo>
-      <position y="155.0"/>
+      <position y="148.0"/>
       <contentFilters/>
     </element>
     <element uuid="93199c35-ed63-4682-98d8-625263cb1d26" dockArea="right">
@@ -87,29 +87,29 @@
       <position x="898.0" y="155.0"/>
       <contentFilters/>
     </element>
-    <element uuid="cefc8e57-a927-4fac-b097-5e6814b8bece">
-      <element uuid="27668dc6-c4e1-4cfa-8467-844d7998f615" dockArea="right">
+    <element uuid="87cfb1bb-efe2-4ba8-9e8f-bd0f9797b0bf">
+      <element uuid="2bea06c4-b372-4cf6-aa9b-75d2b99e6df8" dockArea="left">
         <bo>
           <seg>feature</seg>
-          <seg>compressed</seg>
+          <seg>compress_in</seg>
         </bo>
-        <position x="91.0" y="40.0"/>
+        <position y="38.0"/>
         <contentFilters/>
       </element>
-      <element uuid="e8caaafc-1c14-4d0f-ac5d-d79434579e6d" dockArea="left">
+      <element uuid="d3135769-ac61-492a-a4de-ecf43509f547" dockArea="right">
         <bo>
           <seg>feature</seg>
-          <seg>to_compress</seg>
+          <seg>compress_out</seg>
         </bo>
-        <position y="63.0"/>
+        <position x="126.0" y="38.0"/>
         <contentFilters/>
       </element>
       <bo>
         <seg>subcomponent</seg>
-        <seg>compress</seg>
+        <seg>backup_compress</seg>
       </bo>
-      <position x="378.0" y="120.0"/>
-      <size width="191.0" height="110.0"/>
+      <position x="378.0" y="115.0"/>
+      <size width="239.0" height="120.0"/>
       <contentFilters>
         <filter>features</filter>
         <filter>internalFeatures</filter>
@@ -118,37 +118,37 @@
         <filter>flowSpecifications</filter>
       </contentFilters>
     </element>
-    <element uuid="1f3802cf-a3fd-4687-b652-732cf8da26cd">
-      <element uuid="806060f2-21bb-4a41-a0d8-65c727bfb178" dockArea="left">
+    <element uuid="f441431d-40b2-4935-9c1d-8bdde2e508ad">
+      <element uuid="27739cc0-d1ea-4846-bdd3-892855afaec3" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>b_read_out</seg>
+        </bo>
+        <position x="148.0" y="60.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="23271f23-a582-4896-886d-4d415c68d45f" dockArea="left">
         <bo>
           <seg>feature</seg>
           <seg>data_layer_data</seg>
         </bo>
-        <position y="33.0"/>
+        <position y="21.0"/>
         <contentFilters/>
       </element>
-      <element uuid="a5ba116c-4c83-41ce-986f-2f86c54fa0d1" dockArea="left">
+      <element uuid="6e7efa4f-cc03-4154-8e83-5304a023d4b7" dockArea="left">
         <bo>
           <seg>feature</seg>
           <seg>settings</seg>
         </bo>
-        <position y="88.0"/>
-        <contentFilters/>
-      </element>
-      <element uuid="5c83a531-ed87-475d-90bf-86080db0c9bd" dockArea="right">
-        <bo>
-          <seg>feature</seg>
-          <seg>to_compress</seg>
-        </bo>
-        <position x="137.0" y="49.0"/>
+        <position y="90.0"/>
         <contentFilters/>
       </element>
       <bo>
         <seg>subcomponent</seg>
-        <seg>read</seg>
+        <seg>backup_read</seg>
       </bo>
-      <position x="98.0" y="95.0"/>
-      <size width="241.0" height="160.0"/>
+      <position x="88.0" y="94.0"/>
+      <size width="240.0" height="161.0"/>
       <contentFilters>
         <filter>features</filter>
         <filter>internalFeatures</filter>
@@ -157,29 +157,29 @@
         <filter>flowSpecifications</filter>
       </contentFilters>
     </element>
-    <element uuid="47524fb5-4073-4f37-8757-e7059d8c2089">
-      <element uuid="0a0d8a39-a228-48f0-ab66-ba554cd6c450" dockArea="left">
+    <element uuid="87d0ff32-3ebc-4f03-a2bd-c3c016693c3c">
+      <element uuid="483f02ed-8fa3-4747-bad4-a0d7b154355d" dockArea="left">
         <bo>
           <seg>feature</seg>
-          <seg>compressed</seg>
+          <seg>b_write_in</seg>
         </bo>
         <position y="30.0"/>
         <contentFilters/>
       </element>
-      <element uuid="de857cd0-0f0d-430b-8d31-a20eae663171" dockArea="right">
+      <element uuid="b5b31c04-a44c-4e7c-be12-b434f5e34e1f" dockArea="right">
         <bo>
           <seg>feature</seg>
-          <seg>write_data</seg>
+          <seg>b_write_out</seg>
         </bo>
-        <position x="167.0" y="30.0"/>
+        <position x="103.0" y="30.0"/>
         <contentFilters/>
       </element>
       <bo>
         <seg>subcomponent</seg>
-        <seg>write</seg>
+        <seg>backup_write</seg>
       </bo>
-      <position x="606.0" y="120.0"/>
-      <size width="253.0" height="110.0"/>
+      <position x="678.0" y="119.0"/>
+      <size width="198.0" height="111.0"/>
       <contentFilters>
         <filter>features</filter>
         <filter>internalFeatures</filter>
@@ -193,7 +193,7 @@
       <seg>backup.impl</seg>
     </bo>
     <position x="12.0" y="12.0"/>
-    <size width="959.0" height="369.0"/>
+    <size width="959.0" height="289.0"/>
     <contentFilters>
       <filter>features</filter>
       <filter>internalFeatures</filter>
