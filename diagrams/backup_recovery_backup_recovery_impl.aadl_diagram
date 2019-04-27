@@ -74,20 +74,20 @@
       <contentFilters/>
     </element>
     <element uuid="ef93e892-f87d-4705-b0a7-7273d2fb6eee">
+      <element uuid="8428e349-5712-4eaf-9c22-9b956702f9fe" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>b_output</seg>
+        </bo>
+        <position x="194.0" y="31.0"/>
+        <contentFilters/>
+      </element>
       <element uuid="518b3c07-f751-4625-82c3-02a4f3a30f27" dockArea="left">
         <bo>
           <seg>feature</seg>
           <seg>br_input</seg>
         </bo>
         <position y="10.0"/>
-        <contentFilters/>
-      </element>
-      <element uuid="6267dab7-e2c5-4e45-800f-185f824ef1d1" dockArea="right">
-        <bo>
-          <seg>feature</seg>
-          <seg>br_out</seg>
-        </bo>
-        <position x="210.0" y="31.0"/>
         <contentFilters/>
       </element>
       <bo>
@@ -113,12 +113,12 @@
         <position y="30.0"/>
         <contentFilters/>
       </element>
-      <element uuid="f2ace82e-5732-4459-8a79-9772cad19c8e" dockArea="right">
+      <element uuid="6e160e8c-4557-4680-87ba-284748b89f94" dockArea="right">
         <bo>
           <seg>feature</seg>
-          <seg>br_output</seg>
+          <seg>r_output</seg>
         </bo>
-        <position x="190.0" y="40.0"/>
+        <position x="199.0" y="40.0"/>
         <contentFilters/>
       </element>
       <bo>
