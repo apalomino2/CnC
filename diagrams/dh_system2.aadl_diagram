@@ -481,7 +481,7 @@
           </element>
           <bo>
             <seg>subcomponent</seg>
-            <seg>alarm</seg>
+            <seg>alarm_controller</seg>
           </bo>
           <position x="300.0" y="100.0"/>
           <size width="211.0" height="154.0"/>
@@ -508,7 +508,7 @@
           </element>
           <bo>
             <seg>subcomponent</seg>
-            <seg>controller</seg>
+            <seg>controller_controller</seg>
           </bo>
           <position x="270.0" y="760.0"/>
           <size width="271.0" height="154.0"/>
@@ -543,7 +543,7 @@
           </element>
           <bo>
             <seg>subcomponent</seg>
-            <seg>sensor</seg>
+            <seg>sensor_controller</seg>
           </bo>
           <position x="291.0" y="510.0"/>
           <size width="250.0" height="202.0"/>
@@ -570,7 +570,7 @@
           </element>
           <bo>
             <seg>subcomponent</seg>
-            <seg>switch</seg>
+            <seg>switch_controller</seg>
           </bo>
           <position x="300.0" y="320.0"/>
           <size width="231.0" height="154.0"/>

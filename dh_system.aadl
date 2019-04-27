@@ -19,8 +19,9 @@ public
 			digital_home_impl_new_connection: port dev.dl_input -> dl.dl_input;
 			digital_home_impl_new_connection2: port dl.dl_input -> bl.bl_input;
 			digital_home_impl_new_connection3: port gui.user_input -> bl.bl_input;
-			digital_home_impl_new_connection4: port dev.dl_output -> dl.event_io;
-			digital_home_impl_new_connection5: port dl.event_io -> bl.bl_event_io;
 			digital_home_impl_new_connection6: port dev.dl_stream -> dl.dl_stream;
+			digital_home_impl_new_connection4: port dev.dl_output -> dl.event_in;
+			digital_home_impl_new_connection5: port dl.event_out -> bl.bl_event_io;
 	end digital_home.impl;
+	
 end dh_system;

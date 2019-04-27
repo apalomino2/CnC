@@ -8,8 +8,13 @@ public
 	
 	system business_logic
 		features
-			bl_input: in out data port;
-			bl_event_io: in event port;
+			account_input: in out data port;
+			schedule_input: in out data port;
+			env_input: in out data port;
+			cmd_input: in out data port;
+			br_input: in out data port;
+			bl_input: in data port;
+			bl_event_io: in event data port;
 	end business_logic;
 	
 	system implementation business_logic.impl
@@ -20,11 +25,12 @@ public
 			env: system environment::environment.impl;
 			cmd: system command::command.impl;
 		connections
-			business_logic_impl_new_connection: port account.account_input -> bl_input;
-			business_logic_impl_new_connection2: port cmd.command_input -> bl_input;
-			business_logic_impl_new_connection3: port br.br_input -> bl_input;
-			business_logic_impl_new_connection4: port env.env_input -> bl_input;
-			business_logic_impl_new_connection5: port schedule.schedule_input -> bl_input;
-			business_logic_impl_new_connection6: port bl_event_io -> env.env_io;
+			business_logic_impl_new_connection: port account.account_input -> account_input;
+			business_logic_impl_new_connection2: port cmd.command_input -> cmd_input;
+			business_logic_impl_new_connection3: port br.br_input -> br_input;
+			business_logic_impl_new_connection4: port env.env_input -> env_input;
+			business_logic_impl_new_connection5: port schedule.schedule_input -> schedule_input;
+			business_logic_impl_new_connection7: port bl_event_io -> env.event_in;
+			business_logic_impl_new_connection6: port account.account_input -> account_input;
 	end business_logic.impl;
 end business_logic;

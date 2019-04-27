@@ -6,18 +6,22 @@ public
 	system data_layer
 		features
 			dl_input: in out data port;
-			event_io: in out event port;
 			dl_stream: in data port;
+			dl_output: out data port;
+			event_in: in event data port;
+			event_out: out event data port;
 	end data_layer;
 	
 	system implementation data_layer.impl
 		subcomponents
-			da: device data_access::data_access;
+			da: system data_access::data_access;
 			gateway: system gateway::gateway.impl;
 		connections
-			data_layer_impl_new_connection: port da.data_input -> dl_input;
 			data_layer_impl_new_connection2: port gateway.gate_input -> dl_input;
-			data_layer_impl_new_connection5: port event_io -> gateway.device_input;
 			data_layer_impl_new_connection3: port dl_stream -> gateway.sensor_input;
+			data_layer_impl_new_connection: port event_in -> gateway.device_event_in;
+			data_layer_impl_new_connection4: port gateway.device_event_out -> event_out;
 	end data_layer.impl;
+	
+	
 end database;

@@ -1,6 +1,6 @@
 package data_access
 public
-	device data_access
+	system data_access
 		features
 			data_input: in out data port;
 --			data_output: out data port;

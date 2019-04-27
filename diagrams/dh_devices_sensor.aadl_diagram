@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="c9c5b874-60b7-431c-a593-bdbfe2907a72" manual="true">
+    <bo>
+      <seg>classifier</seg>
+      <seg>sensor</seg>
+    </bo>
+    <contentFilters>
+      <filter>features</filter>
+      <filter>flowSpecifications</filter>
+    </contentFilters>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>dh_devices::sensor</seg>
+    </context>
+  </config>
+</diagram:Diagram>
