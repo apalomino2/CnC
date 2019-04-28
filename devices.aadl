@@ -1,14 +1,14 @@
 package devices
 public
 	with dh_devices;
-	
+
 	system devices_layer
 		features
 			dl_input: in out data port;
 			dl_stream: out data port;
 			dl_output: out event data port;
 	end devices_layer;
-	
+
 	system implementation devices_layer.impl
 		subcomponents
 			sensor_controller: system dh_devices::sensor_controller.impl;
@@ -20,39 +20,38 @@ public
 			controller: device controller;
 			switch: device switch;
 		connections
-			devices_layer_impl_new_connection: port alarm_controller.data_input -> dl_input;
 			devices_layer_impl_new_connection3: port switch_controller.data_input -> dl_input;
 			devices_layer_impl_new_connection5: port sensor_controller.sensor_input -> dl_input;
-			devices_layer_impl_new_connection8: port controller_controller.data_input -> dl_input;
 			devices_layer_impl_new_connection6: port sensor_controller.sensor_stream -> dl_stream;
-			devices_layer_impl_new_connection10: port sensor_dev.sen_data -> sensor_controller.sensor_new_feature;
-			devices_layer_impl_new_connection11: port alarm_dev.ala_data -> switch_controller.switch_new_feature;
-			devices_layer_impl_new_connection12: port controller.con_data -> controller_controller.controller_new_feature;
-			devices_layer_impl_new_connection13: port switch.swi_data -> alarm_controller.alarm_new_feature;
 			devices_layer_impl_new_connection2: port sensor_controller.sensor_event -> dl_output;
+			devices_layer_impl_new_connection9: port alarm_controller.alarm_event -> dl_output;
+			devices_layer_impl_new_connection11: port sensor_dev.sensor_out -> sensor_controller.sensor_new_feature;
+			devices_layer_impl_new_connection12: port alarm_dev.alarm_out -> alarm_controller.alarm_new_feature;
+			devices_layer_impl_new_connection13: port controller.controller_out -> controller_controller.controller_new_feature;
+			devices_layer_impl_new_connection: port alarm_controller.data_input -> dl_input;
+			devices_layer_impl_new_connection14: port switch.switch_out -> switch_controller.switch_new_feature;
+			devices_layer_impl_new_connection15: port controller_controller.data_input -> dl_input;
 			devices_layer_impl_new_connection4: port switch_controller.switch_event -> dl_output;
 			devices_layer_impl_new_connection7: port controller_controller.controller_event -> dl_output;
-			devices_layer_impl_new_connection9: port alarm_controller.alarm_event -> dl_output;
 	end devices_layer.impl;
-	
+
 	device sensor
 		features
-			sen_data: out data port;
+			sensor_out: out data port;
 	end sensor;
-	
+
 	device alarm
 		features
-			ala_data: out data port;
+			alarm_out: out data port;
 	end alarm;
-	
+
 	device controller
 		features
-			con_data: out data port;
+			controller_out: out data port;
 	end controller;
-	
+
 	device switch
 		features
-			swi_data: out data port;
+			switch_out: out data port;
 	end switch;
-	
 end devices;

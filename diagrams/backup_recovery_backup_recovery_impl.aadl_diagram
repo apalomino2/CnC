@@ -27,34 +27,12 @@
         <seg>connection</seg>
         <seg>backup_recovery_impl_new_connection2</seg>
       </bo>
-      <contentFilters/>
-    </element>
-    <element uuid="39c988d1-bba6-461b-9613-89ca22577911" outline="#994c00">
-      <element uuid="f7783169-8c0a-40b9-bcb1-b7e214abb70b">
-        <bo>
-          <seg>tag</seg>
-          <seg>unidirectional</seg>
-        </bo>
-        <contentFilters/>
-      </element>
-      <bo>
-        <seg>connection</seg>
-        <seg>backup_recovery_impl_new_connection3</seg>
-      </bo>
-      <contentFilters/>
-    </element>
-    <element uuid="8623e905-f4b7-4066-a691-8f9944a31f39" outline="#994c00">
-      <element uuid="3cf8d9ef-486f-4a06-b9cf-a2b4ef20856d">
-        <bo>
-          <seg>tag</seg>
-          <seg>unidirectional</seg>
-        </bo>
-        <contentFilters/>
-      </element>
-      <bo>
-        <seg>connection</seg>
-        <seg>backup_recovery_impl_new_connection4</seg>
-      </bo>
+      <bendpoints>
+        <point x="1466.0" y="388.5"/>
+        <point x="1466.0" y="256.0"/>
+        <point x="144.0" y="256.0"/>
+        <point x="144.0" y="364.0"/>
+      </bendpoints>
       <contentFilters/>
     </element>
     <element uuid="ec0dac00-4ba8-47f8-b822-b0b69e9b98e3" dockArea="left">
@@ -62,24 +40,97 @@
         <seg>feature</seg>
         <seg>backup_input</seg>
       </bo>
-      <position y="128.0"/>
+      <position y="321.0"/>
       <contentFilters/>
     </element>
-    <element uuid="d3452a0f-0681-43cd-8803-70d06aad1f9e" dockArea="left">
+    <element uuid="8bd3931a-f466-4eb3-91f7-f7804fc3207b" dockArea="left">
       <bo>
         <seg>feature</seg>
-        <seg>recovery_input</seg>
+        <seg>client_port</seg>
       </bo>
-      <position y="173.0"/>
       <contentFilters/>
     </element>
     <element uuid="ef93e892-f87d-4705-b0a7-7273d2fb6eee">
+      <element uuid="1f411154-d61a-42b5-9daa-b600b6defdc5">
+        <element uuid="6a85a584-7d27-469e-9a5b-73cdfdca0b19">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>backup_impl_new_connection</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="a5af5387-a157-4905-a41b-b9ea8fd69aef">
+        <element uuid="84cbd6ad-c8b7-4e3e-927a-ced1619f42e4">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>backup_impl_new_connection2</seg>
+        </bo>
+        <bendpoints>
+          <point x="246.0" y="364.0"/>
+          <point x="246.0" y="413.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element uuid="52676821-5e00-40ae-91a3-4a4b87bdc66b">
+        <element uuid="ac69eab5-c867-4f41-b2a4-62dff4de84a6">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>backup_impl_new_connection3</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="ad2be4a7-913c-4dbc-a34d-c57fb574a00e">
+        <element uuid="93ffd1b1-a90f-48b4-9036-6a90b16d1a86">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>backup_impl_new_connection4</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="3981e75a-acdd-4365-b038-2992fab45601">
+        <element uuid="bd56cc61-6f1a-42cf-989e-8da5a52e88b3">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>backup_impl_new_connection5</seg>
+        </bo>
+        <contentFilters/>
+      </element>
       <element uuid="8428e349-5712-4eaf-9c22-9b956702f9fe" dockArea="right">
         <bo>
           <seg>feature</seg>
           <seg>b_output</seg>
         </bo>
-        <position x="194.0" y="31.0"/>
+        <position x="1229.0" y="92.0"/>
         <contentFilters/>
       </element>
       <element uuid="518b3c07-f751-4625-82c3-02a4f3a30f27" dockArea="left">
@@ -87,30 +138,217 @@
           <seg>feature</seg>
           <seg>br_input</seg>
         </bo>
-        <position y="10.0"/>
+        <position y="67.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="2f1c1fb3-6885-4765-a297-6b17472180a0">
+        <element uuid="9293af26-bdb2-416c-a70b-1632838870f5" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>compress_in</seg>
+          </bo>
+          <position y="10.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="a8b37c04-5592-4d62-94d2-7ab2fe6e518d" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>compress_out</seg>
+          </bo>
+          <position x="280.0" y="10.0"/>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>backup_compress</seg>
+        </bo>
+        <position x="489.0" y="82.0"/>
+        <size width="386.0" height="59.0"/>
+        <contentFilters>
+          <filter>features</filter>
+          <filter>internalFeatures</filter>
+          <filter>processorFeatures</filter>
+          <filter>connections</filter>
+          <filter>flowSpecifications</filter>
+        </contentFilters>
+      </element>
+      <element uuid="37e33b9d-1e6c-4331-82e0-992b53401070">
+        <element uuid="7abdc680-22dd-4094-aa6b-b7390c126cfc" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>b_read_out</seg>
+          </bo>
+          <position x="280.0" y="35.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="82962a63-d3d5-4d45-bc70-48b52286a201" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>data_layer_data</seg>
+          </bo>
+          <position y="10.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="93b8c98b-54d8-42ea-8538-78b1d5e48c94" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>settings</seg>
+          </bo>
+          <position y="59.0"/>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>backup_read</seg>
+        </bo>
+        <position x="102.0" y="57.0"/>
+        <size width="367.0" height="108.0"/>
+        <contentFilters>
+          <filter>features</filter>
+          <filter>internalFeatures</filter>
+          <filter>processorFeatures</filter>
+          <filter>connections</filter>
+          <filter>flowSpecifications</filter>
+        </contentFilters>
+      </element>
+      <element uuid="f166ed46-b7c3-4c34-86eb-c23331c21de7">
+        <element uuid="c30ba123-a30b-4a7a-bd5a-73fb7fce7160" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>b_write_in</seg>
+          </bo>
+          <position y="10.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="518433fe-0c4b-4183-8547-032055d5996d" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>b_write_out</seg>
+          </bo>
+          <position x="232.0" y="10.0"/>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>backup_write</seg>
+        </bo>
+        <position x="895.0" y="82.0"/>
+        <size width="322.0" height="59.0"/>
+        <contentFilters>
+          <filter>features</filter>
+          <filter>internalFeatures</filter>
+          <filter>processorFeatures</filter>
+          <filter>connections</filter>
+          <filter>flowSpecifications</filter>
+        </contentFilters>
+      </element>
+      <element uuid="75415e04-e772-416e-9a20-020a9ed6e3fa">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
         <contentFilters/>
       </element>
       <bo>
         <seg>subcomponent</seg>
         <seg>backup</seg>
       </bo>
-      <position x="88.0" y="37.0"/>
-      <size width="271.0" height="101.0"/>
+      <position x="142.0" y="254.0"/>
+      <size width="1302.0" height="177.0"/>
       <contentFilters>
+        <filter>subcomponentType</filter>
         <filter>features</filter>
-        <filter>internalFeatures</filter>
-        <filter>processorFeatures</filter>
-        <filter>connections</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
         <filter>flowSpecifications</filter>
+        <filter>connections</filter>
+        <filter>subcomponents</filter>
+        <filter>subprogramCallSequences</filter>
+        <filter>processorFeatures</filter>
+        <filter>internalFeatures</filter>
       </contentFilters>
     </element>
     <element uuid="b963d40f-3abb-4428-a3f4-cf099aaf790a">
+      <element uuid="73b67daa-0312-47c3-a0a9-eda4df6a7482">
+        <element uuid="365c5454-3e6f-4283-8d27-24a0a0e2d6b7">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>restore_impl_new_connection</seg>
+        </bo>
+        <bendpoints>
+          <point x="246.0" y="196.0"/>
+          <point x="246.0" y="147.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element uuid="6c6aa50a-fcf5-41fa-ab4d-5db75121684d">
+        <element uuid="e20b6316-0c6c-44af-bf02-783ccc0f5ba8">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>restore_impl_new_connection2</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="e4efc570-10a7-48aa-b831-50cf791db1eb">
+        <element uuid="ecdc664d-e9ed-4930-9697-c918386fd869">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>restore_impl_new_connection3</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="4ab8f92e-5976-4860-88d9-ecc0c8fdb551">
+        <element uuid="09d88b7a-80e8-4f99-928a-d0831caccda6">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>restore_impl_new_connection4</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="0edf2584-719a-4626-9fb0-846b6f46d8b8">
+        <element uuid="1a89c49d-c865-440d-906d-93972a89696c">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>restore_impl_new_connection5</seg>
+        </bo>
+        <contentFilters/>
+      </element>
       <element uuid="318e68c4-a1b3-4308-ac83-48d360cb0236" dockArea="left">
         <bo>
           <seg>feature</seg>
           <seg>br_input</seg>
         </bo>
-        <position y="30.0"/>
+        <position y="116.0"/>
         <contentFilters/>
       </element>
       <element uuid="6e160e8c-4557-4680-87ba-284748b89f94" dockArea="right">
@@ -118,21 +356,134 @@
           <seg>feature</seg>
           <seg>r_output</seg>
         </bo>
-        <position x="199.0" y="40.0"/>
+        <position x="1296.0" y="92.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="816f5621-9a29-4b77-8e0f-2db9979f1032">
+        <element uuid="074eff10-3bc4-481f-bb2e-7a036f137de7" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>decompress_in</seg>
+          </bo>
+          <position y="10.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="c512c6c9-1418-453a-85e3-91a1e0a53855" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>decompress_out</seg>
+          </bo>
+          <position x="322.0" y="10.0"/>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>recovery_decompress</seg>
+        </bo>
+        <position x="497.0" y="82.0"/>
+        <size width="443.0" height="59.0"/>
+        <contentFilters>
+          <filter>features</filter>
+          <filter>internalFeatures</filter>
+          <filter>processorFeatures</filter>
+          <filter>connections</filter>
+          <filter>flowSpecifications</filter>
+        </contentFilters>
+      </element>
+      <element uuid="f2509027-4e32-4e97-88af-6b3b8538ac0c">
+        <element uuid="db7e4f05-4eb7-42d7-9f70-728c4de10e45" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>data_layer_data</seg>
+          </bo>
+          <position y="10.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="5c1399ca-df85-4c24-ace1-2063e3eca3a1" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>r_read_out</seg>
+          </bo>
+          <position x="291.0" y="35.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="451389b7-4635-48bd-b9be-01dd42ca91d0" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>settings</seg>
+          </bo>
+          <position y="59.0"/>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>recovery_read</seg>
+        </bo>
+        <position x="102.0" y="57.0"/>
+        <size width="375.0" height="108.0"/>
+        <contentFilters>
+          <filter>features</filter>
+          <filter>internalFeatures</filter>
+          <filter>processorFeatures</filter>
+          <filter>connections</filter>
+          <filter>flowSpecifications</filter>
+        </contentFilters>
+      </element>
+      <element uuid="30c6b3a5-6355-4ab1-bcb9-0cd5d2ff7454">
+        <element uuid="62adba1c-2fb5-4f36-8156-49ecd9e6432c" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>r_write_in</seg>
+          </bo>
+          <position y="10.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="b9222192-1718-402f-91a9-ed0e0811c67e" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>r_write_out</seg>
+          </bo>
+          <position x="237.0" y="10.0"/>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>recovery_write</seg>
+        </bo>
+        <position x="960.0" y="82.0"/>
+        <size width="324.0" height="59.0"/>
+        <contentFilters>
+          <filter>features</filter>
+          <filter>internalFeatures</filter>
+          <filter>processorFeatures</filter>
+          <filter>connections</filter>
+          <filter>flowSpecifications</filter>
+        </contentFilters>
+      </element>
+      <element uuid="22ba51e5-9499-4b3a-97f5-fbeb24b7cf61">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
         <contentFilters/>
       </element>
       <bo>
         <seg>subcomponent</seg>
         <seg>restore</seg>
       </bo>
-      <position x="73.0" y="188.0"/>
-      <size width="273.0" height="110.0"/>
+      <position x="142.0" y="37.0"/>
+      <size width="1366.0" height="177.0"/>
       <contentFilters>
+        <filter>subcomponentType</filter>
         <filter>features</filter>
-        <filter>internalFeatures</filter>
-        <filter>processorFeatures</filter>
-        <filter>connections</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
         <filter>flowSpecifications</filter>
+        <filter>connections</filter>
+        <filter>subcomponents</filter>
+        <filter>subprogramCallSequences</filter>
+        <filter>processorFeatures</filter>
+        <filter>internalFeatures</filter>
       </contentFilters>
     </element>
     <bo>
@@ -140,7 +491,7 @@
       <seg>backup_recovery.impl</seg>
     </bo>
     <position x="12.0" y="12.0"/>
-    <size width="399.0" height="359.0"/>
+    <size width="1530.0" height="443.0"/>
     <contentFilters>
       <filter>features</filter>
       <filter>internalFeatures</filter>

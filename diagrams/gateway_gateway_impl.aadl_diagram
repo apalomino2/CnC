@@ -1,24 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
   <element uuid="7788bb3f-f1ab-4a6e-8bf9-74e9221afb18" manual="true">
-    <element uuid="ed2667ba-d35e-4b6f-b04c-75efc2ea8a6d" outline="#009900">
-      <element uuid="f348b40c-4fb5-404b-afd5-da0c88f8ca5e">
-        <bo>
-          <seg>tag</seg>
-          <seg>unidirectional</seg>
-        </bo>
-        <contentFilters/>
-      </element>
-      <bo>
-        <seg>connection</seg>
-        <seg>gateway_impl_new_connection</seg>
-      </bo>
-      <bendpoints>
-        <point x="151.0" y="90.0"/>
-        <point x="151.0" y="364.0"/>
-      </bendpoints>
-      <contentFilters/>
-    </element>
     <element uuid="45ffeb87-849e-4f0b-bb1c-cd3569dc9d20" outline="#000099">
       <element uuid="42ae66bf-1c0d-41c8-9b07-806e3b6d8710">
         <bo>
@@ -30,20 +12,6 @@
       <bo>
         <seg>connection</seg>
         <seg>gateway_impl_new_connection2</seg>
-      </bo>
-      <contentFilters/>
-    </element>
-    <element uuid="e6f3728d-6d3d-4877-8ba7-6f0a8935446a" outline="#009900">
-      <element uuid="cff7946e-2bf0-49c4-9a33-4bd7e20f2a83">
-        <bo>
-          <seg>tag</seg>
-          <seg>unidirectional</seg>
-        </bo>
-        <contentFilters/>
-      </element>
-      <bo>
-        <seg>connection</seg>
-        <seg>gateway_impl_new_connection3</seg>
       </bo>
       <contentFilters/>
     </element>
@@ -75,6 +43,27 @@
       </bo>
       <contentFilters/>
     </element>
+    <element uuid="1d8715cf-8e57-42b5-bea3-ac2ea20f048b">
+      <element uuid="94143470-f9da-4cc8-ac8c-9f2a573c1ead">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>gateway_impl_new_connection6</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="df8ad5ff-2e6f-4973-a067-5ac51ecff8cc" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>client_port</seg>
+      </bo>
+      <contentFilters/>
+    </element>
     <element uuid="703d6dec-0216-4a60-85bc-5f96b2ce6bd8" dockArea="left">
       <bo>
         <seg>feature</seg>
@@ -91,12 +80,12 @@
       <position x="822.0" y="240.0"/>
       <contentFilters/>
     </element>
-    <element uuid="f1bed2c5-5ce3-4c20-9c6c-36333ad22484" dockArea="left">
+    <element uuid="18506b56-1eb7-4f29-a538-88e3c71db4ac" dockArea="right">
       <bo>
         <seg>feature</seg>
-        <seg>gate_input</seg>
+        <seg>gate_output</seg>
       </bo>
-      <position y="47.0"/>
+      <position x="857.0" y="284.0"/>
       <contentFilters/>
     </element>
     <element uuid="c093e60a-e28a-4326-96ca-7dc702c3241e" dockArea="left">
@@ -105,6 +94,14 @@
         <seg>sensor_input</seg>
       </bo>
       <position y="380.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="f1bed2c5-5ce3-4c20-9c6c-36333ad22484" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>server_port</seg>
+      </bo>
+      <position y="47.0"/>
       <contentFilters/>
     </element>
     <element uuid="5a004de4-e59a-449f-82dc-09393b2ddaf7">
@@ -159,6 +156,34 @@
         </bo>
         <contentFilters/>
       </element>
+      <element uuid="7abe71d7-ad02-44ee-b288-990a9ce10ec1">
+        <element uuid="d885b39a-e074-4501-bf8d-01fe74fd5cbf">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>radio_frequency_impl_new_connection3</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="b08e5ff4-38d3-4b66-a81e-c5d852c0306a">
+        <element uuid="00b2b0ef-c301-4578-bdc1-e6f5bdf61539">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>radio_frequency_impl_new_connection4</seg>
+        </bo>
+        <contentFilters/>
+      </element>
       <element uuid="ca0bb9d0-fa79-45f0-8b71-89c0248779d7" dockArea="left">
         <bo>
           <seg>feature</seg>
@@ -181,6 +206,14 @@
           <seg>radio_input</seg>
         </bo>
         <position y="205.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="c37cbea7-f771-413d-a4d2-8b03adce5160" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>radio_ouput</seg>
+        </bo>
+        <position x="568.0" y="168.0"/>
         <contentFilters/>
       </element>
       <element uuid="d365755a-54cd-4106-8c8b-d29a28092ac3" dockArea="left">
@@ -291,6 +324,37 @@
           <filter>subprogramCallSequences</filter>
           <filter>processorFeatures</filter>
           <filter>internalFeatures</filter>
+        </contentFilters>
+      </element>
+      <element uuid="4c5d899a-3c64-40cf-9653-d4d35a041bfc">
+        <element uuid="0fc55188-69a6-405b-9378-1fd02850a296" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>pro_in</seg>
+          </bo>
+          <position y="59.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="b51a8ed8-1ef9-4e21-919a-09310275cb42" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>pro_out</seg>
+          </bo>
+          <position y="10.0"/>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>radio</seg>
+        </bo>
+        <position/>
+        <size width="224.0" height="108.0"/>
+        <contentFilters>
+          <filter>features</filter>
+          <filter>internalFeatures</filter>
+          <filter>processorFeatures</filter>
+          <filter>connections</filter>
+          <filter>flowSpecifications</filter>
         </contentFilters>
       </element>
       <element uuid="04be0fe3-3f3a-4857-a679-9a029838cac0">

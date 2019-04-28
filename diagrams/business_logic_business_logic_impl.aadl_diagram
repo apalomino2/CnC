@@ -1,10 +1,76 @@
 <?xml version="1.0" encoding="ASCII"?>
 <diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
   <element uuid="8eae7f3f-cd33-4ca0-9335-57d79de4c209" manual="true">
+    <element uuid="56891a79-b5c1-4588-b65b-a3f1518391dd" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>account_input</seg>
+      </bo>
+      <position x="922.0" y="826.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="8c28a523-f545-4a8f-b978-7f8561bb1e05" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>bl_event_io</seg>
+      </bo>
+      <position y="220.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="b11711c0-3638-4a6a-8834-2fffdbfc006d" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>bl_input</seg>
+      </bo>
+      <position y="652.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="c855f349-2e57-4f14-b65d-c5b9b7df149a" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>br_input</seg>
+      </bo>
+      <position x="958.0" y="1063.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="b788738d-e5df-424b-8256-79f6efd08721" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>business_logic_new_feature</seg>
+      </bo>
+      <position y="519.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="e2e979ec-be87-4c6e-8962-731fb62321c2" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>cmd_input</seg>
+      </bo>
+      <position x="944.0" y="905.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="e0a6fcee-dac6-4687-9673-f8f0f6711a06" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>env_input</seg>
+      </bo>
+      <position x="949.0" y="94.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="57381d5b-1a3b-4d79-a32f-2d136bfd26be" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>schedule_input</seg>
+      </bo>
+      <position x="915.0" y="984.0"/>
+      <contentFilters/>
+    </element>
     <bo>
       <seg>classifier</seg>
       <seg>business_logic.impl</seg>
     </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="1028.0" height="1161.0"/>
     <contentFilters>
       <filter>features</filter>
       <filter>internalFeatures</filter>

@@ -2,10 +2,10 @@ package gateway
 public
 	system gateway
 		features
-			gate_input: in out data port;
+			server_port: in out data port;
 			sensor_input: in data port;
---			gate_output: out data port;		
 			gate_output: out data port;
+			client_port: in out data port;
 			device_event_in: in event data port;
 			device_event_out: out event data port;
 	end gateway;
@@ -15,11 +15,12 @@ public
 			rf: system radio_frequency.impl;
 			bb: system broadband;
 		connections
-			gateway_impl_new_connection3: port gate_input -> bb.ip_input;
-			gateway_impl_new_connection: port gate_input -> rf.radio_input;
 			gateway_impl_new_connection4: port sensor_input -> rf.radio_stream;
 			gateway_impl_new_connection2: port device_event_in -> rf.radio_event_in;
 			gateway_impl_new_connection5: port rf.radio_event_out -> device_event_out;
+			gateway_impl_new_connection6: port rf.radio_ouput -> gate_output;
+			gateway_impl_new_connection: port server_port -> rf.radio_input;
+			gateway_impl_new_connection3: port rf.client_port -> client_port;
 	end gateway.impl;
 	
 	system radio_frequency
@@ -27,6 +28,7 @@ public
 			radio_input: in out data port;
 			radio_stream: in data port;
 			radio_ouput: out data port;
+			client_port: in out data port;
 			radio_event_in: in event data port;
 			radio_event_out: out event data port;
 --			radio_output: out data port;		

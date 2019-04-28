@@ -1,27 +1,62 @@
 package dh_system
 public
 	with user_interface;
-	with business_logic;
-	with database;
-	with devices;
-	
-	system digital_home
 
+	with business_logic;
+
+	with database;
+
+	with devices;
+
+	with backup_recovery;
+
+	with schedule;
+
+	with command;
+
+	with accounts;
+
+	with environment;
+
+	with gateway;
+
+	with data_access;
+
+	system digital_home
 	end digital_home;
-	
+
 	system implementation digital_home.impl
 		subcomponents
 			gui: system user_interface::gui;
 			bl: system business_logic::business_logic.impl;
 			dl: system database::data_layer.impl;
 			dev: system devices::devices_layer.impl;
+			br: system backup_recovery::backup_recovery.impl;
+			schedule: system schedule::schedule.impl;
+			cmd: system command::command.impl;
+			account: system accounts::accounts.impl;
+			env: system environment::environment.impl;
+			gateway: system gateway::gateway.impl;
+			da: system data_access::data_access;
 		connections
-			digital_home_impl_new_connection: port dev.dl_input -> dl.dl_input;
-			digital_home_impl_new_connection2: port dl.dl_input -> bl.bl_input;
-			digital_home_impl_new_connection3: port gui.user_input -> bl.bl_input;
-			digital_home_impl_new_connection6: port dev.dl_stream -> dl.dl_stream;
-			digital_home_impl_new_connection4: port dev.dl_output -> dl.event_in;
-			digital_home_impl_new_connection5: port dl.event_out -> bl.bl_event_io;
+			digital_home_impl_new_connection5: port dev.dl_output -> gateway.device_event_in;
+			digital_home_impl_new_connection6: port gateway.client_port -> dev.dl_input;
+			digital_home_impl_new_connection7: port dev.dl_stream -> gateway.sensor_input;
+			digital_home_impl_new_connection19: port gateway.device_event_out -> env.event_in;
+			digital_home_impl_new_connection20: port gateway.gate_output -> env.env_data_input;
+			digital_home_impl_new_connection3: port bl.cmd_input -> cmd.command_input;
+			digital_home_impl_new_connection9: port bl.schedule_input -> schedule.schedule_input;
+			digital_home_impl_new_connection10: port bl.env_input -> env.env_input;
+			digital_home_impl_new_connection11: port bl.account_input -> account.account_input;
+			digital_home_impl_new_connection12: port bl.br_input -> br.backup_input;
+			digital_home_impl_new_connection13: port env.client_port -> dl.dl_input;
+			digital_home_impl_new_connection14: port schedule.client_port -> dl.dl_input;
+			digital_home_impl_new_connection15: port cmd.client_port -> dl.dl_input;
+			digital_home_impl_new_connection16: port account.client_port -> dl.dl_input;
+			digital_home_impl_new_connection17: port br.client_port -> dl.dl_input;
+			digital_home_impl_new_connection: port dl.gateway_client -> gateway.server_port;
+			digital_home_impl_new_connection2: port dl.data_access_client -> da.data_input;
+			digital_home_impl_new_connection4: port gui.user_input -> bl.bl_input;
 	end digital_home.impl;
 	
 end dh_system;

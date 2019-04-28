@@ -45,6 +45,10 @@
         <seg>connection</seg>
         <seg>environment_impl_new_connection3</seg>
       </bo>
+      <bendpoints>
+        <point x="219.0" y="324.0"/>
+        <point x="219.0" y="551.0"/>
+      </bendpoints>
       <contentFilters/>
     </element>
     <element uuid="25ad6b3d-909a-4e6e-a101-5fa57b22d624" outline="#000099">
@@ -59,88 +63,287 @@
         <seg>connection</seg>
         <seg>environment_impl_new_connection4</seg>
       </bo>
-      <bendpoints>
-        <point x="90.0" y="88.0"/>
-        <point x="90.0" y="166.0"/>
-      </bendpoints>
       <contentFilters/>
     </element>
-    <element uuid="a85486b5-33d6-48ac-8e0b-2f6428617bae" dockArea="right">
+    <element uuid="d17f8c8b-93ed-4165-8a17-c68ed2db40b5" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>client_port</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="fc5e8dbd-09cb-405a-88cf-28ac0e9b1282" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>env_data_input</seg>
+      </bo>
+      <position y="325.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="a85486b5-33d6-48ac-8e0b-2f6428617bae" dockArea="left">
       <bo>
         <seg>feature</seg>
         <seg>env_input</seg>
       </bo>
-      <position x="381.0" y="46.0"/>
+      <position y="37.0"/>
       <contentFilters/>
     </element>
-    <element uuid="da6c5705-1015-41f3-b523-ffe66c4c1245" dockArea="left">
+    <element uuid="338a2a56-7796-43fd-9d24-9f5b5f5299b5" dockArea="left">
       <bo>
         <seg>feature</seg>
-        <seg>env_io</seg>
+        <seg>event_in</seg>
       </bo>
-      <position y="46.0"/>
+      <position y="281.0"/>
       <contentFilters/>
     </element>
     <element uuid="e2c09228-1510-4c23-a2e5-f77981e59a04">
+      <element uuid="b107a543-b76f-4c19-8dbe-1c2da1853296">
+        <element uuid="4c733002-bd15-4f05-92f8-2f3b12d51df3">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>humidity_impl_new_connection</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="13ba3bb3-463a-4503-8f58-8479b97001d8">
+        <element uuid="d1a82d1d-8017-48e7-8c24-fc27ca5dbc43">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>humidity_impl_new_connection2</seg>
+        </bo>
+        <contentFilters/>
+      </element>
       <element uuid="203fd654-889e-494b-8ea7-76250ae6cb0d" dockArea="left">
         <bo>
           <seg>feature</seg>
           <seg>hum_event</seg>
         </bo>
-        <position y="10.0"/>
+        <position y="126.0"/>
         <contentFilters/>
       </element>
-      <element uuid="a8ddf237-4d8d-4cdf-90d9-b793e2d4c004" dockArea="right">
+      <element uuid="a8ddf237-4d8d-4cdf-90d9-b793e2d4c004" dockArea="left">
         <bo>
           <seg>feature</seg>
           <seg>hum_input</seg>
         </bo>
-        <position x="171.0" y="10.0"/>
+        <position y="205.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="4fe001d6-f44c-4361-88c5-44fdea1c8fd3" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>hum_io</seg>
+        </bo>
+        <position y="57.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="deb8ee8c-c08c-491b-9b17-dbd4377ea362">
+        <element uuid="2bfe54bc-f3d1-4c6a-8e12-0ff3b8949534" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>pro_in</seg>
+          </bo>
+          <position y="10.0"/>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>hum_process</seg>
+        </bo>
+        <position x="98.0" y="195.0"/>
+        <size width="260.0" height="59.0"/>
+        <contentFilters>
+          <filter>features</filter>
+          <filter>internalFeatures</filter>
+          <filter>processorFeatures</filter>
+          <filter>connections</filter>
+          <filter>flowSpecifications</filter>
+        </contentFilters>
+      </element>
+      <element uuid="2c4a15cf-6963-4a29-b044-8027b76ea0b7">
+        <element uuid="a90e28f0-5200-423a-8732-fb00f3a10057" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>pro_in</seg>
+          </bo>
+          <position y="10.0"/>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>subscribe</seg>
+        </bo>
+        <position x="98.0" y="116.0"/>
+        <size width="237.0" height="59.0"/>
+        <contentFilters>
+          <filter>features</filter>
+          <filter>internalFeatures</filter>
+          <filter>processorFeatures</filter>
+          <filter>connections</filter>
+          <filter>flowSpecifications</filter>
+        </contentFilters>
+      </element>
+      <element uuid="eb1cc356-dab9-49e7-a6d1-0a63294db3d7">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
         <contentFilters/>
       </element>
       <bo>
         <seg>subcomponent</seg>
         <seg>hum</seg>
       </bo>
-      <position x="94.0" y="36.0"/>
-      <size width="249.0" height="58.0"/>
+      <position x="217.0" y="155.0"/>
+      <size width="370.0" height="266.0"/>
       <contentFilters>
+        <filter>subcomponentType</filter>
         <filter>features</filter>
-        <filter>internalFeatures</filter>
-        <filter>processorFeatures</filter>
-        <filter>connections</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
         <filter>flowSpecifications</filter>
+        <filter>connections</filter>
+        <filter>subcomponents</filter>
+        <filter>subprogramCallSequences</filter>
+        <filter>processorFeatures</filter>
+        <filter>internalFeatures</filter>
       </contentFilters>
     </element>
     <element uuid="2f9df619-8f09-40c3-bf32-2a53977d6ead">
+      <element uuid="49e7ee9c-2a35-404e-911c-743ea895a66d">
+        <element uuid="da31346d-59ee-4f8d-9b76-9faadb059d33">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>temperature_impl_new_connection</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="546c2bc0-88ef-4a83-ba21-3a2229b9f010">
+        <element uuid="2f06cc57-baf3-4de1-85a4-d8c1148e7732">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>temperature_impl_new_connection2</seg>
+        </bo>
+        <contentFilters/>
+      </element>
       <element uuid="1148c000-e975-44bb-af1a-6aa7ba40b39e" dockArea="left">
         <bo>
           <seg>feature</seg>
           <seg>temp_event</seg>
         </bo>
-        <position y="10.0"/>
+        <position y="67.0"/>
         <contentFilters/>
       </element>
-      <element uuid="b020302a-90ba-4775-96e1-f2da4651c4bf" dockArea="right">
+      <element uuid="b020302a-90ba-4775-96e1-f2da4651c4bf" dockArea="left">
         <bo>
           <seg>feature</seg>
           <seg>temp_input</seg>
         </bo>
-        <position x="179.0" y="10.0"/>
+        <position y="136.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="3444af81-b920-4d03-82da-39a5336ffb2b" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>temp_io</seg>
+        </bo>
+        <position y="195.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="3aa352a5-3d6a-473c-9544-455879d1d673">
+        <element uuid="1434ed19-324e-4586-bc46-ad05aa7c5ac0" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>pro_in</seg>
+          </bo>
+          <position y="10.0"/>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>subscribe</seg>
+        </bo>
+        <position x="101.0" y="57.0"/>
+        <size width="237.0" height="59.0"/>
+        <contentFilters>
+          <filter>features</filter>
+          <filter>internalFeatures</filter>
+          <filter>processorFeatures</filter>
+          <filter>connections</filter>
+          <filter>flowSpecifications</filter>
+        </contentFilters>
+      </element>
+      <element uuid="d912481a-6041-4f64-ab0b-9d7a71421f82">
+        <element uuid="0d9c5682-3aa7-4bfc-8383-ff8769d36684" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>pro_in</seg>
+          </bo>
+          <position y="10.0"/>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>temp_process</seg>
+        </bo>
+        <position x="88.0" y="157.0"/>
+        <size width="263.0" height="59.0"/>
+        <contentFilters>
+          <filter>features</filter>
+          <filter>internalFeatures</filter>
+          <filter>processorFeatures</filter>
+          <filter>connections</filter>
+          <filter>flowSpecifications</filter>
+        </contentFilters>
+      </element>
+      <element uuid="d831e1ec-8d5d-41eb-aa6d-697f7c0d30b5">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
         <contentFilters/>
       </element>
       <bo>
         <seg>subcomponent</seg>
         <seg>temp</seg>
       </bo>
-      <position x="88.0" y="114.0"/>
-      <size width="261.0" height="58.0"/>
+      <position x="217.0" y="441.0"/>
+      <size width="373.0" height="246.0"/>
       <contentFilters>
+        <filter>subcomponentType</filter>
         <filter>features</filter>
-        <filter>internalFeatures</filter>
-        <filter>processorFeatures</filter>
-        <filter>connections</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
         <filter>flowSpecifications</filter>
+        <filter>connections</filter>
+        <filter>subcomponents</filter>
+        <filter>subprogramCallSequences</filter>
+        <filter>processorFeatures</filter>
+        <filter>internalFeatures</filter>
       </contentFilters>
     </element>
     <bo>
@@ -148,7 +351,7 @@
       <seg>environment.impl</seg>
     </bo>
     <position x="12.0" y="12.0"/>
-    <size width="455.0" height="184.0"/>
+    <size width="862.0" height="699.0"/>
     <contentFilters>
       <filter>features</filter>
       <filter>internalFeatures</filter>
