@@ -28,9 +28,43 @@
         <seg>accounts_impl_new_connection2</seg>
       </bo>
       <bendpoints>
-        <point x="306.0" y="166.0"/>
-        <point x="306.0" y="88.0"/>
+        <point x="328.0" y="222.0"/>
+        <point x="328.0" y="92.0"/>
       </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="ff5e9b56-506b-4784-8994-20d60256f53c" outline="#009900" primaryLabelVisible="false">
+      <element uuid="0c98fbb6-0300-49be-9bce-938dfdc230c8">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>client_connection</seg>
+      </bo>
+      <bendpoints>
+        <point x="318.0" y="142.0"/>
+        <point x="318.0" y="272.0"/>
+      </bendpoints>
+      <primaryLabelPosition x="-75.0" y="3.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="500a8e66-3418-4e50-b1c4-f4ac2f363cee" outline="#009900" primaryLabelVisible="false">
+      <element uuid="b86773c5-6187-4e66-9291-de471fb55e66">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>client_connection2</seg>
+      </bo>
+      <primaryLabelPosition x="-53.0" y="3.0"/>
       <contentFilters/>
     </element>
     <element uuid="09e02da3-48ae-461d-9c50-6c720f2ce917" dockArea="right">
@@ -38,7 +72,15 @@
         <seg>feature</seg>
         <seg>account_input</seg>
       </bo>
-      <position x="316.0" y="46.0"/>
+      <position x="338.0" y="48.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="ac7a2378-bdaf-4159-9d18-fca0938fc322" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>client_port</seg>
+      </bo>
+      <position x="360.0" y="228.0"/>
       <contentFilters/>
     </element>
     <element uuid="e8c501c8-50d9-4da8-aed5-989ce1d11db6">
@@ -47,15 +89,23 @@
           <seg>feature</seg>
           <seg>auth_input</seg>
         </bo>
-        <position x="163.0" y="10.0"/>
+        <position x="173.0" y="10.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="f241910b-a27e-454e-9ae0-3b41f8c54811" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>client_port</seg>
+        </bo>
+        <position x="173.0" y="60.0"/>
         <contentFilters/>
       </element>
       <bo>
         <seg>subcomponent</seg>
         <seg>auth</seg>
       </bo>
-      <position x="43.0" y="114.0"/>
-      <size width="241.0" height="58.0"/>
+      <position x="38.0" y="168.0"/>
+      <size width="258.0" height="110.0"/>
       <contentFilters>
         <filter>features</filter>
         <filter>internalFeatures</filter>
@@ -65,20 +115,28 @@
       </contentFilters>
     </element>
     <element uuid="5d36ee61-9def-4f25-b1dd-357a204ac4a6">
+      <element uuid="79569e54-5df2-41d3-bcf9-10c9f31dbb67" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>client_port</seg>
+        </bo>
+        <position x="199.0" y="60.0"/>
+        <contentFilters/>
+      </element>
       <element uuid="db8c6d2c-44b9-463a-a3e8-379db81288b9" dockArea="right">
         <bo>
           <seg>feature</seg>
           <seg>settings_input</seg>
         </bo>
-        <position x="173.0" y="10.0"/>
+        <position x="179.0" y="10.0"/>
         <contentFilters/>
       </element>
       <bo>
         <seg>subcomponent</seg>
         <seg>us</seg>
       </bo>
-      <position x="12.0" y="36.0"/>
-      <size width="272.0" height="58.0"/>
+      <position x="12.0" y="38.0"/>
+      <size width="284.0" height="110.0"/>
       <contentFilters>
         <filter>features</filter>
         <filter>internalFeatures</filter>
@@ -92,7 +150,7 @@
       <seg>accounts.impl</seg>
     </bo>
     <position x="12.0" y="12.0"/>
-    <size width="415.0" height="184.0"/>
+    <size width="445.0" height="290.0"/>
     <contentFilters>
       <filter>features</filter>
       <filter>internalFeatures</filter>

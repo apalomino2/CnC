@@ -1,8 +1,40 @@
 <?xml version="1.0" encoding="ASCII"?>
 <diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
   <element uuid="48dcd13d-9105-4767-8e9a-2bfdb5be6ebf" manual="true">
-    <element uuid="531ac805-b6fc-4c4c-a4c9-ede537dfc17b" outline="#009900">
-      <element uuid="3b94f64c-0b0e-4332-8343-45b985cce386">
+    <element uuid="cd061a25-e262-4c81-8fe4-6902d0481dea" outline="#009900">
+      <element uuid="7276f868-42dc-4c46-835e-44143fd2353f">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>client_connection</seg>
+      </bo>
+      <bendpoints>
+        <point x="428.0" y="142.0"/>
+        <point x="428.0" y="272.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="5e9ba44b-8095-4aa8-893b-87c984fd9f1f" outline="#009900">
+      <element uuid="4c0e3d1b-d655-4af5-8aef-835fde93fdba">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>client_connection2</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="9c3ba3e0-d397-4851-a0b0-943c3eaa4151" outline="#009900">
+      <element uuid="37e9ee37-d8bd-4c6e-bd6e-a680681905f8">
         <bo>
           <seg>tag</seg>
           <seg>unidirectional</seg>
@@ -14,13 +46,13 @@
         <seg>schedule_impl_new_connection</seg>
       </bo>
       <bendpoints>
-        <point x="298.0" y="166.0"/>
-        <point x="298.0" y="88.0"/>
+        <point x="438.0" y="222.0"/>
+        <point x="438.0" y="92.0"/>
       </bendpoints>
       <contentFilters/>
     </element>
-    <element uuid="cf585423-3a35-47f3-94a0-e7b361d144e9" outline="#009900">
-      <element uuid="2c10ae6b-085d-4b86-901b-fa478c82574c">
+    <element uuid="6ce85467-d92e-4321-8bd5-34f18af85124" outline="#009900">
+      <element uuid="af618457-ec4a-47a7-b5cc-1774a128466f">
         <bo>
           <seg>tag</seg>
           <seg>unidirectional</seg>
@@ -33,29 +65,45 @@
       </bo>
       <contentFilters/>
     </element>
-    <element uuid="afdd0a8e-8e3c-471c-af27-ca4adb2250db" dockArea="right">
+    <element uuid="b2f0311a-95dd-4de5-8b9c-f9ddbb2b6dac" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>client_port</seg>
+      </bo>
+      <position x="363.0" y="228.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="e8cb7d0f-df35-403d-adfa-dfcef202e7a9" dockArea="right">
       <bo>
         <seg>feature</seg>
         <seg>schedule_input</seg>
       </bo>
-      <position x="308.0" y="46.0"/>
+      <position x="334.0" y="48.0"/>
       <contentFilters/>
     </element>
     <element uuid="07418518-752f-4038-a404-05885d0c89b1">
-      <element uuid="0aa8e97c-63e4-4cf5-b9d0-f6d67b4844d8" dockArea="right">
+      <element uuid="1bba7d2d-39b7-4e1a-a278-3d13b7fa9d3e" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>client_port</seg>
+        </bo>
+        <position x="195.0" y="60.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="c6075caf-88e5-413b-b67d-fb7acecabb22" dockArea="right">
         <bo>
           <seg>feature</seg>
           <seg>conflict_input</seg>
         </bo>
-        <position x="169.0" y="10.0"/>
+        <position x="177.0" y="10.0"/>
         <contentFilters/>
       </element>
       <bo>
         <seg>subcomponent</seg>
         <seg>cc</seg>
       </bo>
-      <position x="12.0" y="114.0"/>
-      <size width="264.0" height="58.0"/>
+      <position x="126.0" y="168.0"/>
+      <size width="280.0" height="110.0"/>
       <contentFilters>
         <filter>features</filter>
         <filter>internalFeatures</filter>
@@ -65,20 +113,28 @@
       </contentFilters>
     </element>
     <element uuid="816f3aa1-8bb1-4fca-b6ff-d736b7516b1e">
-      <element uuid="48a63eb1-1e9d-4c2d-8993-e25ee385d76f" dockArea="right">
+      <element uuid="ecc24bf0-da1d-4dd8-ba5b-9b022f023209" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>client_port</seg>
+        </bo>
+        <position x="165.0" y="60.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="4839e0c4-28ff-4d53-bde3-5d2b3e0976f0" dockArea="right">
         <bo>
           <seg>feature</seg>
           <seg>plan_input</seg>
         </bo>
-        <position x="155.0" y="10.0"/>
+        <position x="165.0" y="10.0"/>
         <contentFilters/>
       </element>
       <bo>
         <seg>subcomponent</seg>
         <seg>mp</seg>
       </bo>
-      <position x="44.0" y="36.0"/>
-      <size width="232.0" height="58.0"/>
+      <position x="156.0" y="38.0"/>
+      <size width="250.0" height="110.0"/>
       <contentFilters>
         <filter>features</filter>
         <filter>internalFeatures</filter>
@@ -92,7 +148,7 @@
       <seg>schedule.impl</seg>
     </bo>
     <position x="12.0" y="12.0"/>
-    <size width="413.0" height="184.0"/>
+    <size width="448.0" height="290.0"/>
     <contentFilters>
       <filter>features</filter>
       <filter>internalFeatures</filter>

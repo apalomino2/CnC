@@ -20,6 +20,8 @@ public
 			environment_impl_new_connection2: port env_data_input -> temp.temp_input;
 			environment_impl_new_connection5: port env_input -> temp.temp_io;
 			environment_impl_new_connection6: port env_input -> hum.hum_io;
+			client_connection: port temp.client_port -> client_port;
+			client_connection2: port hum.client_port -> client_port;
 	end environment.impl;
 
 		---------------------------------------------------------------------------------------------------------
@@ -28,6 +30,7 @@ public
 			temp_io: in out data port;
 			temp_input: in data port;
 			temp_event: in event data port;
+			client_port: in out data port;
 	end temperature;
 
 	system implementation temperature.impl
@@ -83,6 +86,7 @@ public
 			hum_io: in out data port;
 			hum_input: in data port;
 			hum_event: in event data port;
+			client_port: in out data port;
 	end humidity;
 
 	system implementation humidity.impl

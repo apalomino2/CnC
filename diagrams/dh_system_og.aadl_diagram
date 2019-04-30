@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="8f50fc2a-c165-4e8b-95bd-dad607e10fdd" manual="true">
+    <element uuid="dba6b78b-3fbd-4754-acff-1e6e21256724">
+      <element uuid="806a690e-deaf-4be8-8d7b-6dbfbcec0236" manual="true" outline="#009900">
+        <element uuid="061b2851-d5ae-40f9-ab3d-7b25e48bf8e9">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>digital_home_impl_new_connection</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="56ef1339-c0b5-44ec-ac67-96011688ae4a" manual="true" outline="#009900">
+        <element uuid="aa9b360b-5e9e-46ed-933a-2c7513b3b1ff">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>digital_home_impl_new_connection2</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="21e29db6-fa8a-426e-8157-0b649aaf53c9" manual="true" outline="#009900">
+        <element uuid="18be70a8-9bcc-4290-b737-db0e9c3a9125">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>digital_home_impl_new_connection3</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="fcd2da7e-a80f-41ea-98da-051906d0e6ed" manual="true" outline="#000099" fontColor="#000099">
+        <element uuid="8b422c5f-8ec5-4f0e-89c7-1dcce023d06a">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>digital_home_impl_new_connection4</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="ee602a6e-b404-43b0-be89-de5a5f292ea4" manual="true" outline="#0000ff">
+        <element uuid="ba4490de-2f6f-4e82-8656-3b3c1d495e69">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>digital_home_impl_new_connection5</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="f70656db-aa93-4631-be6d-1b670a6705b0" manual="true" outline="#ff0000">
+        <element uuid="37ca8e85-f88d-4879-8d06-b554421ff401">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>digital_home_impl_new_connection6</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="82e38051-3c02-49b7-87d6-61068fe07556">
+        <bo>
+          <seg>realization</seg>
+        </bo>
+        <bendpoints>
+          <point x="275.0" y="66.0"/>
+          <point x="287.0" y="66.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element uuid="71d50e9f-7b7b-4267-ace4-f4a38a1f7c3b">
+        <element uuid="083ef918-1bc9-4ab6-bf7a-936b09ac5b72" manual="true" outline="#009900">
+          <element uuid="014d48a2-79c4-48ae-83d2-8548a56bb8b2">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>business_logic_impl_new_connection</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element uuid="546bda32-87dc-4699-9cc4-5fa97f37d6e9" manual="true" outline="#009900">
+          <element uuid="958d4e95-3429-457d-b295-42f23c4d519b">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>business_logic_impl_new_connection2</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element uuid="b9a2b83c-556a-4000-bb26-b0e83f00930c" manual="true" outline="#009900">
+          <element uuid="e71e7f91-1ff3-48cf-8710-00c4f009a364">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>business_logic_impl_new_connection3</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element uuid="dd6c5f02-fec9-472c-a3f4-b95a130efcda" manual="true" outline="#009900">
+          <element uuid="de110f04-7e8f-463f-a878-7315fecec41d">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>business_logic_impl_new_connection4</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element uuid="8bfaf28d-1d93-4ee4-a874-f4ada3a1f375" manual="true" outline="#009900">
+          <element uuid="13943545-94a3-44be-bad4-935a73527526">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>business_logic_impl_new_connection5</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element uuid="d539611a-6e29-4eb2-9d1d-33968ad0e806" manual="true" outline="#0000ff">
+          <element uuid="154f822d-6ad1-4764-8349-11ac57607baa">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>business_logic_impl_new_connection6</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element uuid="0bf3e125-fbb8-4705-8897-38eaeda22fe2" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>bl_event_io</seg>
+          </bo>
+          <position x="580.0" y="810.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="5b99e542-f5f8-427d-8d02-b75b5bd652c2" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>bl_input</seg>
+          </bo>
+          <position x="602.0" y="240.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="0e4ac94b-caa7-456b-ac2f-4b1527f0c7ff">
+          <element uuid="3f010912-4cc3-421a-9aa1-91d7b5de551a" dockArea="right">
+            <bo>
+              <seg>feature</seg>
+              <seg>account_input</seg>
+            </bo>
+            <position x="103.0" y="10.0"/>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>account</seg>
+          </bo>
+          <position x="113.0" y="140.0"/>
+          <size width="210.0" height="118.0"/>
+          <contentFilters>
+            <filter>features</filter>
+          </contentFilters>
+        </element>
+        <element uuid="8baa4ebf-e2e4-4217-9a7d-7f03e70e53f9">
+          <element uuid="992a93a2-e222-45c8-9cf9-0d12707ffee4" dockArea="right">
+            <bo>
+              <seg>feature</seg>
+              <seg>br_input</seg>
+            </bo>
+            <position x="111.0" y="3.0"/>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>br</seg>
+          </bo>
+          <position x="140.0" y="810.0"/>
+          <size width="181.0" height="88.0"/>
+          <contentFilters>
+            <filter>features</filter>
+          </contentFilters>
+        </element>
+        <element uuid="a5722c5a-01c7-4628-ad06-1560e62ed524">
+          <element uuid="245f66ab-656a-4caa-979e-578725824d82" dockArea="right">
+            <bo>
+              <seg>feature</seg>
+              <seg>command_input</seg>
+            </bo>
+            <position x="111.0" y="10.0"/>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>cmd</seg>
+          </bo>
+          <position x="92.0" y="300.0"/>
+          <size width="231.0" height="111.0"/>
+          <contentFilters>
+            <filter>features</filter>
+          </contentFilters>
+        </element>
+        <element uuid="7a43e5ad-1a87-4bb2-89b9-c247ed641aaa">
+          <element uuid="1f65d1c8-e43d-4fa7-b096-dafd08f61bf1" dockArea="right">
+            <bo>
+              <seg>feature</seg>
+              <seg>env_input</seg>
+            </bo>
+            <position x="165.0" y="13.0"/>
+            <contentFilters/>
+          </element>
+          <element uuid="5831288d-c6f2-404e-b8e7-8bd2a5d02408" dockArea="right">
+            <bo>
+              <seg>feature</seg>
+              <seg>env_io</seg>
+            </bo>
+            <position x="185.0" y="60.0"/>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>env</seg>
+          </bo>
+          <position x="85.0" y="470.0"/>
+          <size width="245.0" height="112.0"/>
+          <contentFilters>
+            <filter>features</filter>
+          </contentFilters>
+        </element>
+        <element uuid="51490723-e7ac-431c-9ab1-82116a0f5b30">
+          <element uuid="77b734ae-affe-4bf2-b1bd-52e2a7b68617" dockArea="right">
+            <bo>
+              <seg>feature</seg>
+              <seg>schedule_input</seg>
+            </bo>
+            <position x="161.0"/>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>schedule</seg>
+          </bo>
+          <position x="70.0" y="650.0"/>
+          <size width="275.0" height="96.0"/>
+          <contentFilters>
+            <filter>features</filter>
+          </contentFilters>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>bl</seg>
+        </bo>
+        <position x="260.0" y="270.0"/>
+        <size width="671.0" height="951.0"/>
+        <contentFilters>
+          <filter>subcomponents</filter>
+          <filter>features</filter>
+        </contentFilters>
+      </element>
+      <element uuid="ae2885bc-17dd-4f73-8bb2-54c324453840">
+        <element uuid="a96debf6-1562-4968-9371-83152d6a63fa" manual="true" outline="#009900">
+          <element uuid="2adc183f-2466-4905-99ab-239ae815a939">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>devices_layer_impl_new_connection</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element uuid="a67d2148-ea26-4ae8-836a-ea576927753e" manual="true" outline="#000099">
+          <element uuid="39191fad-3271-4182-ba29-8f8ee4ddc3cb">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>devices_layer_impl_new_connection2</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element uuid="cf7f4a2d-18e8-467e-879f-29de198e017c" manual="true" outline="#009900">
+          <element uuid="d5477647-044a-41ce-927f-f83b51563a11">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>devices_layer_impl_new_connection3</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element uuid="b4d2561a-628b-45e0-a7dc-166ef2df2f36" manual="true" outline="#000099">
+          <element uuid="44afa6e3-6037-409d-a34d-34082486080d">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>devices_layer_impl_new_connection4</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element uuid="19a3bca4-5f5f-4c18-a0bb-4438bc183920" manual="true" outline="#009900">
+          <element uuid="2a694528-82a6-4a93-98e0-e872ab2308eb">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>devices_layer_impl_new_connection5</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element uuid="7b5fccbc-bb46-42ca-b098-3f1690ecc30e" manual="true" outline="#ff0000">
+          <element uuid="8c2df23f-ceef-4f19-80fb-5d59fafa81b9">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>devices_layer_impl_new_connection6</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element uuid="1538b51d-0e1d-473b-b8dc-2db8f6906d6f" manual="true" outline="#000099">
+          <element uuid="2078b5b8-cdb8-4e6a-b7d9-24ae16ea144a">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>devices_layer_impl_new_connection7</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element uuid="0f19b0c1-db29-465a-bb15-fce1be9be01c" manual="true" outline="#009900">
+          <element uuid="e2804d0e-f6c8-4fe5-bf85-af4e0ffa9a1d">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>devices_layer_impl_new_connection8</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element uuid="ef3cd268-7f50-4972-9905-e81368e709d9" manual="true" outline="#000099">
+          <element uuid="da9a425b-ff8c-4293-baa3-28d1fd19c42b">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>devices_layer_impl_new_connection9</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element uuid="e139a968-6067-4863-9227-a30378db0c84" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>dl_input</seg>
+          </bo>
+          <position y="172.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="35ef494c-0c98-47e3-9776-9045cfcc99ba" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>dl_output</seg>
+          </bo>
+          <position y="632.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="537f023c-9e21-4cca-a3c7-cf1380ed99e3" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>dl_stream</seg>
+          </bo>
+          <position y="452.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="d59bde9f-74b2-4177-8bc9-5d75129ea7de">
+          <element uuid="7d51fabd-d0e1-4a3b-8e9c-ac39ba88c47c" dockArea="left">
+            <bo>
+              <seg>feature</seg>
+              <seg>data_input</seg>
+            </bo>
+            <position y="10.0"/>
+            <contentFilters/>
+          </element>
+          <element uuid="9b3b17b2-499a-40d4-bde0-cda8cdfd3b60" dockArea="left">
+            <bo>
+              <seg>feature</seg>
+              <seg>device_event</seg>
+            </bo>
+            <position y="55.0"/>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>alarm</seg>
+          </bo>
+          <position x="300.0" y="100.0"/>
+          <size width="211.0" height="154.0"/>
+          <contentFilters>
+            <filter>features</filter>
+          </contentFilters>
+        </element>
+        <element uuid="ca4983ef-575a-409d-94c3-e60daec37244">
+          <element uuid="b6a69ea6-30dd-451c-b3bc-c6cc6bbdbd61" dockArea="left">
+            <bo>
+              <seg>feature</seg>
+              <seg>data_input</seg>
+            </bo>
+            <position y="10.0"/>
+            <contentFilters/>
+          </element>
+          <element uuid="1d916923-7705-4f60-b4db-3eb48e9bb9f9" dockArea="left">
+            <bo>
+              <seg>feature</seg>
+              <seg>device_event</seg>
+            </bo>
+            <position y="72.0"/>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>controller</seg>
+          </bo>
+          <position x="270.0" y="760.0"/>
+          <size width="271.0" height="154.0"/>
+          <contentFilters>
+            <filter>features</filter>
+          </contentFilters>
+        </element>
+        <element uuid="e3592825-f435-4632-806c-2ac36ca765bf">
+          <element uuid="ba8c9e03-fda6-4b5e-a9dd-cf1b53cf0672" dockArea="left">
+            <bo>
+              <seg>feature</seg>
+              <seg>device_event</seg>
+            </bo>
+            <position y="132.0"/>
+            <contentFilters/>
+          </element>
+          <element uuid="e820dfb1-a9b2-4b0f-97ea-f804c431a153" dockArea="left">
+            <bo>
+              <seg>feature</seg>
+              <seg>sensor_input</seg>
+            </bo>
+            <position y="10.0"/>
+            <contentFilters/>
+          </element>
+          <element uuid="08b63b48-bcce-42d5-a298-c1a9a7c23cf5" dockArea="left">
+            <bo>
+              <seg>feature</seg>
+              <seg>sensor_stream</seg>
+            </bo>
+            <position y="72.0"/>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>sensor</seg>
+          </bo>
+          <position x="291.0" y="510.0"/>
+          <size width="250.0" height="202.0"/>
+          <contentFilters>
+            <filter>features</filter>
+          </contentFilters>
+        </element>
+        <element uuid="78f1973c-8803-4517-904b-4114e94d0816">
+          <element uuid="21e66cd5-be7a-4c69-96ca-57534fbc5317" dockArea="left">
+            <bo>
+              <seg>feature</seg>
+              <seg>data_input</seg>
+            </bo>
+            <position y="10.0"/>
+            <contentFilters/>
+          </element>
+          <element uuid="29e95411-c1fb-4439-9c4e-2912ee09c281" dockArea="left">
+            <bo>
+              <seg>feature</seg>
+              <seg>device_event</seg>
+            </bo>
+            <position y="62.0"/>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>switch</seg>
+          </bo>
+          <position x="300.0" y="320.0"/>
+          <size width="231.0" height="154.0"/>
+          <contentFilters>
+            <filter>features</filter>
+          </contentFilters>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>dev</seg>
+        </bo>
+        <position x="2030.0" y="208.0"/>
+        <size width="641.0" height="1013.0"/>
+        <contentFilters>
+          <filter>subcomponents</filter>
+          <filter>features</filter>
+        </contentFilters>
+      </element>
+      <element uuid="ca35125d-4341-44bf-b0e6-720c4d842f12">
+        <element uuid="3469d76b-fc23-4c34-a42a-3f5ed8d11131" manual="true" outline="#009900">
+          <element uuid="be819864-60bd-4691-be64-58b847d90e83">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>data_layer_impl_new_connection</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element uuid="efb9cca9-eab2-4d62-846f-accb4ff9745a" manual="true" outline="#009900">
+          <element uuid="1c83fe5d-2491-4b50-8b49-c5ba69152159">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>data_layer_impl_new_connection2</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element uuid="b3bbc701-27d7-4d47-9b69-0e5905be19cf" manual="true" outline="#ff0000">
+          <element uuid="fd79a5b3-e859-43b4-95a6-50bb82413912">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>data_layer_impl_new_connection3</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element uuid="980dfbc4-ed0b-4697-9c67-9edbe110d556" manual="true" outline="#000099">
+          <element uuid="e3031d78-c46c-4f57-b2b1-793514a31095">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>data_layer_impl_new_connection5</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element uuid="869faf86-3e50-45ca-a34f-dcc5da144dcf" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>dl_input</seg>
+          </bo>
+          <position x="481.0" y="110.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="dc698602-771a-4925-ad0e-cf1cfd0d9fdd" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>dl_stream</seg>
+          </bo>
+          <position x="470.0" y="400.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="e00065eb-9194-4271-ba53-afe0f533d4c7" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>event_io</seg>
+          </bo>
+          <position x="478.0" y="799.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="e2f9b2ad-ae3b-4797-9ce9-b62b9476442b">
+          <element uuid="c7846122-151f-422e-833f-97752bf2e06b" dockArea="right">
+            <bo>
+              <seg>feature</seg>
+              <seg>data_input</seg>
+            </bo>
+            <position x="161.0" y="30.0"/>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>da</seg>
+          </bo>
+          <position x="50.0" y="340.0"/>
+          <size width="246.0" height="106.0"/>
+          <contentFilters>
+            <filter>features</filter>
+          </contentFilters>
+        </element>
+        <element uuid="069f1dc1-bbde-4112-9108-03deabce2704" outline="#000000" fontColor="#000000">
+          <element uuid="bed2ae08-02fe-41d8-b02f-83c2ab2283ed" dockArea="right">
+            <bo>
+              <seg>feature</seg>
+              <seg>device_input</seg>
+            </bo>
+            <position x="195.0" y="140.0"/>
+            <contentFilters/>
+          </element>
+          <element uuid="cb90648c-7d87-4d8b-bf65-c08f0bbb072f" dockArea="right">
+            <bo>
+              <seg>feature</seg>
+              <seg>gate_input</seg>
+            </bo>
+            <position x="209.0" y="30.0"/>
+            <contentFilters/>
+          </element>
+          <element uuid="83804ab2-746f-473e-ab8b-aa0612ed9a18" dockArea="right">
+            <bo>
+              <seg>feature</seg>
+              <seg>sensor_input</seg>
+            </bo>
+            <position x="196.0" y="80.0"/>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>gateway</seg>
+          </bo>
+          <position x="40.0" y="580.0"/>
+          <size width="294.0" height="220.0"/>
+          <contentFilters>
+            <filter>features</filter>
+          </contentFilters>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>dl</seg>
+        </bo>
+        <position x="1210.0" y="291.0"/>
+        <size width="550.0" height="930.0"/>
+        <contentFilters>
+          <filter>subcomponents</filter>
+          <filter>features</filter>
+        </contentFilters>
+      </element>
+      <element uuid="dcf11703-f4e3-4b0c-9d1c-1075819af4c5">
+        <element uuid="6396aa2c-2535-472b-ac17-27f55238a512" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>user_input</seg>
+          </bo>
+          <position x="159.0" y="9.0"/>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>gui</seg>
+        </bo>
+        <position x="60.0" y="40.0"/>
+        <size width="243.0" height="112.0"/>
+        <contentFilters>
+          <filter>features</filter>
+        </contentFilters>
+      </element>
+      <bo>
+        <seg>classifier</seg>
+        <seg>digital_home.impl</seg>
+      </bo>
+      <position x="58.0" y="198.0"/>
+      <size width="2861.0" height="1361.0"/>
+      <contentFilters>
+        <filter>subcomponents</filter>
+        <filter>generalizations</filter>
+        <filter>features</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>package</seg>
+      <seg>dh_system</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="3099.0" height="1749.0"/>
+    <contentFilters>
+      <filter>dataImplementations</filter>
+      <filter>busTypes</filter>
+      <filter>virtualBusTypes</filter>
+      <filter>threadImplementations</filter>
+      <filter>subprogramGroupTypes</filter>
+      <filter>processTypes</filter>
+      <filter>subprogramGroupImplementations</filter>
+      <filter>featureGroupTypes</filter>
+      <filter>abstractTypes</filter>
+      <filter>subprogramImplementations</filter>
+      <filter>threadTypes</filter>
+      <filter>systemImplementations</filter>
+      <filter>virtualBusImplementations</filter>
+      <filter>dataTypes</filter>
+      <filter>virtualProcessorTypes</filter>
+      <filter>memoryTypes</filter>
+      <filter>threadGroupImplementations</filter>
+      <filter>deviceImplementations</filter>
+      <filter>busImplementations</filter>
+      <filter>deviceTypes</filter>
+      <filter>threadGroupTypes</filter>
+      <filter>processImplementations</filter>
+      <filter>subprogramTypes</filter>
+      <filter>processorTypes</filter>
+      <filter>processorImplementations</filter>
+      <filter>virtualProcessorImplementations</filter>
+      <filter>memoryImplementations</filter>
+    </contentFilters>
+  </element>
+  <config type="package" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>package</seg>
+      <seg>dh_system</seg>
+    </context>
+  </config>
+</diagram:Diagram>
