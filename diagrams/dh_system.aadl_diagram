@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="ASCII"?>
 <diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
-  <element uuid="8f50fc2a-c165-4e8b-95bd-dad607e10fdd" manual="true">
+  <element uuid="8f50fc2a-c165-4e8b-95bd-dad607e10fdd" manual="true" outline="#000000">
+    <element uuid="2bf51e65-8739-44f7-ab91-02a47b884cc1">
+      <bo>
+        <seg>classifier</seg>
+        <seg>digital_home</seg>
+      </bo>
+      <position x="4963.0" y="1090.0"/>
+      <size width="137.0" height="35.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
     <element uuid="dba6b78b-3fbd-4754-acff-1e6e21256724" manual="true" outline="#000000">
       <element uuid="cef07bc3-912b-4b28-b39b-462558d51616" manual="true" outline="#009900">
         <element uuid="07d639b8-5ea8-4514-8a0b-15add0b498e3">
@@ -15,10 +26,10 @@
           <seg>digital_home_impl_new_connection</seg>
         </bo>
         <bendpoints>
-          <point x="4281.0" y="354.0"/>
-          <point x="4281.0" y="1769.0"/>
-          <point x="1444.0" y="1769.0"/>
-          <point x="1444.0" y="1187.0"/>
+          <point x="4322.0" y="373.0"/>
+          <point x="4322.0" y="1946.0"/>
+          <point x="1457.0" y="1946.0"/>
+          <point x="1457.0" y="1610.0"/>
         </bendpoints>
         <contentFilters/>
       </element>
@@ -35,8 +46,8 @@
           <seg>digital_home_impl_new_connection10</seg>
         </bo>
         <bendpoints>
-          <point x="2454.0" y="343.0"/>
-          <point x="2454.0" y="1007.0"/>
+          <point x="2482.0" y="580.0"/>
+          <point x="2482.0" y="1480.0"/>
         </bendpoints>
         <contentFilters/>
       </element>
@@ -52,6 +63,10 @@
           <seg>connection</seg>
           <seg>digital_home_impl_new_connection11</seg>
         </bo>
+        <bendpoints>
+          <point x="2482.0" y="384.0"/>
+          <point x="2482.0" y="324.0"/>
+        </bendpoints>
         <contentFilters/>
       </element>
       <element uuid="1c5b24bb-02d0-4bef-8917-a12eddd35031" manual="true" outline="#009900">
@@ -67,8 +82,8 @@
           <seg>digital_home_impl_new_connection12</seg>
         </bo>
         <bendpoints>
-          <point x="2464.0" y="294.0"/>
-          <point x="2464.0" y="575.0"/>
+          <point x="2492.0" y="531.0"/>
+          <point x="2492.0" y="727.5"/>
         </bendpoints>
         <contentFilters/>
       </element>
@@ -85,8 +100,8 @@
           <seg>digital_home_impl_new_connection13</seg>
         </bo>
         <bendpoints>
-          <point x="4271.0" y="950.0"/>
-          <point x="4271.0" y="305.0"/>
+          <point x="4312.0" y="1184.0"/>
+          <point x="4312.0" y="324.0"/>
         </bendpoints>
         <contentFilters/>
       </element>
@@ -102,6 +117,10 @@
           <seg>connection</seg>
           <seg>digital_home_impl_new_connection14</seg>
         </bo>
+        <bendpoints>
+          <point x="4312.0" y="482.0"/>
+          <point x="4312.0" y="324.0"/>
+        </bendpoints>
         <contentFilters/>
       </element>
       <element uuid="94e6b55d-29f5-4773-b9ad-e969e83470ec" manual="true" outline="#009900">
@@ -117,8 +136,8 @@
           <seg>digital_home_impl_new_connection15</seg>
         </bo>
         <bendpoints>
-          <point x="4271.0" y="226.0"/>
-          <point x="4271.0" y="305.0"/>
+          <point x="4312.0" y="403.0"/>
+          <point x="4312.0" y="324.0"/>
         </bendpoints>
         <contentFilters/>
       </element>
@@ -134,10 +153,6 @@
           <seg>connection</seg>
           <seg>digital_home_impl_new_connection16</seg>
         </bo>
-        <bendpoints>
-          <point x="4271.0" y="147.0"/>
-          <point x="4271.0" y="305.0"/>
-        </bendpoints>
         <contentFilters/>
       </element>
       <element uuid="8a5cf2f6-8d57-490a-a0dd-da638cf0b3b7" manual="true" outline="#009900">
@@ -153,8 +168,8 @@
           <seg>digital_home_impl_new_connection17</seg>
         </bo>
         <bendpoints>
-          <point x="4271.0" y="550.5"/>
-          <point x="4271.0" y="305.0"/>
+          <point x="4312.0" y="752.0"/>
+          <point x="4312.0" y="324.0"/>
         </bendpoints>
         <contentFilters/>
       </element>
@@ -170,6 +185,10 @@
           <seg>connection</seg>
           <seg>digital_home_impl_new_connection19</seg>
         </bo>
+        <bendpoints>
+          <point x="2492.0" y="1381.0"/>
+          <point x="2492.0" y="1431.0"/>
+        </bendpoints>
         <contentFilters/>
       </element>
       <element uuid="b61a171e-0000-49ed-8b21-ef1dd915c046" manual="true" outline="#009900">
@@ -198,10 +217,6 @@
           <seg>connection</seg>
           <seg>digital_home_impl_new_connection20</seg>
         </bo>
-        <bendpoints>
-          <point x="2464.0" y="1106.0"/>
-          <point x="2464.0" y="1281.0"/>
-        </bendpoints>
         <contentFilters/>
       </element>
       <element uuid="a1fa2cf2-cbd2-4420-b73c-6f7f2289cade" manual="true" outline="#009900">
@@ -217,8 +232,8 @@
           <seg>digital_home_impl_new_connection3</seg>
         </bo>
         <bendpoints>
-          <point x="2454.0" y="196.0"/>
-          <point x="2454.0" y="226.0"/>
+          <point x="2482.0" y="433.0"/>
+          <point x="2482.0" y="403.0"/>
         </bendpoints>
         <contentFilters/>
       </element>
@@ -249,8 +264,8 @@
           <seg>digital_home_impl_new_connection5</seg>
         </bo>
         <bendpoints>
-          <point x="1434.0" y="1582.5"/>
-          <point x="1434.0" y="958.0"/>
+          <point x="1447.0" y="1753.5"/>
+          <point x="1447.0" y="1381.0"/>
         </bendpoints>
         <contentFilters/>
       </element>
@@ -267,8 +282,10 @@
           <seg>digital_home_impl_new_connection6</seg>
         </bo>
         <bendpoints>
-          <point x="2454.0" y="1187.0"/>
-          <point x="2454.0" y="1387.5"/>
+          <point x="2482.0" y="1610.0"/>
+          <point x="2482.0" y="1956.0"/>
+          <point x="1447.0" y="1956.0"/>
+          <point x="1447.0" y="1930.5"/>
         </bendpoints>
         <contentFilters/>
       </element>
@@ -298,10 +315,6 @@
           <seg>connection</seg>
           <seg>digital_home_impl_new_connection9</seg>
         </bo>
-        <bendpoints>
-          <point x="2474.0" y="245.0"/>
-          <point x="2474.0" y="305.0"/>
-        </bendpoints>
         <contentFilters/>
       </element>
       <element uuid="82e38051-3c02-49b7-87d6-61068fe07556">
@@ -309,8 +322,8 @@
           <seg>realization</seg>
         </bo>
         <bendpoints>
-          <point x="275.0" y="66.0"/>
-          <point x="287.0" y="66.0"/>
+          <point x="4959.0" y="1119.0"/>
+          <point x="4971.0" y="1119.0"/>
         </bendpoints>
         <contentFilters/>
       </element>
@@ -328,15 +341,15 @@
             <seg>feature</seg>
             <seg>client_port</seg>
           </bo>
-          <position x="237.0" y="10.0"/>
+          <position x="239.0" y="10.0"/>
           <contentFilters/>
         </element>
         <bo>
           <seg>subcomponent</seg>
           <seg>account</seg>
         </bo>
-        <position x="3096.0" y="57.0"/>
-        <size width="321.0" height="59.0"/>
+        <position x="3128.0" y="234.0"/>
+        <size width="324.0" height="59.0"/>
         <contentFilters>
           <filter>features</filter>
         </contentFilters>
@@ -347,7 +360,7 @@
             <seg>feature</seg>
             <seg>account_input</seg>
           </bo>
-          <position x="192.0" y="10.0"/>
+          <position x="193.0" y="10.0"/>
           <contentFilters/>
         </element>
         <element uuid="5b99e542-f5f8-427d-8d02-b75b5bd652c2" dockArea="left">
@@ -363,7 +376,7 @@
             <seg>feature</seg>
             <seg>br_input</seg>
           </bo>
-          <position x="228.0" y="157.0"/>
+          <position x="229.0" y="157.0"/>
           <contentFilters/>
         </element>
         <element uuid="8adb3eaa-1ffa-4c87-a526-eda50da9f169" dockArea="right">
@@ -371,7 +384,7 @@
             <seg>feature</seg>
             <seg>cmd_input</seg>
           </bo>
-          <position x="214.0" y="59.0"/>
+          <position x="215.0" y="59.0"/>
           <contentFilters/>
         </element>
         <element uuid="850ce5f5-a99d-4735-ab85-9bd3cc44d35f" dockArea="right">
@@ -379,7 +392,7 @@
             <seg>feature</seg>
             <seg>env_input</seg>
           </bo>
-          <position x="219.0" y="206.0"/>
+          <position x="220.0" y="206.0"/>
           <contentFilters/>
         </element>
         <element uuid="cf9f4ef2-3033-476d-acd8-6f0b0881a234" dockArea="right">
@@ -387,15 +400,15 @@
             <seg>feature</seg>
             <seg>schedule_input</seg>
           </bo>
-          <position x="185.0" y="108.0"/>
+          <position x="186.0" y="108.0"/>
           <contentFilters/>
         </element>
         <bo>
           <seg>subcomponent</seg>
           <seg>bl</seg>
         </bo>
-        <position x="1915.0" y="57.0"/>
-        <size width="298.0" height="255.0"/>
+        <position x="1943.0" y="294.0"/>
+        <size width="300.0" height="255.0"/>
         <contentFilters>
           <filter>connections</filter>
           <filter>features</filter>
@@ -414,6 +427,10 @@
             <seg>connection</seg>
             <seg>backup_recovery_impl_new_connection</seg>
           </bo>
+          <bendpoints>
+            <point x="2627.0" y="727.5"/>
+            <point x="2627.0" y="952.5"/>
+          </bendpoints>
           <contentFilters/>
         </element>
         <element uuid="4f7a8bc1-7b6f-4b71-bc34-7b409d4ec8fe" outline="#009900">
@@ -428,10 +445,6 @@
             <seg>connection</seg>
             <seg>backup_recovery_impl_new_connection3</seg>
           </bo>
-          <bendpoints>
-            <point x="2608.0" y="575.0"/>
-            <point x="2608.0" y="800.0"/>
-          </bendpoints>
           <contentFilters/>
         </element>
         <element uuid="cb28b575-536b-4811-a189-7807fd73faee" outline="#009900">
@@ -446,10 +459,6 @@
             <seg>connection</seg>
             <seg>backup_recovery_impl_new_connection5</seg>
           </bo>
-          <bendpoints>
-            <point x="4155.0" y="775.5"/>
-            <point x="4155.0" y="550.5"/>
-          </bendpoints>
           <contentFilters/>
         </element>
         <element uuid="b48a251a-4962-4322-afbf-18f52400b7d2" outline="#009900">
@@ -464,6 +473,10 @@
             <seg>connection</seg>
             <seg>backup_recovery_impl_new_connection6</seg>
           </bo>
+          <bendpoints>
+            <point x="4195.0" y="977.0"/>
+            <point x="4195.0" y="752.0"/>
+          </bendpoints>
           <contentFilters/>
         </element>
         <element uuid="0a93c52f-9d1e-4709-a862-c0a8493fd27d" dockArea="left">
@@ -471,7 +484,7 @@
             <seg>feature</seg>
             <seg>backup_input</seg>
           </bo>
-          <position y="201.0"/>
+          <position y="177.0"/>
           <contentFilters/>
         </element>
         <element uuid="840953eb-c139-405a-9d16-0f21c48553db" dockArea="right">
@@ -479,7 +492,7 @@
             <seg>feature</seg>
             <seg>client_port</seg>
           </bo>
-          <position x="1693.0" y="177.0"/>
+          <position x="1715.0" y="201.0"/>
           <contentFilters/>
         </element>
         <element uuid="e5e04829-511a-4776-9ec7-1ac50591a073">
@@ -495,10 +508,6 @@
               <seg>connection</seg>
               <seg>backup_impl_new_connection</seg>
             </bo>
-            <bendpoints>
-              <point x="2710.0" y="575.0"/>
-              <point x="2710.0" y="522.5"/>
-            </bendpoints>
             <contentFilters/>
           </element>
           <element uuid="f9ae0fd4-10e0-4971-b93d-9627bfe72e6b" outline="#009900">
@@ -513,12 +522,6 @@
               <seg>connection</seg>
               <seg>backup_impl_new_connection2</seg>
             </bo>
-            <bendpoints>
-              <point x="4039.0" y="550.5"/>
-              <point x="4039.0" y="474.0"/>
-              <point x="3318.0" y="474.0"/>
-              <point x="3318.0" y="498.0"/>
-            </bendpoints>
             <contentFilters/>
           </element>
           <element uuid="76c534fa-fd7b-4333-8078-b6eb99cb8985" outline="#994c00">
@@ -534,7 +537,9 @@
               <seg>backup_impl_new_connection3</seg>
             </bo>
             <bendpoints>
-              <point x="3328.0" y="547.0"/>
+              <point x="3347.0" y="928.0"/>
+              <point x="3347.0" y="949.0"/>
+              <point x="3353.0" y="949.0"/>
             </bendpoints>
             <contentFilters/>
           </element>
@@ -551,9 +556,7 @@
               <seg>backup_impl_new_connection4</seg>
             </bo>
             <bendpoints>
-              <point x="3506.0" y="547.0"/>
-              <point x="3512.0" y="547.0"/>
-              <point x="3512.0" y="526.0"/>
+              <point x="3531.0" y="949.0"/>
             </bendpoints>
             <contentFilters/>
           </element>
@@ -569,6 +572,10 @@
               <seg>connection</seg>
               <seg>backup_impl_new_connection5</seg>
             </bo>
+            <bendpoints>
+              <point x="4078.0" y="924.5"/>
+              <point x="4078.0" y="977.0"/>
+            </bendpoints>
             <contentFilters/>
           </element>
           <element uuid="17df86c8-9efc-4abd-9de6-d27f94145e67" outline="#994c00">
@@ -583,6 +590,12 @@
               <seg>connection</seg>
               <seg>backup_impl_new_connection6</seg>
             </bo>
+            <bendpoints>
+              <point x="3541.0" y="900.0"/>
+              <point x="3541.0" y="876.0"/>
+              <point x="2730.0" y="876.0"/>
+              <point x="2730.0" y="952.5"/>
+            </bendpoints>
             <contentFilters/>
           </element>
           <element uuid="edd4f91f-f4ba-4f3b-95bf-5c84077c52de" dockArea="left">
@@ -590,7 +603,7 @@
               <seg>feature</seg>
               <seg>br_input</seg>
             </bo>
-            <position y="144.0"/>
+            <position y="120.0"/>
             <contentFilters/>
           </element>
           <element uuid="7c1676c4-71ba-4df5-922a-366321570fac" dockArea="right">
@@ -598,7 +611,7 @@
               <seg>feature</seg>
               <seg>client_port</seg>
             </bo>
-            <position x="1443.0" y="120.0"/>
+            <position x="1463.0" y="144.0"/>
             <contentFilters/>
           </element>
           <element uuid="3f2f310d-70cf-449a-946e-d1e3823e3c05">
@@ -606,7 +619,7 @@
               <seg>subcomponent</seg>
               <seg>backup_compress</seg>
             </bo>
-            <position x="710.0" y="130.0"/>
+            <position x="720.0" y="130.0"/>
             <size width="174.0" height="35.0"/>
             <contentFilters/>
           </element>
@@ -616,7 +629,7 @@
                 <seg>feature</seg>
                 <seg>b_read_out</seg>
               </bo>
-              <position x="501.0" y="59.0"/>
+              <position x="509.0" y="10.0"/>
               <contentFilters/>
             </element>
             <element uuid="9ae3061b-5134-460c-be77-0d1b2f200e59" dockArea="right">
@@ -624,7 +637,7 @@
                 <seg>feature</seg>
                 <seg>client_port</seg>
               </bo>
-              <position x="504.0" y="10.0"/>
+              <position x="512.0" y="59.0"/>
               <contentFilters/>
             </element>
             <element uuid="9257ad77-cf99-4098-a384-76a5543ceee9" dockArea="left">
@@ -646,8 +659,8 @@
               <seg>subcomponent</seg>
               <seg>backup_read</seg>
             </bo>
-            <position x="102.0" y="57.0"/>
-            <size width="588.0" height="108.0"/>
+            <position x="103.0" y="85.0"/>
+            <size width="597.0" height="108.0"/>
             <contentFilters>
               <filter>subcomponentType</filter>
               <filter>features</filter>
@@ -667,7 +680,7 @@
                 <seg>feature</seg>
                 <seg>b_write_in</seg>
               </bo>
-              <position y="10.0"/>
+              <position y="59.0"/>
               <contentFilters/>
             </element>
             <element uuid="42251a6c-0381-4779-b216-0d2e639fcc15" dockArea="left">
@@ -675,7 +688,7 @@
                 <seg>feature</seg>
                 <seg>b_write_out</seg>
               </bo>
-              <position y="59.0"/>
+              <position y="10.0"/>
               <contentFilters/>
             </element>
             <element uuid="de31f0d2-2721-4a51-b252-3def3f173706" dockArea="right">
@@ -683,7 +696,7 @@
                 <seg>feature</seg>
                 <seg>client_port</seg>
               </bo>
-              <position x="423.0" y="35.0"/>
+              <position x="432.0" y="35.0"/>
               <contentFilters/>
             </element>
             <element uuid="46ebb702-11b2-418c-8708-88c567e64ffa">
@@ -697,8 +710,8 @@
               <seg>subcomponent</seg>
               <seg>backup_write</seg>
             </bo>
-            <position x="904.0" y="85.0"/>
-            <size width="507.0" height="108.0"/>
+            <position x="914.0" y="57.0"/>
+            <size width="517.0" height="108.0"/>
             <contentFilters>
               <filter>subcomponentType</filter>
               <filter>features</filter>
@@ -723,8 +736,8 @@
             <seg>subcomponent</seg>
             <seg>backup</seg>
           </bo>
-          <position x="134.0" y="57.0"/>
-          <size width="1527.0" height="205.0"/>
+          <position x="135.0" y="282.0"/>
+          <size width="1548.0" height="205.0"/>
           <contentFilters>
             <filter>subcomponentType</filter>
             <filter>features</filter>
@@ -751,12 +764,6 @@
               <seg>connection</seg>
               <seg>restore_impl_new_connection</seg>
             </bo>
-            <bendpoints>
-              <point x="3163.0" y="723.0"/>
-              <point x="3163.0" y="699.0"/>
-              <point x="3921.0" y="699.0"/>
-              <point x="3921.0" y="775.5"/>
-            </bendpoints>
             <contentFilters/>
           </element>
           <element uuid="71a14dd2-ca18-45db-8c73-0a60f92cee56" outline="#994c00">
@@ -771,10 +778,6 @@
               <seg>connection</seg>
               <seg>restore_impl_new_connection2</seg>
             </bo>
-            <bendpoints>
-              <point x="2828.0" y="800.0"/>
-              <point x="2828.0" y="747.5"/>
-            </bendpoints>
             <contentFilters/>
           </element>
           <element uuid="087bfc1a-5af4-4023-8c6d-d4a93ed60ef0" outline="#994c00">
@@ -790,7 +793,9 @@
               <seg>restore_impl_new_connection3</seg>
             </bo>
             <bendpoints>
-              <point x="3173.0" y="772.0"/>
+              <point x="3188.5" y="703.0"/>
+              <point x="3188.5" y="724.0"/>
+              <point x="3194.5" y="724.0"/>
             </bendpoints>
             <contentFilters/>
           </element>
@@ -807,9 +812,7 @@
               <seg>restore_impl_new_connection4</seg>
             </bo>
             <bendpoints>
-              <point x="3378.0" y="772.0"/>
-              <point x="3384.0" y="772.0"/>
-              <point x="3384.0" y="751.0"/>
+              <point x="3400.5" y="724.0"/>
             </bendpoints>
             <contentFilters/>
           </element>
@@ -825,6 +828,10 @@
               <seg>connection</seg>
               <seg>restore_impl_new_connection5</seg>
             </bo>
+            <bendpoints>
+              <point x="3957.5" y="699.5"/>
+              <point x="3957.5" y="752.0"/>
+            </bendpoints>
             <contentFilters/>
           </element>
           <element uuid="6e0c5624-962e-4bb4-9990-9a5cc28f9537" outline="#994c00">
@@ -839,6 +846,12 @@
               <seg>connection</seg>
               <seg>restore_impl_new_connection6</seg>
             </bo>
+            <bendpoints>
+              <point x="3410.5" y="675.0"/>
+              <point x="3410.5" y="651.0"/>
+              <point x="2850.5" y="651.0"/>
+              <point x="2850.5" y="727.5"/>
+            </bendpoints>
             <contentFilters/>
           </element>
           <element uuid="137309e2-d215-428e-9b42-d17860f8a8f7" dockArea="left">
@@ -846,7 +859,7 @@
               <seg>feature</seg>
               <seg>br_input</seg>
             </bo>
-            <position y="144.0"/>
+            <position y="120.0"/>
             <contentFilters/>
           </element>
           <element uuid="295b6d84-705c-4d2b-8a1b-eef7e057eb0b" dockArea="right">
@@ -854,7 +867,7 @@
               <seg>feature</seg>
               <seg>client_port</seg>
             </bo>
-            <position x="1207.0" y="120.0"/>
+            <position x="1222.0" y="144.0"/>
             <contentFilters/>
           </element>
           <element uuid="c42468ab-a040-4526-8c17-1cb23927a565">
@@ -862,8 +875,8 @@
               <seg>subcomponent</seg>
               <seg>recovery_decompress</seg>
             </bo>
-            <position x="437.0" y="130.0"/>
-            <size width="201.0" height="35.0"/>
+            <position x="441.0" y="130.0"/>
+            <size width="202.0" height="35.0"/>
             <contentFilters/>
           </element>
           <element uuid="c4ac9c04-d786-4206-a2ec-87669027d06e">
@@ -872,7 +885,7 @@
                 <seg>feature</seg>
                 <seg>client_port</seg>
               </bo>
-              <position x="231.0" y="10.0"/>
+              <position x="233.0" y="59.0"/>
               <contentFilters/>
             </element>
             <element uuid="a94e0afb-4c15-4529-8bdb-cce19a21cb4c" dockArea="right">
@@ -880,7 +893,7 @@
                 <seg>feature</seg>
                 <seg>r_read_out</seg>
               </bo>
-              <position x="231.0" y="59.0"/>
+              <position x="233.0" y="10.0"/>
               <contentFilters/>
             </element>
             <element uuid="6e9212ca-4314-4500-bdd9-effc25020f8f" dockArea="left">
@@ -895,8 +908,8 @@
               <seg>subcomponent</seg>
               <seg>recovery_read</seg>
             </bo>
-            <position x="102.0" y="57.0"/>
-            <size width="315.0" height="108.0"/>
+            <position x="103.0" y="85.0"/>
+            <size width="318.0" height="108.0"/>
             <contentFilters>
               <filter>features</filter>
             </contentFilters>
@@ -907,7 +920,7 @@
                 <seg>feature</seg>
                 <seg>client_port</seg>
               </bo>
-              <position x="433.0" y="35.0"/>
+              <position x="442.0" y="35.0"/>
               <contentFilters/>
             </element>
             <element uuid="b4643871-d69e-4598-bc60-5d5845d099c2" dockArea="left">
@@ -915,7 +928,7 @@
                 <seg>feature</seg>
                 <seg>r_write_in</seg>
               </bo>
-              <position y="10.0"/>
+              <position y="59.0"/>
               <contentFilters/>
             </element>
             <element uuid="4a7ce21a-5426-406e-8c43-0b95cdbb6041" dockArea="left">
@@ -923,7 +936,7 @@
                 <seg>feature</seg>
                 <seg>r_write_out</seg>
               </bo>
-              <position y="59.0"/>
+              <position y="10.0"/>
               <contentFilters/>
             </element>
             <element uuid="2632043e-41c8-454c-a3d6-d872621f388e">
@@ -937,8 +950,8 @@
               <seg>subcomponent</seg>
               <seg>recovery_write</seg>
             </bo>
-            <position x="658.0" y="85.0"/>
-            <size width="517.0" height="108.0"/>
+            <position x="663.0" y="57.0"/>
+            <size width="527.0" height="108.0"/>
             <contentFilters>
               <filter>subcomponentType</filter>
               <filter>features</filter>
@@ -963,8 +976,8 @@
             <seg>subcomponent</seg>
             <seg>restore</seg>
           </bo>
-          <position x="252.0" y="282.0"/>
-          <size width="1291.0" height="205.0"/>
+          <position x="256.0" y="57.0"/>
+          <size width="1307.0" height="205.0"/>
           <contentFilters>
             <filter>subcomponentType</filter>
             <filter>features</filter>
@@ -989,8 +1002,8 @@
           <seg>subcomponent</seg>
           <seg>br</seg>
         </bo>
-        <position x="2368.0" y="294.0"/>
-        <size width="1777.0" height="499.0"/>
+        <position x="2390.0" y="471.0"/>
+        <size width="1800.0" height="499.0"/>
         <contentFilters>
           <filter>subcomponentType</filter>
           <filter>features</filter>
@@ -1010,7 +1023,7 @@
             <seg>feature</seg>
             <seg>client_port</seg>
           </bo>
-          <position x="241.0" y="10.0"/>
+          <position x="242.0" y="10.0"/>
           <contentFilters/>
         </element>
         <element uuid="da75279c-cb16-4160-9be6-99f7103f9bbe" dockArea="left">
@@ -1025,8 +1038,8 @@
           <seg>subcomponent</seg>
           <seg>cmd</seg>
         </bo>
-        <position x="3094.0" y="136.0"/>
-        <size width="325.0" height="59.0"/>
+        <position x="3127.0" y="313.0"/>
+        <size width="327.0" height="59.0"/>
         <contentFilters>
           <filter>features</filter>
         </contentFilters>
@@ -1044,8 +1057,8 @@
           <seg>subcomponent</seg>
           <seg>da</seg>
         </bo>
-        <position x="4541.0" y="240.0"/>
-        <size width="241.0" height="59.0"/>
+        <position x="4588.0" y="259.0"/>
+        <size width="243.0" height="59.0"/>
         <contentFilters>
           <filter>features</filter>
         </contentFilters>
@@ -1063,6 +1076,10 @@
             <seg>connection</seg>
             <seg>devices_layer_impl_new_connection</seg>
           </bo>
+          <bendpoints>
+            <point x="1325.0" y="2135.0"/>
+            <point x="1325.0" y="1930.5"/>
+          </bendpoints>
           <contentFilters/>
         </element>
         <element uuid="16c15f2d-5f07-4862-8d39-1a1551acb3b1">
@@ -1078,7 +1095,7 @@
             <seg>devices_layer_impl_new_connection11</seg>
           </bo>
           <bendpoints>
-            <point x="463.0" y="1106.0"/>
+            <point x="467.0" y="1529.0"/>
           </bendpoints>
           <contentFilters/>
         </element>
@@ -1095,7 +1112,7 @@
             <seg>devices_layer_impl_new_connection12</seg>
           </bo>
           <bendpoints>
-            <point x="463.0" y="1387.5"/>
+            <point x="467.0" y="2056.5"/>
           </bendpoints>
           <contentFilters/>
         </element>
@@ -1112,7 +1129,7 @@
             <seg>devices_layer_impl_new_connection13</seg>
           </bo>
           <bendpoints>
-            <point x="463.0" y="1686.0"/>
+            <point x="467.0" y="1906.0"/>
           </bendpoints>
           <contentFilters/>
         </element>
@@ -1142,10 +1159,6 @@
             <seg>connection</seg>
             <seg>devices_layer_impl_new_connection15</seg>
           </bo>
-          <bendpoints>
-            <point x="1313.0" y="1661.5"/>
-            <point x="1313.0" y="1387.5"/>
-          </bendpoints>
           <contentFilters/>
         </element>
         <element uuid="d479d892-9207-4a0e-91c4-6b7ba3f5d8b6" outline="#000099">
@@ -1161,8 +1174,8 @@
             <seg>devices_layer_impl_new_connection2</seg>
           </bo>
           <bendpoints>
-            <point x="1323.0" y="1161.0"/>
-            <point x="1323.0" y="1582.5"/>
+            <point x="1335.0" y="1584.0"/>
+            <point x="1335.0" y="1753.5"/>
           </bendpoints>
           <contentFilters/>
         </element>
@@ -1179,8 +1192,8 @@
             <seg>devices_layer_impl_new_connection3</seg>
           </bo>
           <bendpoints>
-            <point x="1313.0" y="1533.5"/>
-            <point x="1313.0" y="1387.5"/>
+            <point x="1325.0" y="1802.5"/>
+            <point x="1325.0" y="1930.5"/>
           </bendpoints>
           <contentFilters/>
         </element>
@@ -1211,8 +1224,8 @@
             <seg>devices_layer_impl_new_connection5</seg>
           </bo>
           <bendpoints>
-            <point x="1313.0" y="1239.5"/>
-            <point x="1313.0" y="1387.5"/>
+            <point x="1325.0" y="1662.5"/>
+            <point x="1325.0" y="1930.5"/>
           </bendpoints>
           <contentFilters/>
         </element>
@@ -1243,8 +1256,8 @@
             <seg>devices_layer_impl_new_connection7</seg>
           </bo>
           <bendpoints>
-            <point x="1323.0" y="1710.5"/>
-            <point x="1323.0" y="1582.5"/>
+            <point x="1335.0" y="1881.5"/>
+            <point x="1335.0" y="1753.5"/>
           </bendpoints>
           <contentFilters/>
         </element>
@@ -1261,8 +1274,8 @@
             <seg>devices_layer_impl_new_connection9</seg>
           </bo>
           <bendpoints>
-            <point x="1323.0" y="1443.0"/>
-            <point x="1323.0" y="1582.5"/>
+            <point x="1335.0" y="2056.5"/>
+            <point x="1335.0" y="1753.5"/>
           </bendpoints>
           <contentFilters/>
         </element>
@@ -1271,7 +1284,7 @@
             <seg>feature</seg>
             <seg>dl_input</seg>
           </bo>
-          <position x="1227.0" y="396.0"/>
+          <position x="1243.0" y="516.0"/>
           <contentFilters/>
         </element>
         <element uuid="55adca59-7447-406b-aa92-f191d1f90185" dockArea="right">
@@ -1279,7 +1292,7 @@
             <seg>feature</seg>
             <seg>dl_output</seg>
           </bo>
-          <position x="1219.0" y="591.0"/>
+          <position x="1235.0" y="339.0"/>
           <contentFilters/>
         </element>
         <element uuid="eafafd84-2166-413c-84ba-fef9666fa176" dockArea="right">
@@ -1287,7 +1300,7 @@
             <seg>feature</seg>
             <seg>dl_stream</seg>
           </bo>
-          <position x="1217.0" y="114.0"/>
+          <position x="1233.0" y="114.0"/>
           <contentFilters/>
         </element>
         <element uuid="ee15f52a-4906-4d0c-975d-92d520a9ebe7">
@@ -1304,9 +1317,7 @@
               <seg>alarm_controller_impl_new_connection</seg>
             </bo>
             <bendpoints>
-              <point x="661.6666666666667" y="1387.5"/>
-              <point x="661.6666666666667" y="1443.0"/>
-              <point x="843.1666666666667" y="1443.0"/>
+              <point x="855.6666666666667" y="2056.5"/>
             </bendpoints>
             <contentFilters/>
           </element>
@@ -1323,7 +1334,7 @@
               <seg>alarm_controller_impl_new_connection2</seg>
             </bo>
             <bendpoints>
-              <point x="1011.1666666666667" y="1443.0"/>
+              <point x="1019.6666666666667" y="2056.5"/>
             </bendpoints>
             <contentFilters/>
           </element>
@@ -1353,6 +1364,10 @@
               <seg>connection</seg>
               <seg>alarm_controller_impl_new_connection4</seg>
             </bo>
+            <bendpoints>
+              <point x="667.6666666666667" y="2056.5"/>
+              <point x="667.6666666666667" y="2135.0"/>
+            </bendpoints>
             <contentFilters/>
           </element>
           <element uuid="a94a8ad5-e51d-4c23-81b3-ade8ac272442" dockArea="right">
@@ -1360,7 +1375,7 @@
               <seg>feature</seg>
               <seg>alarm_event</seg>
             </bo>
-            <position x="695.0" y="123.0"/>
+            <position x="702.0" y="57.0"/>
             <contentFilters/>
           </element>
           <element uuid="8ffe50dc-81ac-47a4-9de6-116e8486abe5" dockArea="left">
@@ -1368,7 +1383,7 @@
               <seg>feature</seg>
               <seg>alarm_new_feature</seg>
             </bo>
-            <position y="67.0"/>
+            <position y="57.0"/>
             <contentFilters/>
           </element>
           <element uuid="80bc85fd-53f7-45b1-90a6-5f58555580a5" dockArea="right">
@@ -1376,7 +1391,7 @@
               <seg>feature</seg>
               <seg>data_input</seg>
             </bo>
-            <position x="705.0" y="67.0"/>
+            <position x="712.0" y="136.0"/>
             <contentFilters/>
           </element>
           <element uuid="dc2142b1-1aa6-45ea-af7e-19220d36527c">
@@ -1393,7 +1408,7 @@
                 <seg>feature</seg>
                 <seg>pro_in</seg>
               </bo>
-              <position x="457.0" y="10.0"/>
+              <position x="462.0" y="10.0"/>
               <contentFilters/>
             </element>
             <element uuid="aeee6f2c-3274-46c9-8638-994272e405a9">
@@ -1407,8 +1422,8 @@
               <seg>subcomponent</seg>
               <seg>configure_process</seg>
             </bo>
-            <position x="168.0" y="57.0"/>
-            <size width="515.0" height="59.0"/>
+            <position x="170.0" y="126.0"/>
+            <size width="520.0" height="59.0"/>
             <contentFilters>
               <filter>subcomponentType</filter>
               <filter>features</filter>
@@ -1427,7 +1442,7 @@
               <seg>subcomponent</seg>
               <seg>publish_process</seg>
             </bo>
-            <position x="344.0" y="136.0"/>
+            <position x="348.0" y="71.0"/>
             <size width="164.0" height="35.0"/>
             <contentFilters/>
           </element>
@@ -1442,8 +1457,8 @@
             <seg>subcomponent</seg>
             <seg>alarm_controller</seg>
           </bo>
-          <position x="376.0" y="329.0"/>
-          <size width="788.0" height="183.0"/>
+          <position x="384.0" y="585.0"/>
+          <size width="796.0" height="197.0"/>
           <contentFilters>
             <filter>subcomponentType</filter>
             <filter>features</filter>
@@ -1462,8 +1477,8 @@
             <seg>subcomponent</seg>
             <seg>alarm_dev</seg>
           </bo>
-          <position x="211.0" y="409.0"/>
-          <size width="124.0" height="35.0"/>
+          <position x="218.0" y="655.0"/>
+          <size width="125.0" height="35.0"/>
           <contentFilters/>
         </element>
         <element uuid="0544a09c-ec94-40ff-a6de-d75fecd3c38c">
@@ -1471,8 +1486,8 @@
             <seg>subcomponent</seg>
             <seg>controller</seg>
           </bo>
-          <position x="215.0" y="708.0"/>
-          <size width="120.0" height="35.0"/>
+          <position x="222.0" y="505.0"/>
+          <size width="121.0" height="35.0"/>
           <contentFilters/>
         </element>
         <element uuid="c48d2dd7-aa0c-4a98-8110-ca8ed992ccc3">
@@ -1481,7 +1496,7 @@
               <seg>feature</seg>
               <seg>controller_event</seg>
             </bo>
-            <position x="407.0" y="59.0"/>
+            <position x="410.0" y="10.0"/>
             <contentFilters/>
           </element>
           <element uuid="947d11cd-e76a-4707-a588-6eb477dc9d37" dockArea="left">
@@ -1497,15 +1512,15 @@
               <seg>feature</seg>
               <seg>data_input</seg>
             </bo>
-            <position x="443.0" y="10.0"/>
+            <position x="447.0" y="59.0"/>
             <contentFilters/>
           </element>
           <bo>
             <seg>subcomponent</seg>
             <seg>controller_controller</seg>
           </bo>
-          <position x="551.0" y="660.0"/>
-          <size width="526.0" height="108.0"/>
+          <position x="561.0" y="457.0"/>
+          <size width="531.0" height="108.0"/>
           <contentFilters>
             <filter>features</filter>
           </contentFilters>
@@ -1524,7 +1539,7 @@
               <seg>sensor_controller_impl_new_connection</seg>
             </bo>
             <bendpoints>
-              <point x="850.5" y="1106.0"/>
+              <point x="859.0" y="1529.0"/>
             </bendpoints>
             <contentFilters/>
           </element>
@@ -1541,7 +1556,7 @@
               <seg>sensor_controller_impl_new_connection2</seg>
             </bo>
             <bendpoints>
-              <point x="990.5" y="1106.0"/>
+              <point x="999.0" y="1529.0"/>
             </bendpoints>
             <contentFilters/>
           </element>
@@ -1558,9 +1573,9 @@
               <seg>sensor_controller_impl_new_connection3</seg>
             </bo>
             <bendpoints>
-              <point x="649.0" y="1106.0"/>
-              <point x="649.0" y="1161.0"/>
-              <point x="834.5" y="1161.0"/>
+              <point x="655.0" y="1529.0"/>
+              <point x="655.0" y="1584.0"/>
+              <point x="843.0" y="1584.0"/>
             </bendpoints>
             <contentFilters/>
           </element>
@@ -1577,7 +1592,7 @@
               <seg>sensor_controller_impl_new_connection4</seg>
             </bo>
             <bendpoints>
-              <point x="1002.5" y="1161.0"/>
+              <point x="1011.0" y="1584.0"/>
             </bendpoints>
             <contentFilters/>
           </element>
@@ -1608,8 +1623,8 @@
               <seg>sensor_controller_impl_new_connection6</seg>
             </bo>
             <bendpoints>
-              <point x="649.0" y="1106.0"/>
-              <point x="649.0" y="1239.5"/>
+              <point x="655.0" y="1529.0"/>
+              <point x="655.0" y="1662.5"/>
             </bendpoints>
             <contentFilters/>
           </element>
@@ -1618,7 +1633,7 @@
               <seg>feature</seg>
               <seg>sensor_event</seg>
             </bo>
-            <position x="720.0" y="112.0"/>
+            <position x="727.0" y="112.0"/>
             <contentFilters/>
           </element>
           <element uuid="4ac6da22-3fe6-4556-8b7a-5331c929df42" dockArea="right">
@@ -1626,7 +1641,7 @@
               <seg>feature</seg>
               <seg>sensor_input</seg>
             </bo>
-            <position x="721.0" y="191.0"/>
+            <position x="728.0" y="191.0"/>
             <contentFilters/>
           </element>
           <element uuid="314c1c20-b7f6-473a-8c8e-ce28218d3a48" dockArea="left">
@@ -1642,7 +1657,7 @@
               <seg>feature</seg>
               <seg>sensor_stream</seg>
             </bo>
-            <position x="711.0" y="57.0"/>
+            <position x="718.0" y="57.0"/>
             <contentFilters/>
           </element>
           <element uuid="a55e063a-06d2-460e-84e6-61fff05abd76">
@@ -1659,7 +1674,7 @@
                 <seg>feature</seg>
                 <seg>pro_in</seg>
               </bo>
-              <position x="465.0" y="10.0"/>
+              <position x="470.0" y="10.0"/>
               <contentFilters/>
             </element>
             <element uuid="3466a432-f2bb-4d94-a100-bc334c6d04aa">
@@ -1673,8 +1688,8 @@
               <seg>subcomponent</seg>
               <seg>configure</seg>
             </bo>
-            <position x="176.0" y="181.0"/>
-            <size width="523.0" height="59.0"/>
+            <position x="178.0" y="181.0"/>
+            <size width="528.0" height="59.0"/>
             <contentFilters>
               <filter>subcomponentType</filter>
               <filter>features</filter>
@@ -1693,7 +1708,7 @@
               <seg>subcomponent</seg>
               <seg>poll_process</seg>
             </bo>
-            <position x="368.0" y="71.0"/>
+            <position x="372.0" y="71.0"/>
             <size width="140.0" height="35.0"/>
             <contentFilters/>
           </element>
@@ -1702,7 +1717,7 @@
               <seg>subcomponent</seg>
               <seg>publish_process</seg>
             </bo>
-            <position x="356.0" y="126.0"/>
+            <position x="360.0" y="126.0"/>
             <size width="164.0" height="35.0"/>
             <contentFilters/>
           </element>
@@ -1717,8 +1732,8 @@
             <seg>subcomponent</seg>
             <seg>sensor_controller</seg>
           </bo>
-          <position x="355.0" y="57.0"/>
-          <size width="820.0" height="252.0"/>
+          <position x="363.0" y="57.0"/>
+          <size width="828.0" height="252.0"/>
           <contentFilters>
             <filter>subcomponentType</filter>
             <filter>features</filter>
@@ -1737,8 +1752,8 @@
             <seg>subcomponent</seg>
             <seg>sensor_dev</seg>
           </bo>
-          <position x="204.0" y="128.0"/>
-          <size width="131.0" height="35.0"/>
+          <position x="211.0" y="128.0"/>
+          <size width="132.0" height="35.0"/>
           <contentFilters/>
         </element>
         <element uuid="c427ce8c-8939-4857-8d4f-eaed669b6134">
@@ -1747,7 +1762,7 @@
               <seg>feature</seg>
               <seg>switch_out</seg>
             </bo>
-            <position x="238.0" y="10.0"/>
+            <position x="244.0" y="10.0"/>
             <contentFilters/>
           </element>
           <element uuid="cc193b28-78b8-4974-bc93-6507ff474ed8">
@@ -1761,8 +1776,8 @@
             <seg>subcomponent</seg>
             <seg>switch</seg>
           </bo>
-          <position x="12.0" y="556.0"/>
-          <size width="323.0" height="59.0"/>
+          <position x="12.0" y="353.0"/>
+          <size width="331.0" height="59.0"/>
           <contentFilters>
             <filter>subcomponentType</filter>
             <filter>features</filter>
@@ -1782,7 +1797,7 @@
               <seg>feature</seg>
               <seg>data_input</seg>
             </bo>
-            <position x="371.0" y="10.0"/>
+            <position x="378.0" y="59.0"/>
             <contentFilters/>
           </element>
           <element uuid="f566e976-68f8-45d5-be3c-ebc149ff98a1" dockArea="right">
@@ -1790,7 +1805,7 @@
               <seg>feature</seg>
               <seg>switch_event</seg>
             </bo>
-            <position x="356.0" y="59.0"/>
+            <position x="362.0" y="10.0"/>
             <contentFilters/>
           </element>
           <element uuid="49a23dc5-3d47-4553-9ad2-a92c3922eba1" dockArea="left">
@@ -1805,8 +1820,8 @@
             <seg>subcomponent</seg>
             <seg>switch_controller</seg>
           </bo>
-          <position x="599.0" y="532.0"/>
-          <size width="454.0" height="108.0"/>
+          <position x="607.0" y="329.0"/>
+          <size width="462.0" height="108.0"/>
           <contentFilters>
             <filter>features</filter>
           </contentFilters>
@@ -1822,8 +1837,8 @@
           <seg>subcomponent</seg>
           <seg>dev</seg>
         </bo>
-        <position x="12.0" y="912.0"/>
-        <size width="1296.0" height="780.0"/>
+        <position x="12.0" y="1335.0"/>
+        <size width="1313.0" height="793.0"/>
         <contentFilters>
           <filter>subcomponentType</filter>
           <filter>features</filter>
@@ -1843,7 +1858,7 @@
             <seg>feature</seg>
             <seg>data_access_client</seg>
           </bo>
-          <position x="209.0" y="35.0"/>
+          <position x="210.0" y="35.0"/>
           <contentFilters/>
         </element>
         <element uuid="869faf86-3e50-45ca-a34f-dcc5da144dcf" dockArea="left">
@@ -1866,14 +1881,164 @@
           <seg>subcomponent</seg>
           <seg>dl</seg>
         </bo>
-        <position x="4175.0" y="215.0"/>
-        <size width="346.0" height="108.0"/>
+        <position x="4220.0" y="234.0"/>
+        <size width="348.0" height="108.0"/>
         <contentFilters>
           <filter>subcomponents</filter>
           <filter>features</filter>
         </contentFilters>
       </element>
+      <element uuid="b9ad62c7-b4df-46f1-b7c0-ce57a3685b5b">
+        <element uuid="96a5c8a9-452d-46fa-a6c6-a78c6b81fd9f">
+          <bo>
+            <seg>connection</seg>
+            <seg>cancpu</seg>
+          </bo>
+          <bendpoints>
+            <point x="302.0" y="221.33333333333334"/>
+            <point x="314.0" y="221.33333333333331"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element uuid="34e0f503-803e-403c-866e-c7e0cbaeafff">
+          <bo>
+            <seg>connection</seg>
+            <seg>canext</seg>
+          </bo>
+          <bendpoints>
+            <point x="302.0" y="233.0"/>
+            <point x="308.0" y="233.0"/>
+            <point x="308.0" y="243.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element uuid="7ba34615-1ef3-44f5-b3bd-f8c1d703644c">
+          <bo>
+            <seg>connection</seg>
+            <seg>pcicpu</seg>
+          </bo>
+          <bendpoints>
+            <point x="302.0" y="172.16666666666666"/>
+            <point x="308.0" y="172.16666666666666"/>
+            <point x="308.0" y="209.66666666666669"/>
+            <point x="314.0" y="209.66666666666669"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element uuid="de811be1-7824-4a76-afc3-b432934e457a">
+          <bo>
+            <seg>connection</seg>
+            <seg>pciram</seg>
+          </bo>
+          <bendpoints>
+            <point x="302.0" y="160.5"/>
+            <point x="314.0" y="160.5"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element uuid="6ba2a201-2849-4dbe-8aa3-2ddd55436a6f" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>pcieba</seg>
+          </bo>
+          <position x="372.0" y="126.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="70c09300-ffbc-425f-a790-437444d4e76e">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>dh_cpu</seg>
+          </bo>
+          <position x="194.0" y="112.0"/>
+          <size width="110.0" height="35.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="582431ae-2d0b-4b78-ac1d-81e1e163f7cf">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>dh_ram</seg>
+          </bo>
+          <position x="194.0" y="57.0"/>
+          <size width="111.0" height="35.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="63691096-7e50-440e-b675-38375d688666">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>my_memorybus</seg>
+          </bo>
+          <position x="12.0" y="63.0"/>
+          <size width="162.0" height="35.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="81ca7b2e-d803-4bb0-bafb-02fb423c3e14">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>my_pciebus</seg>
+          </bo>
+          <position x="32.0" y="124.0"/>
+          <size width="142.0" height="35.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="415d0039-22dd-4b68-a252-dc0a6a7b1b8f">
+          <bo>
+            <seg>tag</seg>
+            <seg>sc_type</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>ecu</seg>
+        </bo>
+        <position x="12.0" y="37.0"/>
+        <size width="440.0" height="177.0"/>
+        <contentFilters>
+          <filter>subcomponentType</filter>
+          <filter>features</filter>
+          <filter>modeTransitions</filter>
+          <filter>modes</filter>
+          <filter>flowSpecifications</filter>
+          <filter>connections</filter>
+          <filter>subcomponents</filter>
+          <filter>subprogramCallSequences</filter>
+          <filter>processorFeatures</filter>
+          <filter>internalFeatures</filter>
+        </contentFilters>
+      </element>
       <element uuid="fe4b6a2a-166d-4770-abe5-ff10d0dd8c3c">
+        <element uuid="a43ff42a-9396-4842-bb40-4773c99e35f8" outline="#009900">
+          <element uuid="1fd21fa8-4883-488b-917a-9e6c3f4ed22d">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>client_connection</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element uuid="98cb827b-9c44-44b4-b29c-302ef9ebfc4b" outline="#009900">
+          <element uuid="4fbf34c9-f700-4709-85ff-226a047139b4">
+            <bo>
+              <seg>tag</seg>
+              <seg>unidirectional</seg>
+            </bo>
+            <contentFilters/>
+          </element>
+          <bo>
+            <seg>connection</seg>
+            <seg>client_connection2</seg>
+          </bo>
+          <bendpoints>
+            <point x="3599.75" y="1608.0"/>
+            <point x="3599.75" y="1184.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
         <element uuid="8cc67466-908d-4879-bb0c-1ea5b0587165" outline="#ff0000">
           <element uuid="8d0ab50e-4fb2-40f3-893e-e26f02bbdf22">
             <bo>
@@ -1886,6 +2051,10 @@
             <seg>connection</seg>
             <seg>environment_impl_new_connection</seg>
           </bo>
+          <bendpoints>
+            <point x="2845.75" y="1529.0"/>
+            <point x="2845.75" y="1882.0"/>
+          </bendpoints>
           <contentFilters/>
         </element>
         <element uuid="64102a76-aef0-4a10-a547-cdbcc54e2265" outline="#ff0000">
@@ -1901,8 +2070,8 @@
             <seg>environment_impl_new_connection2</seg>
           </bo>
           <bendpoints>
-            <point x="2850.0" y="1281.0"/>
-            <point x="2850.0" y="1646.0"/>
+            <point x="2845.75" y="1529.0"/>
+            <point x="2845.75" y="1399.0"/>
           </bendpoints>
           <contentFilters/>
         </element>
@@ -1919,8 +2088,8 @@
             <seg>environment_impl_new_connection3</seg>
           </bo>
           <bendpoints>
-            <point x="2860.0" y="958.0"/>
-            <point x="2860.0" y="1498.0"/>
+            <point x="2835.75" y="1431.0"/>
+            <point x="2835.75" y="1251.0"/>
           </bendpoints>
           <contentFilters/>
         </element>
@@ -1937,8 +2106,8 @@
             <seg>environment_impl_new_connection4</seg>
           </bo>
           <bendpoints>
-            <point x="2860.0" y="958.0"/>
-            <point x="2860.0" y="1133.0"/>
+            <point x="2835.75" y="1431.0"/>
+            <point x="2835.75" y="1734.0"/>
           </bendpoints>
           <contentFilters/>
         </element>
@@ -1954,10 +2123,6 @@
             <seg>connection</seg>
             <seg>environment_impl_new_connection5</seg>
           </bo>
-          <bendpoints>
-            <point x="2840.0" y="1007.0"/>
-            <point x="2840.0" y="1727.0"/>
-          </bendpoints>
           <contentFilters/>
         </element>
         <element uuid="905629bb-57fb-48a5-ba18-0fdfdc612daa" outline="#009900">
@@ -1972,6 +2137,10 @@
             <seg>connection</seg>
             <seg>environment_impl_new_connection6</seg>
           </bo>
+          <bendpoints>
+            <point x="2855.75" y="1480.0"/>
+            <point x="2855.75" y="1608.0"/>
+          </bendpoints>
           <contentFilters/>
         </element>
         <element uuid="5c6ed97a-240f-4e8a-947a-37a05f1bc9ca" dockArea="right">
@@ -1979,7 +2148,7 @@
             <seg>feature</seg>
             <seg>client_port</seg>
           </bo>
-          <position x="805.0" y="57.0"/>
+          <position x="922.0" y="114.0"/>
           <contentFilters/>
         </element>
         <element uuid="d0ee2545-81d9-4275-afe0-3a6c98aad41a" dockArea="left">
@@ -1987,7 +2156,7 @@
             <seg>feature</seg>
             <seg>env_data_input</seg>
           </bo>
-          <position y="388.0"/>
+          <position y="459.0"/>
           <contentFilters/>
         </element>
         <element uuid="a48e19fd-450e-4552-83e3-64d99d62bee0" dockArea="left">
@@ -1995,7 +2164,7 @@
             <seg>feature</seg>
             <seg>env_input</seg>
           </bo>
-          <position y="114.0"/>
+          <position y="410.0"/>
           <contentFilters/>
         </element>
         <element uuid="901e415d-03e4-4e0d-8fb3-940d8c947404" dockArea="left">
@@ -2003,7 +2172,7 @@
             <seg>feature</seg>
             <seg>event_in</seg>
           </bo>
-          <position y="65.0"/>
+          <position y="361.0"/>
           <contentFilters/>
         </element>
         <element uuid="4e9dbfc0-2af5-4172-8a64-9e54f2dac6da">
@@ -2033,6 +2202,14 @@
               <seg>connection</seg>
               <seg>humidity_impl_new_connection2</seg>
             </bo>
+            <contentFilters/>
+          </element>
+          <element uuid="df310b1f-5070-4cdd-a32a-2af97f50133b" dockArea="right">
+            <bo>
+              <seg>feature</seg>
+              <seg>client_port</seg>
+            </bo>
+            <position x="613.0" y="57.0"/>
             <contentFilters/>
           </element>
           <element uuid="5b31b5c6-499c-4971-ac59-3d78202d4f97" dockArea="left">
@@ -2103,7 +2280,7 @@
                 <seg>data_thread</seg>
               </bo>
               <position x="70.0" y="57.0"/>
-              <size width="366.0" height="59.0"/>
+              <size width="373.0" height="59.0"/>
               <contentFilters>
                 <filter>subcomponentType</filter>
                 <filter>features</filter>
@@ -2128,8 +2305,8 @@
               <seg>subcomponent</seg>
               <seg>hum_process</seg>
             </bo>
-            <position x="98.0" y="264.0"/>
-            <size width="448.0" height="128.0"/>
+            <position x="99.0" y="264.0"/>
+            <size width="455.0" height="128.0"/>
             <contentFilters>
               <filter>subcomponentType</filter>
               <filter>features</filter>
@@ -2187,7 +2364,7 @@
                 <seg>event_thread</seg>
               </bo>
               <position x="70.0" y="57.0"/>
-              <size width="412.0" height="59.0"/>
+              <size width="420.0" height="59.0"/>
               <contentFilters>
                 <filter>subcomponentType</filter>
                 <filter>features</filter>
@@ -2212,8 +2389,8 @@
               <seg>subcomponent</seg>
               <seg>subscribe</seg>
             </bo>
-            <position x="98.0" y="116.0"/>
-            <size width="494.0" height="128.0"/>
+            <position x="99.0" y="116.0"/>
+            <size width="502.0" height="128.0"/>
             <contentFilters>
               <filter>subcomponentType</filter>
               <filter>features</filter>
@@ -2238,8 +2415,8 @@
             <seg>subcomponent</seg>
             <seg>hum</seg>
           </bo>
-          <position x="164.0" y="57.0"/>
-          <size width="604.0" height="404.0"/>
+          <position x="173.0" y="481.0"/>
+          <size width="698.0" height="404.0"/>
           <contentFilters>
             <filter>subcomponentType</filter>
             <filter>features</filter>
@@ -2280,6 +2457,14 @@
               <seg>connection</seg>
               <seg>temperature_impl_new_connection2</seg>
             </bo>
+            <contentFilters/>
+          </element>
+          <element uuid="09113c38-341f-444d-a4d4-54e0ea688ca0" dockArea="right">
+            <bo>
+              <seg>feature</seg>
+              <seg>client_port</seg>
+            </bo>
+            <position x="639.0" y="57.0"/>
             <contentFilters/>
           </element>
           <element uuid="9f29c53c-4662-45bc-95cc-bc9ae754dde9" dockArea="left">
@@ -2350,7 +2535,7 @@
                 <seg>event_thread</seg>
               </bo>
               <position x="70.0" y="57.0"/>
-              <size width="434.0" height="59.0"/>
+              <size width="442.0" height="59.0"/>
               <contentFilters>
                 <filter>subcomponentType</filter>
                 <filter>features</filter>
@@ -2375,8 +2560,8 @@
               <seg>subcomponent</seg>
               <seg>subscribe</seg>
             </bo>
-            <position x="101.0" y="57.0"/>
-            <size width="516.0" height="128.0"/>
+            <position x="103.0" y="57.0"/>
+            <size width="524.0" height="128.0"/>
             <contentFilters>
               <filter>subcomponentType</filter>
               <filter>features</filter>
@@ -2434,7 +2619,7 @@
                 <seg>data_thread</seg>
               </bo>
               <position x="70.0" y="57.0"/>
-              <size width="388.0" height="59.0"/>
+              <size width="395.0" height="59.0"/>
               <contentFilters>
                 <filter>subcomponentType</filter>
                 <filter>features</filter>
@@ -2459,8 +2644,8 @@
               <seg>subcomponent</seg>
               <seg>temp_process</seg>
             </bo>
-            <position x="101.0" y="205.0"/>
-            <size width="470.0" height="128.0"/>
+            <position x="103.0" y="205.0"/>
+            <size width="477.0" height="128.0"/>
             <contentFilters>
               <filter>subcomponentType</filter>
               <filter>features</filter>
@@ -2485,8 +2670,8 @@
             <seg>subcomponent</seg>
             <seg>temp</seg>
           </bo>
-          <position x="164.0" y="481.0"/>
-          <size width="629.0" height="404.0"/>
+          <position x="166.0" y="57.0"/>
+          <size width="724.0" height="404.0"/>
           <contentFilters>
             <filter>subcomponentType</filter>
             <filter>features</filter>
@@ -2511,8 +2696,8 @@
           <seg>subcomponent</seg>
           <seg>env</seg>
         </bo>
-        <position x="2590.0" y="813.0"/>
-        <size width="889.0" height="897.0"/>
+        <position x="2588.0" y="990.0"/>
+        <size width="1007.0" height="897.0"/>
         <contentFilters>
           <filter>subcomponentType</filter>
           <filter>features</filter>
@@ -2616,7 +2801,7 @@
             <seg>feature</seg>
             <seg>client_port</seg>
           </bo>
-          <position x="906.0" y="410.0"/>
+          <position x="920.0" y="410.0"/>
           <contentFilters/>
         </element>
         <element uuid="d6f39568-6859-4bb1-a0ef-32081221f1b9" dockArea="left">
@@ -2632,7 +2817,7 @@
             <seg>feature</seg>
             <seg>device_event_out</seg>
           </bo>
-          <position x="864.0" y="181.0"/>
+          <position x="877.0" y="181.0"/>
           <contentFilters/>
         </element>
         <element uuid="6a251279-2190-435e-8bf4-618310e7e0d2" dockArea="right">
@@ -2640,7 +2825,7 @@
             <seg>feature</seg>
             <seg>gate_output</seg>
           </bo>
-          <position x="899.0" y="329.0"/>
+          <position x="912.0" y="329.0"/>
           <contentFilters/>
         </element>
         <element uuid="048269e6-56c4-4821-ac55-c9a38c57e5fa" dockArea="left">
@@ -2664,7 +2849,7 @@
             <seg>subcomponent</seg>
             <seg>bb</seg>
           </bo>
-          <position x="129.0" y="481.0"/>
+          <position x="131.0" y="481.0"/>
           <size width="76.0" height="35.0"/>
           <contentFilters/>
         </element>
@@ -2730,7 +2915,7 @@
               <seg>feature</seg>
               <seg>client_port</seg>
             </bo>
-            <position x="639.0" y="353.0"/>
+            <position x="649.0" y="353.0"/>
             <contentFilters/>
           </element>
           <element uuid="370a49c5-4cf5-419b-bcf4-15fc75728df7" dockArea="left">
@@ -2746,7 +2931,7 @@
               <seg>feature</seg>
               <seg>radio_event_out</seg>
             </bo>
-            <position x="606.0" y="124.0"/>
+            <position x="615.0" y="124.0"/>
             <contentFilters/>
           </element>
           <element uuid="ddebe997-9c05-498d-b49a-cb1f83ecce53" dockArea="left">
@@ -2762,7 +2947,7 @@
               <seg>feature</seg>
               <seg>radio_ouput</seg>
             </bo>
-            <position x="630.0" y="272.0"/>
+            <position x="640.0" y="272.0"/>
             <contentFilters/>
           </element>
           <element uuid="ee0cedc4-bcdc-491d-8bbd-66ccfd9ee5c7" dockArea="left">
@@ -2815,7 +3000,7 @@
                 <seg>feature</seg>
                 <seg>pro_out</seg>
               </bo>
-              <position x="407.0" y="67.0"/>
+              <position x="414.0" y="67.0"/>
               <contentFilters/>
             </element>
             <element uuid="5c9abcf0-efb4-47ad-a40d-bdfdf76966ae">
@@ -2832,7 +3017,7 @@
                   <seg>feature</seg>
                   <seg>thr_out</seg>
                 </bo>
-                <position x="263.0" y="10.0"/>
+                <position x="269.0" y="10.0"/>
                 <contentFilters/>
               </element>
               <element uuid="ab3bc73e-ac83-4731-b21f-214032c0b365">
@@ -2847,7 +3032,7 @@
                 <seg>event_thread</seg>
               </bo>
               <position x="70.0" y="57.0"/>
-              <size width="325.0" height="59.0"/>
+              <size width="332.0" height="59.0"/>
               <contentFilters>
                 <filter>subcomponentType</filter>
                 <filter>features</filter>
@@ -2872,8 +3057,8 @@
               <seg>subcomponent</seg>
               <seg>publish_subscribe</seg>
             </bo>
-            <position x="121.0" y="57.0"/>
-            <size width="473.0" height="128.0"/>
+            <position x="122.0" y="57.0"/>
+            <size width="481.0" height="128.0"/>
             <contentFilters>
               <filter>subcomponentType</filter>
               <filter>features</filter>
@@ -2929,7 +3114,7 @@
                 <seg>feature</seg>
                 <seg>pro_out</seg>
               </bo>
-              <position x="406.0" y="67.0"/>
+              <position x="412.0" y="67.0"/>
               <contentFilters/>
             </element>
             <element uuid="f06e8ffc-183c-44f3-bf06-12368ff004ee">
@@ -2946,7 +3131,7 @@
                   <seg>feature</seg>
                   <seg>thr_out</seg>
                 </bo>
-                <position x="262.0" y="10.0"/>
+                <position x="267.0" y="10.0"/>
                 <contentFilters/>
               </element>
               <element uuid="aed0e253-af76-45c2-a430-523d5c1feace">
@@ -2961,7 +3146,7 @@
                 <seg>thr</seg>
               </bo>
               <position x="70.0" y="57.0"/>
-              <size width="324.0" height="59.0"/>
+              <size width="330.0" height="59.0"/>
               <contentFilters>
                 <filter>subcomponentType</filter>
                 <filter>features</filter>
@@ -2986,8 +3171,8 @@
               <seg>subcomponent</seg>
               <seg>radio</seg>
             </bo>
-            <position x="121.0" y="205.0"/>
-            <size width="472.0" height="128.0"/>
+            <position x="122.0" y="205.0"/>
+            <size width="479.0" height="128.0"/>
             <contentFilters>
               <filter>subcomponentType</filter>
               <filter>features</filter>
@@ -3012,8 +3197,8 @@
             <seg>subcomponent</seg>
             <seg>rf</seg>
           </bo>
-          <position x="129.0" y="57.0"/>
-          <size width="723.0" height="404.0"/>
+          <position x="131.0" y="57.0"/>
+          <size width="734.0" height="404.0"/>
           <contentFilters>
             <filter>subcomponentType</filter>
             <filter>features</filter>
@@ -3038,8 +3223,8 @@
           <seg>subcomponent</seg>
           <seg>gateway</seg>
         </bo>
-        <position x="1338.0" y="697.0"/>
-        <size width="990.0" height="528.0"/>
+        <position x="1355.0" y="1120.0"/>
+        <size width="1005.0" height="528.0"/>
         <contentFilters>
           <filter>subcomponentType</filter>
           <filter>features</filter>
@@ -3059,15 +3244,15 @@
             <seg>feature</seg>
             <seg>user_input</seg>
           </bo>
-          <position x="164.0" y="10.0"/>
+          <position x="165.0" y="10.0"/>
           <contentFilters/>
         </element>
         <bo>
           <seg>subcomponent</seg>
           <seg>gui</seg>
         </bo>
-        <position x="1060.0" y="155.0"/>
-        <size width="248.0" height="59.0"/>
+        <position x="1075.0" y="392.0"/>
+        <size width="250.0" height="59.0"/>
         <contentFilters>
           <filter>features</filter>
         </contentFilters>
@@ -3078,7 +3263,7 @@
             <seg>feature</seg>
             <seg>client_port</seg>
           </bo>
-          <position x="258.0" y="10.0"/>
+          <position x="259.0" y="10.0"/>
           <contentFilters/>
         </element>
         <element uuid="32f58399-33f7-4859-8381-e7016f94b206" dockArea="left">
@@ -3093,8 +3278,8 @@
           <seg>subcomponent</seg>
           <seg>schedule</seg>
         </bo>
-        <position x="3086.0" y="215.0"/>
-        <size width="342.0" height="59.0"/>
+        <position x="3118.0" y="392.0"/>
+        <size width="344.0" height="59.0"/>
         <contentFilters>
           <filter>features</filter>
         </contentFilters>
@@ -3103,8 +3288,8 @@
         <seg>classifier</seg>
         <seg>digital_home.impl</seg>
       </bo>
-      <position x="104.0" y="37.0"/>
-      <size width="4794.0" height="1733.0"/>
+      <position x="100.0" y="37.0"/>
+      <size width="4843.0" height="2140.0"/>
       <contentFilters>
         <filter>generalizations</filter>
         <filter>features</filter>
@@ -3123,35 +3308,9 @@
       <seg>dh_system</seg>
     </bo>
     <position x="12.0" y="12.0"/>
-    <size width="4910.0" height="1782.0"/>
+    <size width="5112.0" height="2189.0"/>
     <contentFilters>
-      <filter>dataImplementations</filter>
-      <filter>busTypes</filter>
-      <filter>virtualBusTypes</filter>
-      <filter>threadImplementations</filter>
-      <filter>subprogramGroupTypes</filter>
-      <filter>processTypes</filter>
-      <filter>subprogramGroupImplementations</filter>
-      <filter>featureGroupTypes</filter>
-      <filter>abstractTypes</filter>
-      <filter>subprogramImplementations</filter>
-      <filter>threadTypes</filter>
-      <filter>systemImplementations</filter>
-      <filter>virtualBusImplementations</filter>
-      <filter>dataTypes</filter>
-      <filter>virtualProcessorTypes</filter>
-      <filter>memoryTypes</filter>
-      <filter>threadGroupImplementations</filter>
-      <filter>deviceImplementations</filter>
-      <filter>busImplementations</filter>
-      <filter>deviceTypes</filter>
-      <filter>threadGroupTypes</filter>
-      <filter>processImplementations</filter>
-      <filter>subprogramTypes</filter>
-      <filter>processorTypes</filter>
-      <filter>processorImplementations</filter>
-      <filter>virtualProcessorImplementations</filter>
-      <filter>memoryImplementations</filter>
+      <filter>classifiers</filter>
     </contentFilters>
   </element>
   <config type="package" connectionPrimaryLabelsVisible="false">

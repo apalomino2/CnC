@@ -96,97 +96,21 @@
         </bendpoints>
         <contentFilters/>
       </element>
+      <element uuid="52dfba29-7377-43d5-b7e2-4dbbf212cb0c">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>account</seg>
+        </bo>
+        <position/>
+        <size width="110.0" height="35.0"/>
+        <contentFilters/>
+      </element>
       <element uuid="71d50e9f-7b7b-4267-ace4-f4a38a1f7c3b">
-        <element uuid="083ef918-1bc9-4ab6-bf7a-936b09ac5b72" manual="true" outline="#009900">
-          <element uuid="014d48a2-79c4-48ae-83d2-8548a56bb8b2">
-            <bo>
-              <seg>tag</seg>
-              <seg>unidirectional</seg>
-            </bo>
-            <contentFilters/>
-          </element>
-          <bo>
-            <seg>connection</seg>
-            <seg>business_logic_impl_new_connection</seg>
-          </bo>
-          <contentFilters/>
-        </element>
-        <element uuid="546bda32-87dc-4699-9cc4-5fa97f37d6e9" manual="true" outline="#009900">
-          <element uuid="958d4e95-3429-457d-b295-42f23c4d519b">
-            <bo>
-              <seg>tag</seg>
-              <seg>unidirectional</seg>
-            </bo>
-            <contentFilters/>
-          </element>
-          <bo>
-            <seg>connection</seg>
-            <seg>business_logic_impl_new_connection2</seg>
-          </bo>
-          <contentFilters/>
-        </element>
-        <element uuid="b9a2b83c-556a-4000-bb26-b0e83f00930c" manual="true" outline="#009900">
-          <element uuid="e71e7f91-1ff3-48cf-8710-00c4f009a364">
-            <bo>
-              <seg>tag</seg>
-              <seg>unidirectional</seg>
-            </bo>
-            <contentFilters/>
-          </element>
-          <bo>
-            <seg>connection</seg>
-            <seg>business_logic_impl_new_connection3</seg>
-          </bo>
-          <contentFilters/>
-        </element>
-        <element uuid="dd6c5f02-fec9-472c-a3f4-b95a130efcda" manual="true" outline="#009900">
-          <element uuid="de110f04-7e8f-463f-a878-7315fecec41d">
-            <bo>
-              <seg>tag</seg>
-              <seg>unidirectional</seg>
-            </bo>
-            <contentFilters/>
-          </element>
-          <bo>
-            <seg>connection</seg>
-            <seg>business_logic_impl_new_connection4</seg>
-          </bo>
-          <contentFilters/>
-        </element>
-        <element uuid="8bfaf28d-1d93-4ee4-a874-f4ada3a1f375" manual="true" outline="#009900">
-          <element uuid="13943545-94a3-44be-bad4-935a73527526">
-            <bo>
-              <seg>tag</seg>
-              <seg>unidirectional</seg>
-            </bo>
-            <contentFilters/>
-          </element>
-          <bo>
-            <seg>connection</seg>
-            <seg>business_logic_impl_new_connection5</seg>
-          </bo>
-          <contentFilters/>
-        </element>
-        <element uuid="d539611a-6e29-4eb2-9d1d-33968ad0e806" manual="true" outline="#0000ff">
-          <element uuid="154f822d-6ad1-4764-8349-11ac57607baa">
-            <bo>
-              <seg>tag</seg>
-              <seg>unidirectional</seg>
-            </bo>
-            <contentFilters/>
-          </element>
-          <bo>
-            <seg>connection</seg>
-            <seg>business_logic_impl_new_connection6</seg>
-          </bo>
-          <contentFilters/>
-        </element>
-        <element uuid="0bf3e125-fbb8-4705-8897-38eaeda22fe2" dockArea="right">
+        <element uuid="39032235-59a5-456e-af0a-9c3873ce0c74" dockArea="left">
           <bo>
             <seg>feature</seg>
-            <seg>bl_event_io</seg>
+            <seg>account_input</seg>
           </bo>
-          <position x="580.0" y="810.0"/>
           <contentFilters/>
         </element>
         <element uuid="5b99e542-f5f8-427d-8d02-b75b5bd652c2" dockArea="right">
@@ -194,111 +118,36 @@
             <seg>feature</seg>
             <seg>bl_input</seg>
           </bo>
-          <position x="602.0" y="240.0"/>
+          <position x="601.0" y="240.0"/>
           <contentFilters/>
         </element>
-        <element uuid="0e4ac94b-caa7-456b-ac2f-4b1527f0c7ff">
-          <element uuid="3f010912-4cc3-421a-9aa1-91d7b5de551a" dockArea="right">
-            <bo>
-              <seg>feature</seg>
-              <seg>account_input</seg>
-            </bo>
-            <position x="103.0" y="10.0"/>
-            <contentFilters/>
-          </element>
+        <element uuid="9db9278e-f64c-43db-ab47-7fc40003832b" dockArea="left">
           <bo>
-            <seg>subcomponent</seg>
-            <seg>account</seg>
+            <seg>feature</seg>
+            <seg>br_input</seg>
           </bo>
-          <position x="113.0" y="140.0"/>
-          <size width="210.0" height="118.0"/>
-          <contentFilters>
-            <filter>features</filter>
-          </contentFilters>
+          <contentFilters/>
         </element>
-        <element uuid="8baa4ebf-e2e4-4217-9a7d-7f03e70e53f9">
-          <element uuid="992a93a2-e222-45c8-9cf9-0d12707ffee4" dockArea="right">
-            <bo>
-              <seg>feature</seg>
-              <seg>br_input</seg>
-            </bo>
-            <position x="111.0" y="3.0"/>
-            <contentFilters/>
-          </element>
+        <element uuid="0701f5d9-016c-4d1a-af2e-a8074c6f27de" dockArea="left">
           <bo>
-            <seg>subcomponent</seg>
-            <seg>br</seg>
+            <seg>feature</seg>
+            <seg>cmd_input</seg>
           </bo>
-          <position x="140.0" y="810.0"/>
-          <size width="181.0" height="88.0"/>
-          <contentFilters>
-            <filter>features</filter>
-          </contentFilters>
+          <contentFilters/>
         </element>
-        <element uuid="a5722c5a-01c7-4628-ad06-1560e62ed524">
-          <element uuid="245f66ab-656a-4caa-979e-578725824d82" dockArea="right">
-            <bo>
-              <seg>feature</seg>
-              <seg>command_input</seg>
-            </bo>
-            <position x="111.0" y="10.0"/>
-            <contentFilters/>
-          </element>
+        <element uuid="10400e85-544c-4e19-aaab-719587063118" dockArea="left">
           <bo>
-            <seg>subcomponent</seg>
-            <seg>cmd</seg>
+            <seg>feature</seg>
+            <seg>env_input</seg>
           </bo>
-          <position x="92.0" y="300.0"/>
-          <size width="231.0" height="111.0"/>
-          <contentFilters>
-            <filter>features</filter>
-          </contentFilters>
+          <contentFilters/>
         </element>
-        <element uuid="7a43e5ad-1a87-4bb2-89b9-c247ed641aaa">
-          <element uuid="1f65d1c8-e43d-4fa7-b096-dafd08f61bf1" dockArea="right">
-            <bo>
-              <seg>feature</seg>
-              <seg>env_input</seg>
-            </bo>
-            <position x="165.0" y="13.0"/>
-            <contentFilters/>
-          </element>
-          <element uuid="5831288d-c6f2-404e-b8e7-8bd2a5d02408" dockArea="right">
-            <bo>
-              <seg>feature</seg>
-              <seg>env_io</seg>
-            </bo>
-            <position x="185.0" y="60.0"/>
-            <contentFilters/>
-          </element>
+        <element uuid="07afd840-0808-41a7-a3bd-0985c516fc3f" dockArea="left">
           <bo>
-            <seg>subcomponent</seg>
-            <seg>env</seg>
+            <seg>feature</seg>
+            <seg>schedule_input</seg>
           </bo>
-          <position x="85.0" y="470.0"/>
-          <size width="245.0" height="112.0"/>
-          <contentFilters>
-            <filter>features</filter>
-          </contentFilters>
-        </element>
-        <element uuid="51490723-e7ac-431c-9ab1-82116a0f5b30">
-          <element uuid="77b734ae-affe-4bf2-b1bd-52e2a7b68617" dockArea="right">
-            <bo>
-              <seg>feature</seg>
-              <seg>schedule_input</seg>
-            </bo>
-            <position x="161.0"/>
-            <contentFilters/>
-          </element>
-          <bo>
-            <seg>subcomponent</seg>
-            <seg>schedule</seg>
-          </bo>
-          <position x="70.0" y="650.0"/>
-          <size width="275.0" height="96.0"/>
-          <contentFilters>
-            <filter>features</filter>
-          </contentFilters>
+          <contentFilters/>
         </element>
         <bo>
           <seg>subcomponent</seg>
@@ -310,6 +159,33 @@
           <filter>subcomponents</filter>
           <filter>features</filter>
         </contentFilters>
+      </element>
+      <element uuid="5a0681fb-2c8d-4c3c-9be5-320bc9d37c11">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>br</seg>
+        </bo>
+        <position/>
+        <size width="73.0" height="35.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="1bba9361-c3f8-405d-98aa-b7819d785173">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>cmd</seg>
+        </bo>
+        <position/>
+        <size width="87.0" height="35.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="06f3ca4b-4872-4d8a-bf18-c86a53973209">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>da</seg>
+        </bo>
+        <position/>
+        <size width="75.0" height="35.0"/>
+        <contentFilters/>
       </element>
       <element uuid="ae2885bc-17dd-4f73-8bb2-54c324453840">
         <element uuid="a96debf6-1562-4968-9371-83152d6a63fa" manual="true" outline="#009900">
@@ -410,20 +286,6 @@
           </bo>
           <contentFilters/>
         </element>
-        <element uuid="0f19b0c1-db29-465a-bb15-fce1be9be01c" manual="true" outline="#009900">
-          <element uuid="e2804d0e-f6c8-4fe5-bf85-af4e0ffa9a1d">
-            <bo>
-              <seg>tag</seg>
-              <seg>unidirectional</seg>
-            </bo>
-            <contentFilters/>
-          </element>
-          <bo>
-            <seg>connection</seg>
-            <seg>devices_layer_impl_new_connection8</seg>
-          </bo>
-          <contentFilters/>
-        </element>
         <element uuid="ef3cd268-7f50-4972-9905-e81368e709d9" manual="true" outline="#000099">
           <element uuid="da9a425b-ff8c-4293-baa3-28d1fd19c42b">
             <bo>
@@ -462,48 +324,31 @@
           <position y="452.0"/>
           <contentFilters/>
         </element>
-        <element uuid="d59bde9f-74b2-4177-8bc9-5d75129ea7de">
-          <element uuid="7d51fabd-d0e1-4a3b-8e9c-ac39ba88c47c" dockArea="left">
-            <bo>
-              <seg>feature</seg>
-              <seg>data_input</seg>
-            </bo>
-            <position y="10.0"/>
-            <contentFilters/>
-          </element>
-          <element uuid="9b3b17b2-499a-40d4-bde0-cda8cdfd3b60" dockArea="left">
-            <bo>
-              <seg>feature</seg>
-              <seg>device_event</seg>
-            </bo>
-            <position y="55.0"/>
-            <contentFilters/>
-          </element>
+        <element uuid="59f00caf-d6d2-4e26-81f0-76d38d7a6e2c">
           <bo>
             <seg>subcomponent</seg>
-            <seg>alarm</seg>
+            <seg>alarm_controller</seg>
           </bo>
-          <position x="300.0" y="100.0"/>
-          <size width="211.0" height="154.0"/>
-          <contentFilters>
-            <filter>features</filter>
-          </contentFilters>
+          <position/>
+          <size width="165.0" height="35.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="61524a49-b4c7-4bc3-b2ba-cbed87ca2820">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>alarm_dev</seg>
+          </bo>
+          <position/>
+          <size width="125.0" height="35.0"/>
+          <contentFilters/>
         </element>
         <element uuid="ca4983ef-575a-409d-94c3-e60daec37244">
-          <element uuid="b6a69ea6-30dd-451c-b3bc-c6cc6bbdbd61" dockArea="left">
+          <element uuid="7c39a1ca-89e8-4abb-bb84-0ecea6653de5" dockArea="left">
             <bo>
               <seg>feature</seg>
-              <seg>data_input</seg>
+              <seg>controller_out</seg>
             </bo>
-            <position y="10.0"/>
-            <contentFilters/>
-          </element>
-          <element uuid="1d916923-7705-4f60-b4db-3eb48e9bb9f9" dockArea="left">
-            <bo>
-              <seg>feature</seg>
-              <seg>device_event</seg>
-            </bo>
-            <position y="72.0"/>
+            <position y="58.0"/>
             <contentFilters/>
           </element>
           <bo>
@@ -511,61 +356,45 @@
             <seg>controller</seg>
           </bo>
           <position x="270.0" y="760.0"/>
-          <size width="271.0" height="154.0"/>
+          <size width="333.0" height="154.0"/>
           <contentFilters>
             <filter>features</filter>
           </contentFilters>
         </element>
-        <element uuid="e3592825-f435-4632-806c-2ac36ca765bf">
-          <element uuid="ba8c9e03-fda6-4b5e-a9dd-cf1b53cf0672" dockArea="left">
-            <bo>
-              <seg>feature</seg>
-              <seg>device_event</seg>
-            </bo>
-            <position y="132.0"/>
-            <contentFilters/>
-          </element>
-          <element uuid="e820dfb1-a9b2-4b0f-97ea-f804c431a153" dockArea="left">
-            <bo>
-              <seg>feature</seg>
-              <seg>sensor_input</seg>
-            </bo>
-            <position y="10.0"/>
-            <contentFilters/>
-          </element>
-          <element uuid="08b63b48-bcce-42d5-a298-c1a9a7c23cf5" dockArea="left">
-            <bo>
-              <seg>feature</seg>
-              <seg>sensor_stream</seg>
-            </bo>
-            <position y="72.0"/>
-            <contentFilters/>
-          </element>
+        <element uuid="5e2b836a-b7ff-4622-94ad-89cb36dd4e36">
           <bo>
             <seg>subcomponent</seg>
-            <seg>sensor</seg>
+            <seg>controller_controller</seg>
           </bo>
-          <position x="291.0" y="510.0"/>
-          <size width="250.0" height="202.0"/>
-          <contentFilters>
-            <filter>features</filter>
-          </contentFilters>
+          <position/>
+          <size width="195.0" height="35.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="b0552ff1-d93d-49cc-a8a5-addcbc4887dc">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>sensor_controller</seg>
+          </bo>
+          <position/>
+          <size width="173.0" height="35.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="2e418b69-462c-482c-8cc4-5c0574f6a114">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>sensor_dev</seg>
+          </bo>
+          <position/>
+          <size width="132.0" height="35.0"/>
+          <contentFilters/>
         </element>
         <element uuid="78f1973c-8803-4517-904b-4114e94d0816">
-          <element uuid="21e66cd5-be7a-4c69-96ca-57534fbc5317" dockArea="left">
+          <element uuid="26bc2a02-8fe0-47ac-ae57-5fdc9e893503" dockArea="left">
             <bo>
               <seg>feature</seg>
-              <seg>data_input</seg>
+              <seg>switch_out</seg>
             </bo>
-            <position y="10.0"/>
-            <contentFilters/>
-          </element>
-          <element uuid="29e95411-c1fb-4439-9c4e-2912ee09c281" dockArea="left">
-            <bo>
-              <seg>feature</seg>
-              <seg>device_event</seg>
-            </bo>
-            <position y="62.0"/>
+            <position y="58.0"/>
             <contentFilters/>
           </element>
           <bo>
@@ -573,10 +402,19 @@
             <seg>switch</seg>
           </bo>
           <position x="300.0" y="320.0"/>
-          <size width="231.0" height="154.0"/>
+          <size width="275.0" height="154.0"/>
           <contentFilters>
             <filter>features</filter>
           </contentFilters>
+        </element>
+        <element uuid="c26dfed0-edc2-4cbb-9f0b-da87d8b93dac">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>switch_controller</seg>
+          </bo>
+          <position/>
+          <size width="172.0" height="35.0"/>
+          <contentFilters/>
         </element>
         <bo>
           <seg>subcomponent</seg>
@@ -590,59 +428,10 @@
         </contentFilters>
       </element>
       <element uuid="ca35125d-4341-44bf-b0e6-720c4d842f12">
-        <element uuid="3469d76b-fc23-4c34-a42a-3f5ed8d11131" manual="true" outline="#009900">
-          <element uuid="be819864-60bd-4691-be64-58b847d90e83">
-            <bo>
-              <seg>tag</seg>
-              <seg>unidirectional</seg>
-            </bo>
-            <contentFilters/>
-          </element>
+        <element uuid="0c4ef1d1-1370-47ca-b9b6-950b81298636" dockArea="left">
           <bo>
-            <seg>connection</seg>
-            <seg>data_layer_impl_new_connection</seg>
-          </bo>
-          <contentFilters/>
-        </element>
-        <element uuid="efb9cca9-eab2-4d62-846f-accb4ff9745a" manual="true" outline="#009900">
-          <element uuid="1c83fe5d-2491-4b50-8b49-c5ba69152159">
-            <bo>
-              <seg>tag</seg>
-              <seg>unidirectional</seg>
-            </bo>
-            <contentFilters/>
-          </element>
-          <bo>
-            <seg>connection</seg>
-            <seg>data_layer_impl_new_connection2</seg>
-          </bo>
-          <contentFilters/>
-        </element>
-        <element uuid="b3bbc701-27d7-4d47-9b69-0e5905be19cf" manual="true" outline="#ff0000">
-          <element uuid="fd79a5b3-e859-43b4-95a6-50bb82413912">
-            <bo>
-              <seg>tag</seg>
-              <seg>unidirectional</seg>
-            </bo>
-            <contentFilters/>
-          </element>
-          <bo>
-            <seg>connection</seg>
-            <seg>data_layer_impl_new_connection3</seg>
-          </bo>
-          <contentFilters/>
-        </element>
-        <element uuid="980dfbc4-ed0b-4697-9c67-9edbe110d556" manual="true" outline="#000099">
-          <element uuid="e3031d78-c46c-4f57-b2b1-793514a31095">
-            <bo>
-              <seg>tag</seg>
-              <seg>unidirectional</seg>
-            </bo>
-            <contentFilters/>
-          </element>
-          <bo>
-            <seg>connection</seg>
-            <seg>data_layer_impl_new_connection5</seg>
+            <seg>feature</seg>
+            <seg>data_access_client</seg>
           </bo>
           <contentFilters/>
         </element>
@@ -651,78 +440,15 @@
             <seg>feature</seg>
             <seg>dl_input</seg>
           </bo>
-          <position x="481.0" y="110.0"/>
+          <position x="480.0" y="110.0"/>
           <contentFilters/>
         </element>
-        <element uuid="dc698602-771a-4925-ad0e-cf1cfd0d9fdd" dockArea="right">
+        <element uuid="c1538b91-badc-4336-aece-7ae39ed42314" dockArea="left">
           <bo>
             <seg>feature</seg>
-            <seg>dl_stream</seg>
+            <seg>gateway_client</seg>
           </bo>
-          <position x="470.0" y="400.0"/>
           <contentFilters/>
-        </element>
-        <element uuid="e00065eb-9194-4271-ba53-afe0f533d4c7" dockArea="right">
-          <bo>
-            <seg>feature</seg>
-            <seg>event_io</seg>
-          </bo>
-          <position x="478.0" y="799.0"/>
-          <contentFilters/>
-        </element>
-        <element uuid="e2f9b2ad-ae3b-4797-9ce9-b62b9476442b">
-          <element uuid="c7846122-151f-422e-833f-97752bf2e06b" dockArea="right">
-            <bo>
-              <seg>feature</seg>
-              <seg>data_input</seg>
-            </bo>
-            <position x="161.0" y="30.0"/>
-            <contentFilters/>
-          </element>
-          <bo>
-            <seg>subcomponent</seg>
-            <seg>da</seg>
-          </bo>
-          <position x="50.0" y="340.0"/>
-          <size width="246.0" height="106.0"/>
-          <contentFilters>
-            <filter>features</filter>
-          </contentFilters>
-        </element>
-        <element uuid="069f1dc1-bbde-4112-9108-03deabce2704" outline="#000000" fontColor="#000000">
-          <element uuid="bed2ae08-02fe-41d8-b02f-83c2ab2283ed" dockArea="right">
-            <bo>
-              <seg>feature</seg>
-              <seg>device_input</seg>
-            </bo>
-            <position x="195.0" y="140.0"/>
-            <contentFilters/>
-          </element>
-          <element uuid="cb90648c-7d87-4d8b-bf65-c08f0bbb072f" dockArea="right">
-            <bo>
-              <seg>feature</seg>
-              <seg>gate_input</seg>
-            </bo>
-            <position x="209.0" y="30.0"/>
-            <contentFilters/>
-          </element>
-          <element uuid="83804ab2-746f-473e-ab8b-aa0612ed9a18" dockArea="right">
-            <bo>
-              <seg>feature</seg>
-              <seg>sensor_input</seg>
-            </bo>
-            <position x="196.0" y="80.0"/>
-            <contentFilters/>
-          </element>
-          <bo>
-            <seg>subcomponent</seg>
-            <seg>gateway</seg>
-          </bo>
-          <position x="40.0" y="580.0"/>
-          <size width="294.0" height="220.0"/>
-          <contentFilters>
-            <filter>features</filter>
-          </contentFilters>
         </element>
         <bo>
           <seg>subcomponent</seg>
@@ -735,13 +461,40 @@
           <filter>features</filter>
         </contentFilters>
       </element>
+      <element uuid="75e7e285-8bbe-4d38-81b8-146f47f19263">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>ecu</seg>
+        </bo>
+        <position/>
+        <size width="82.0" height="35.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="7ede456d-54fd-47cc-8b95-9adb92ca0988">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>env</seg>
+        </bo>
+        <position/>
+        <size width="83.0" height="35.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="2d0eb25f-8bde-4b4f-9dce-677dad1507ee">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>gateway</seg>
+        </bo>
+        <position/>
+        <size width="112.0" height="35.0"/>
+        <contentFilters/>
+      </element>
       <element uuid="dcf11703-f4e3-4b0c-9d1c-1075819af4c5">
         <element uuid="6396aa2c-2535-472b-ac17-27f55238a512" dockArea="right">
           <bo>
             <seg>feature</seg>
             <seg>user_input</seg>
           </bo>
-          <position x="159.0" y="9.0"/>
+          <position x="158.0" y="9.0"/>
           <contentFilters/>
         </element>
         <bo>
@@ -753,6 +506,15 @@
         <contentFilters>
           <filter>features</filter>
         </contentFilters>
+      </element>
+      <element uuid="a4c413b0-4b3f-45b5-baad-8d7818968002">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>schedule</seg>
+        </bo>
+        <position/>
+        <size width="116.0" height="35.0"/>
+        <contentFilters/>
       </element>
       <bo>
         <seg>classifier</seg>

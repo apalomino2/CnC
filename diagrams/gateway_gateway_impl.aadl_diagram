@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="ASCII"?>
 <diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
   <element uuid="7788bb3f-f1ab-4a6e-8bf9-74e9221afb18" manual="true">
-    <element uuid="45ffeb87-849e-4f0b-bb1c-cd3569dc9d20" outline="#000099">
+    <element uuid="44dedc17-91ed-428d-abdd-99288d4ea1e0">
+      <element uuid="194c6869-ac49-4bab-a910-cb08d165ac3c">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>gateway_impl_new_connection</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="45ffeb87-849e-4f0b-bb1c-cd3569dc9d20" outline="#000000">
       <element uuid="42ae66bf-1c0d-41c8-9b07-806e3b6d8710">
         <bo>
           <seg>tag</seg>
@@ -12,6 +26,20 @@
       <bo>
         <seg>connection</seg>
         <seg>gateway_impl_new_connection2</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="dcfe3586-cdfb-4e05-840f-bc8cc0ada22f">
+      <element uuid="ff7f1c52-3f25-4161-8048-51d2ea5602b4">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>gateway_impl_new_connection3</seg>
       </bo>
       <contentFilters/>
     </element>
@@ -43,7 +71,7 @@
       </bo>
       <contentFilters/>
     </element>
-    <element uuid="1d8715cf-8e57-42b5-bea3-ac2ea20f048b">
+    <element uuid="1d8715cf-8e57-42b5-bea3-ac2ea20f048b" outline="#990000">
       <element uuid="94143470-f9da-4cc8-ac8c-9f2a573c1ead">
         <bo>
           <seg>tag</seg>
@@ -57,11 +85,12 @@
       </bo>
       <contentFilters/>
     </element>
-    <element uuid="df8ad5ff-2e6f-4973-a067-5ac51ecff8cc" dockArea="left">
+    <element uuid="df8ad5ff-2e6f-4973-a067-5ac51ecff8cc" dockArea="right">
       <bo>
         <seg>feature</seg>
         <seg>client_port</seg>
       </bo>
+      <position x="822.0" y="318.0"/>
       <contentFilters/>
     </element>
     <element uuid="703d6dec-0216-4a60-85bc-5f96b2ce6bd8" dockArea="left">
@@ -69,7 +98,7 @@
         <seg>feature</seg>
         <seg>device_event_in</seg>
       </bo>
-      <position y="240.0"/>
+      <position y="97.0"/>
       <contentFilters/>
     </element>
     <element uuid="0d6dd331-5529-422f-8894-412828e958bc" dockArea="right">
@@ -77,7 +106,7 @@
         <seg>feature</seg>
         <seg>device_event_out</seg>
       </bo>
-      <position x="822.0" y="240.0"/>
+      <position x="777.0" y="97.0"/>
       <contentFilters/>
     </element>
     <element uuid="18506b56-1eb7-4f29-a538-88e3c71db4ac" dockArea="right">
@@ -85,7 +114,7 @@
         <seg>feature</seg>
         <seg>gate_output</seg>
       </bo>
-      <position x="857.0" y="284.0"/>
+      <position x="814.0" y="236.0"/>
       <contentFilters/>
     </element>
     <element uuid="c093e60a-e28a-4326-96ca-7dc702c3241e" dockArea="left">
@@ -93,7 +122,7 @@
         <seg>feature</seg>
         <seg>sensor_input</seg>
       </bo>
-      <position y="380.0"/>
+      <position y="236.0"/>
       <contentFilters/>
     </element>
     <element uuid="f1bed2c5-5ce3-4c20-9c6c-36333ad22484" dockArea="left">
@@ -101,7 +130,7 @@
         <seg>feature</seg>
         <seg>server_port</seg>
       </bo>
-      <position y="47.0"/>
+      <position y="318.0"/>
       <contentFilters/>
     </element>
     <element uuid="5a004de4-e59a-449f-82dc-09393b2ddaf7">
@@ -117,8 +146,8 @@
         <seg>subcomponent</seg>
         <seg>bb</seg>
       </bo>
-      <position x="149.0" y="37.0"/>
-      <size width="214.0" height="59.0"/>
+      <position x="136.0" y="390.0"/>
+      <size width="222.0" height="60.0"/>
       <contentFilters>
         <filter>features</filter>
         <filter>internalFeatures</filter>
@@ -140,6 +169,9 @@
           <seg>connection</seg>
           <seg>radio_frequency_impl_new_connection</seg>
         </bo>
+        <bendpoints>
+          <point x="275.0" y="141.0"/>
+        </bendpoints>
         <contentFilters/>
       </element>
       <element uuid="e14e924d-0541-4acb-aebf-f752611fa630">
@@ -154,9 +186,12 @@
           <seg>connection</seg>
           <seg>radio_frequency_impl_new_connection2</seg>
         </bo>
+        <bendpoints>
+          <point x="461.0" y="141.0"/>
+        </bendpoints>
         <contentFilters/>
       </element>
-      <element uuid="7abe71d7-ad02-44ee-b288-990a9ce10ec1">
+      <element uuid="7abe71d7-ad02-44ee-b288-990a9ce10ec1" outline="#990000">
         <element uuid="d885b39a-e074-4501-bf8d-01fe74fd5cbf">
           <bo>
             <seg>tag</seg>
@@ -170,7 +205,7 @@
         </bo>
         <contentFilters/>
       </element>
-      <element uuid="b08e5ff4-38d3-4b66-a81e-c5d852c0306a">
+      <element uuid="b08e5ff4-38d3-4b66-a81e-c5d852c0306a" outline="#990000">
         <element uuid="00b2b0ef-c301-4578-bdc1-e6f5bdf61539">
           <bo>
             <seg>tag</seg>
@@ -184,12 +219,20 @@
         </bo>
         <contentFilters/>
       </element>
+      <element uuid="3ab0ca4b-ae0e-4e79-b20b-b8e10bb58e20" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>client_port</seg>
+        </bo>
+        <position x="540.0" y="280.0"/>
+        <contentFilters/>
+      </element>
       <element uuid="ca0bb9d0-fa79-45f0-8b71-89c0248779d7" dockArea="left">
         <bo>
           <seg>feature</seg>
           <seg>radio_event_in</seg>
         </bo>
-        <position y="124.0"/>
+        <position y="59.0"/>
         <contentFilters/>
       </element>
       <element uuid="600e7efc-bf2b-4b2f-a7ca-83c1ed40cba5" dockArea="right">
@@ -197,7 +240,7 @@
           <seg>feature</seg>
           <seg>radio_event_out</seg>
         </bo>
-        <position x="544.0" y="124.0"/>
+        <position x="505.0" y="59.0"/>
         <contentFilters/>
       </element>
       <element uuid="69091445-f9f5-4bb8-8c93-383076554293" dockArea="left">
@@ -205,7 +248,7 @@
           <seg>feature</seg>
           <seg>radio_input</seg>
         </bo>
-        <position y="205.0"/>
+        <position y="280.0"/>
         <contentFilters/>
       </element>
       <element uuid="c37cbea7-f771-413d-a4d2-8b03adce5160" dockArea="right">
@@ -213,7 +256,7 @@
           <seg>feature</seg>
           <seg>radio_ouput</seg>
         </bo>
-        <position x="568.0" y="168.0"/>
+        <position x="531.0" y="198.0"/>
         <contentFilters/>
       </element>
       <element uuid="d365755a-54cd-4106-8c8b-d29a28092ac3" dockArea="left">
@@ -221,12 +264,21 @@
           <seg>feature</seg>
           <seg>radio_stream</seg>
         </bo>
-        <position y="264.0"/>
+        <position y="198.0"/>
         <contentFilters/>
       </element>
       <element uuid="8d0d5f90-1677-4a72-b722-8b22a437e29a">
-        <element uuid="6161c436-ed1f-4c1e-9ec1-d5d64ccc9508">
-          <element uuid="0c673d52-3057-44c7-935a-de2565bbe6bf">
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>publish_subscribe</seg>
+        </bo>
+        <position x="127.0" y="74.0"/>
+        <size width="186.0" height="35.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="4c5d899a-3c64-40cf-9653-d4d35a041bfc">
+        <element uuid="3184e7d8-d354-41e2-b2ea-130b7dc15dc6" outline="#990000">
+          <element uuid="4ebf90c2-4a60-48ce-aad1-2dfc6273e00b">
             <bo>
               <seg>tag</seg>
               <seg>unidirectional</seg>
@@ -235,12 +287,12 @@
           </element>
           <bo>
             <seg>connection</seg>
-            <seg>event_process_impl_new_connection</seg>
+            <seg>radio_process_impl_new_connection</seg>
           </bo>
           <contentFilters/>
         </element>
-        <element uuid="fdd59ca9-ea8d-4abd-a8d1-48cd03580281">
-          <element uuid="41b78091-1cdb-4977-be0e-216890a9b33e">
+        <element uuid="53d535b2-e9f4-4d5f-82ee-0985802e213e" outline="#990000">
+          <element uuid="1d81ef05-e705-4e78-8af0-fcae89c6c81a">
             <bo>
               <seg>tag</seg>
               <seg>unidirectional</seg>
@@ -249,28 +301,28 @@
           </element>
           <bo>
             <seg>connection</seg>
-            <seg>event_process_impl_new_connection2</seg>
+            <seg>radio_process_impl_new_connection2</seg>
           </bo>
           <contentFilters/>
         </element>
-        <element uuid="6103fdd5-da9d-4d1b-9ab0-58ea15093bfd" dockArea="left">
+        <element uuid="0fc55188-69a6-405b-9378-1fd02850a296" dockArea="left">
           <bo>
             <seg>feature</seg>
             <seg>pro_in</seg>
           </bo>
-          <position y="67.0"/>
+          <position y="69.0"/>
           <contentFilters/>
         </element>
-        <element uuid="9d2ef6aa-4b62-40ee-8566-8b6e74a2628f" dockArea="right">
+        <element uuid="b51a8ed8-1ef9-4e21-919a-09310275cb42" dockArea="right">
           <bo>
             <seg>feature</seg>
             <seg>pro_out</seg>
           </bo>
-          <position x="345.0" y="67.0"/>
+          <position x="296.0" y="69.0"/>
           <contentFilters/>
         </element>
-        <element uuid="38560bbe-b5f7-41ed-8898-b6dd28773bee">
-          <element uuid="f1ff6993-7917-406c-abd9-fa09bb3e7697" dockArea="left">
+        <element uuid="a904278d-96e9-49b0-b749-1999a07c6594">
+          <element uuid="ede11e76-e2ab-47c7-85c6-daffe290cca2" dockArea="left">
             <bo>
               <seg>feature</seg>
               <seg>thr_in</seg>
@@ -278,20 +330,20 @@
             <position y="10.0"/>
             <contentFilters/>
           </element>
-          <element uuid="a1750071-0b06-4d88-85ff-0867a40ba55b" dockArea="right">
+          <element uuid="5d6998ce-df4a-4009-b750-80fa4dab8603" dockArea="right">
             <bo>
               <seg>feature</seg>
               <seg>thr_out</seg>
             </bo>
-            <position x="201.0" y="10.0"/>
+            <position x="145.0" y="10.0"/>
             <contentFilters/>
           </element>
           <bo>
             <seg>subcomponent</seg>
-            <seg>event_thread</seg>
+            <seg>thr</seg>
           </bo>
-          <position x="70.0" y="57.0"/>
-          <size width="263.0" height="59.0"/>
+          <position x="73.0" y="59.0"/>
+          <size width="211.0" height="60.0"/>
           <contentFilters>
             <filter>features</filter>
             <filter>internalFeatures</filter>
@@ -300,7 +352,7 @@
             <filter>flowSpecifications</filter>
           </contentFilters>
         </element>
-        <element uuid="95c901b5-1e25-4b96-bc72-4ec9ff35e322">
+        <element uuid="87da53f4-83c7-4820-a4c7-1e36335d0493">
           <bo>
             <seg>tag</seg>
             <seg>sc_type</seg>
@@ -309,10 +361,10 @@
         </element>
         <bo>
           <seg>subcomponent</seg>
-          <seg>publish_subscribe</seg>
+          <seg>radio</seg>
         </bo>
-        <position x="121.0" y="57.0"/>
-        <size width="411.0" height="128.0"/>
+        <position x="127.0" y="129.0"/>
+        <size width="366.0" height="131.0"/>
         <contentFilters>
           <filter>subcomponentType</filter>
           <filter>features</filter>
@@ -326,37 +378,6 @@
           <filter>internalFeatures</filter>
         </contentFilters>
       </element>
-      <element uuid="4c5d899a-3c64-40cf-9653-d4d35a041bfc">
-        <element uuid="0fc55188-69a6-405b-9378-1fd02850a296" dockArea="left">
-          <bo>
-            <seg>feature</seg>
-            <seg>pro_in</seg>
-          </bo>
-          <position y="59.0"/>
-          <contentFilters/>
-        </element>
-        <element uuid="b51a8ed8-1ef9-4e21-919a-09310275cb42" dockArea="left">
-          <bo>
-            <seg>feature</seg>
-            <seg>pro_out</seg>
-          </bo>
-          <position y="10.0"/>
-          <contentFilters/>
-        </element>
-        <bo>
-          <seg>subcomponent</seg>
-          <seg>radio</seg>
-        </bo>
-        <position/>
-        <size width="224.0" height="108.0"/>
-        <contentFilters>
-          <filter>features</filter>
-          <filter>internalFeatures</filter>
-          <filter>processorFeatures</filter>
-          <filter>connections</filter>
-          <filter>flowSpecifications</filter>
-        </contentFilters>
-      </element>
       <element uuid="04be0fe3-3f3a-4857-a679-9a029838cac0">
         <bo>
           <seg>tag</seg>
@@ -368,8 +389,8 @@
         <seg>subcomponent</seg>
         <seg>rf</seg>
       </bo>
-      <position x="149.0" y="116.0"/>
-      <size width="661.0" height="315.0"/>
+      <position x="136.0" y="38.0"/>
+      <size width="629.0" height="332.0"/>
       <contentFilters>
         <filter>subcomponentType</filter>
         <filter>features</filter>
@@ -388,7 +409,7 @@
       <seg>gateway.impl</seg>
     </bo>
     <position x="12.0" y="12.0"/>
-    <size width="948.0" height="443.0"/>
+    <size width="911.0" height="462.0"/>
     <contentFilters>
       <filter>features</filter>
       <filter>internalFeatures</filter>

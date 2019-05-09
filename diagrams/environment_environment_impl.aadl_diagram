@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
   <element uuid="8c4830f2-de0c-4c9a-9ee5-1872d12ec0d1" manual="true" outline="#000000">
-    <element uuid="b7dbe4cb-2f68-4c76-85b2-c47ae10c94b6" outline="#009900">
+    <element uuid="b7dbe4cb-2f68-4c76-85b2-c47ae10c94b6" outline="#000000">
       <element uuid="789f7cee-e66a-4995-bd5e-445f550ae1b6">
         <bo>
           <seg>tag</seg>
@@ -15,7 +15,7 @@
       </bo>
       <contentFilters/>
     </element>
-    <element uuid="16bfb393-2d7e-4fed-a3d8-39a9187e87c2" outline="#009900">
+    <element uuid="16bfb393-2d7e-4fed-a3d8-39a9187e87c2" outline="#000000">
       <element uuid="9b1ef05e-f7cf-4d8b-bba1-647cb4ac4620">
         <bo>
           <seg>tag</seg>
@@ -28,12 +28,12 @@
         <seg>client_connection2</seg>
       </bo>
       <bendpoints>
-        <point x="568.0" y="416.0"/>
-        <point x="568.0" y="141.0"/>
+        <point x="677.0" y="432.0"/>
+        <point x="677.0" y="141.0"/>
       </bendpoints>
       <contentFilters/>
     </element>
-    <element uuid="5650b3cd-6436-44bd-9bb2-a9e5925588e1" outline="#009900">
+    <element uuid="5650b3cd-6436-44bd-9bb2-a9e5925588e1" outline="#990000">
       <element uuid="c1beb479-5e5c-4f6f-bcbf-7a7460a47827">
         <bo>
           <seg>tag</seg>
@@ -46,12 +46,12 @@
         <seg>environment_impl_new_connection</seg>
       </bo>
       <bendpoints>
-        <point x="159.0" y="335.0"/>
-        <point x="159.0" y="550.0"/>
+        <point x="163.0" y="351.0"/>
+        <point x="163.0" y="582.0"/>
       </bendpoints>
       <contentFilters/>
     </element>
-    <element uuid="ff5f67de-9048-48ba-b15f-99a7fd150cc0" outline="#009900">
+    <element uuid="ff5f67de-9048-48ba-b15f-99a7fd150cc0" outline="#990000">
       <element uuid="d8eb1a2a-12b9-4e3e-8883-e9b8b4d11b41">
         <bo>
           <seg>tag</seg>
@@ -64,12 +64,12 @@
         <seg>environment_impl_new_connection2</seg>
       </bo>
       <bendpoints>
-        <point x="159.0" y="335.0"/>
-        <point x="159.0" y="223.0"/>
+        <point x="163.0" y="351.0"/>
+        <point x="163.0" y="231.0"/>
       </bendpoints>
       <contentFilters/>
     </element>
-    <element uuid="496a6318-55ca-4046-a006-4b1fd4cb6a1e" outline="#000099">
+    <element uuid="496a6318-55ca-4046-a006-4b1fd4cb6a1e" outline="#000000">
       <element uuid="2c1ff6bc-9e67-4350-b5cc-c9cc5b350ce8">
         <bo>
           <seg>tag</seg>
@@ -82,12 +82,12 @@
         <seg>environment_impl_new_connection3</seg>
       </bo>
       <bendpoints>
-        <point x="149.0" y="235.0"/>
-        <point x="149.0" y="151.0"/>
+        <point x="153.0" y="251.0"/>
+        <point x="153.0" y="151.0"/>
       </bendpoints>
       <contentFilters/>
     </element>
-    <element uuid="25ad6b3d-909a-4e6e-a101-5fa57b22d624" outline="#000099">
+    <element uuid="25ad6b3d-909a-4e6e-a101-5fa57b22d624" outline="#000000">
       <element uuid="79503e3f-b3d8-4a23-a8bb-4fd4b11aaab8">
         <bo>
           <seg>tag</seg>
@@ -100,12 +100,12 @@
         <seg>environment_impl_new_connection4</seg>
       </bo>
       <bendpoints>
-        <point x="149.0" y="235.0"/>
-        <point x="149.0" y="478.0"/>
+        <point x="153.0" y="251.0"/>
+        <point x="153.0" y="502.0"/>
       </bendpoints>
       <contentFilters/>
     </element>
-    <element uuid="71ba7772-b66d-4f03-9eb6-7c523f32a226">
+    <element uuid="71ba7772-b66d-4f03-9eb6-7c523f32a226" outline="#000000">
       <element uuid="22e301cc-49a9-478d-9ba0-7cf62daf5d25">
         <bo>
           <seg>tag</seg>
@@ -119,7 +119,7 @@
       </bo>
       <contentFilters/>
     </element>
-    <element uuid="ce896845-fb5d-4668-bbd0-bb387b94ce44">
+    <element uuid="ce896845-fb5d-4668-bbd0-bb387b94ce44" outline="#000000">
       <element uuid="e03711c9-d3d1-47d6-b706-16724d053ac0">
         <bo>
           <seg>tag</seg>
@@ -132,8 +132,8 @@
         <seg>environment_impl_new_connection6</seg>
       </bo>
       <bendpoints>
-        <point x="169.0" y="285.0"/>
-        <point x="169.0" y="416.0"/>
+        <point x="173.0" y="301.0"/>
+        <point x="173.0" y="432.0"/>
       </bendpoints>
       <contentFilters/>
     </element>
@@ -142,7 +142,7 @@
         <seg>feature</seg>
         <seg>client_port</seg>
       </bo>
-      <position x="493.0" y="97.0"/>
+      <position x="687.0" y="97.0"/>
       <contentFilters/>
     </element>
     <element uuid="fc5e8dbd-09cb-405a-88cf-28ac0e9b1282" dockArea="left">
@@ -150,7 +150,7 @@
         <seg>feature</seg>
         <seg>env_data_input</seg>
       </bo>
-      <position y="291.0"/>
+      <position y="307.0"/>
       <contentFilters/>
     </element>
     <element uuid="a85486b5-33d6-48ac-8e0b-2f6428617bae" dockArea="left">
@@ -158,7 +158,7 @@
         <seg>feature</seg>
         <seg>env_input</seg>
       </bo>
-      <position y="241.0"/>
+      <position y="257.0"/>
       <contentFilters/>
     </element>
     <element uuid="338a2a56-7796-43fd-9d24-9f5b5f5299b5" dockArea="left">
@@ -166,7 +166,7 @@
         <seg>feature</seg>
         <seg>event_in</seg>
       </bo>
-      <position y="191.0"/>
+      <position y="207.0"/>
       <contentFilters/>
     </element>
     <element uuid="e2c09228-1510-4c23-a2e5-f77981e59a04">
@@ -203,7 +203,7 @@
           <seg>feature</seg>
           <seg>client_port</seg>
         </bo>
-        <position x="286.0" y="59.0"/>
+        <position x="388.0" y="59.0"/>
         <contentFilters/>
       </element>
       <element uuid="203fd654-889e-494b-8ea7-76250ae6cb0d" dockArea="left">
@@ -211,7 +211,7 @@
           <seg>feature</seg>
           <seg>hum_event</seg>
         </bo>
-        <position y="121.0"/>
+        <position y="129.0"/>
         <contentFilters/>
       </element>
       <element uuid="a8ddf237-4d8d-4cdf-90d9-b793e2d4c004" dockArea="left">
@@ -219,7 +219,7 @@
           <seg>feature</seg>
           <seg>hum_input</seg>
         </bo>
-        <position y="193.0"/>
+        <position y="209.0"/>
         <contentFilters/>
       </element>
       <element uuid="4fe001d6-f44c-4361-88c5-44fdea1c8fd3" dockArea="left">
@@ -243,8 +243,8 @@
           <seg>subcomponent</seg>
           <seg>hum_process</seg>
         </bo>
-        <position x="100.0" y="183.0"/>
-        <size width="259.0" height="60.0"/>
+        <position x="103.0" y="199.0"/>
+        <size width="273.0" height="60.0"/>
         <contentFilters>
           <filter>features</filter>
           <filter>internalFeatures</filter>
@@ -266,8 +266,8 @@
           <seg>subcomponent</seg>
           <seg>subscribe</seg>
         </bo>
-        <position x="100.0" y="111.0"/>
-        <size width="236.0" height="60.0"/>
+        <position x="103.0" y="119.0"/>
+        <size width="248.0" height="60.0"/>
         <contentFilters>
           <filter>features</filter>
           <filter>internalFeatures</filter>
@@ -287,8 +287,8 @@
         <seg>subcomponent</seg>
         <seg>hum</seg>
       </bo>
-      <position x="169.0" y="313.0"/>
-      <size width="371.0" height="255.0"/>
+      <position x="173.0" y="329.0"/>
+      <size width="477.0" height="271.0"/>
       <contentFilters>
         <filter>subcomponentType</filter>
         <filter>features</filter>
@@ -336,7 +336,7 @@
           <seg>feature</seg>
           <seg>client_port</seg>
         </bo>
-        <position x="294.0" y="59.0"/>
+        <position x="395.0" y="59.0"/>
         <contentFilters/>
       </element>
       <element uuid="1148c000-e975-44bb-af1a-6aa7ba40b39e" dockArea="left">
@@ -352,7 +352,7 @@
           <seg>feature</seg>
           <seg>temp_input</seg>
         </bo>
-        <position y="141.0"/>
+        <position y="149.0"/>
         <contentFilters/>
       </element>
       <element uuid="3444af81-b920-4d03-82da-39a5336ffb2b" dockArea="left">
@@ -360,7 +360,7 @@
           <seg>feature</seg>
           <seg>temp_io</seg>
         </bo>
-        <position y="203.0"/>
+        <position y="219.0"/>
         <contentFilters/>
       </element>
       <element uuid="3aa352a5-3d6a-473c-9544-455879d1d673">
@@ -376,8 +376,8 @@
           <seg>subcomponent</seg>
           <seg>subscribe</seg>
         </bo>
-        <position x="104.0" y="59.0"/>
-        <size width="236.0" height="60.0"/>
+        <position x="107.0" y="59.0"/>
+        <size width="248.0" height="60.0"/>
         <contentFilters>
           <filter>features</filter>
           <filter>internalFeatures</filter>
@@ -399,8 +399,8 @@
           <seg>subcomponent</seg>
           <seg>temp_process</seg>
         </bo>
-        <position x="104.0" y="131.0"/>
-        <size width="263.0" height="60.0"/>
+        <position x="107.0" y="139.0"/>
+        <size width="276.0" height="60.0"/>
         <contentFilters>
           <filter>features</filter>
           <filter>internalFeatures</filter>
@@ -420,8 +420,8 @@
         <seg>subcomponent</seg>
         <seg>temp</seg>
       </bo>
-      <position x="167.0" y="38.0"/>
-      <size width="379.0" height="255.0"/>
+      <position x="171.0" y="38.0"/>
+      <size width="484.0" height="271.0"/>
       <contentFilters>
         <filter>subcomponentType</filter>
         <filter>features</filter>
@@ -440,7 +440,7 @@
       <seg>environment.impl</seg>
     </bo>
     <position x="12.0" y="12.0"/>
-    <size width="578.0" height="580.0"/>
+    <size width="776.0" height="612.0"/>
     <contentFilters>
       <filter>features</filter>
       <filter>internalFeatures</filter>

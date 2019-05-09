@@ -72,7 +72,7 @@
         <seg>feature</seg>
         <seg>account_input</seg>
       </bo>
-      <position x="338.0" y="48.0"/>
+      <position x="333.0" y="48.0"/>
       <contentFilters/>
     </element>
     <element uuid="ac7a2378-bdaf-4159-9d18-fca0938fc322" dockArea="right">
@@ -80,7 +80,7 @@
         <seg>feature</seg>
         <seg>client_port</seg>
       </bo>
-      <position x="360.0" y="228.0"/>
+      <position x="356.0" y="228.0"/>
       <contentFilters/>
     </element>
     <element uuid="e8c501c8-50d9-4da8-aed5-989ce1d11db6">
@@ -89,7 +89,7 @@
           <seg>feature</seg>
           <seg>auth_input</seg>
         </bo>
-        <position x="173.0" y="10.0"/>
+        <position x="169.0" y="10.0"/>
         <contentFilters/>
       </element>
       <element uuid="f241910b-a27e-454e-9ae0-3b41f8c54811" dockArea="right">
@@ -97,7 +97,7 @@
           <seg>feature</seg>
           <seg>client_port</seg>
         </bo>
-        <position x="173.0" y="60.0"/>
+        <position x="169.0" y="60.0"/>
         <contentFilters/>
       </element>
       <bo>
@@ -120,7 +120,7 @@
           <seg>feature</seg>
           <seg>client_port</seg>
         </bo>
-        <position x="199.0" y="60.0"/>
+        <position x="195.0" y="60.0"/>
         <contentFilters/>
       </element>
       <element uuid="db8c6d2c-44b9-463a-a3e8-379db81288b9" dockArea="right">
@@ -128,7 +128,7 @@
           <seg>feature</seg>
           <seg>settings_input</seg>
         </bo>
-        <position x="179.0" y="10.0"/>
+        <position x="172.0" y="10.0"/>
         <contentFilters/>
       </element>
       <bo>

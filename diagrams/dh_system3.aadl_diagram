@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="ASCII"?>
 <diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
-  <element uuid="8f50fc2a-c165-4e8b-95bd-dad607e10fdd" manual="true">
+  <element uuid="8f50fc2a-c165-4e8b-95bd-dad607e10fdd" manual="true" outline="#000000">
+    <element uuid="2c4178e7-e3ee-4f31-8728-ab4c8c5f1114">
+      <bo>
+        <seg>classifier</seg>
+        <seg>digital_home</seg>
+      </bo>
+      <position x="1807.0" y="404.0"/>
+      <size width="137.0" height="35.0"/>
+      <contentFilters>
+        <filter>generalizations</filter>
+      </contentFilters>
+    </element>
     <element uuid="dba6b78b-3fbd-4754-acff-1e6e21256724" manual="true" outline="#000000">
       <element uuid="cef07bc3-912b-4b28-b39b-462558d51616" manual="true" outline="#009900">
         <element uuid="07d639b8-5ea8-4514-8a0b-15add0b498e3">
@@ -15,8 +26,8 @@
           <seg>digital_home_impl_new_connection</seg>
         </bo>
         <bendpoints>
-          <point x="1160.0" y="354.0"/>
-          <point x="1160.0" y="610.0"/>
+          <point x="1166.0" y="531.0"/>
+          <point x="1166.0" y="787.0"/>
         </bendpoints>
         <contentFilters/>
       </element>
@@ -33,8 +44,8 @@
           <seg>digital_home_impl_new_connection10</seg>
         </bo>
         <bendpoints>
-          <point x="768.0" y="343.0"/>
-          <point x="768.0" y="463.0"/>
+          <point x="772.0" y="520.0"/>
+          <point x="772.0" y="640.0"/>
         </bendpoints>
         <contentFilters/>
       </element>
@@ -65,8 +76,8 @@
           <seg>digital_home_impl_new_connection12</seg>
         </bo>
         <bendpoints>
-          <point x="778.0" y="294.0"/>
-          <point x="778.0" y="384.0"/>
+          <point x="782.0" y="471.0"/>
+          <point x="782.0" y="561.0"/>
         </bendpoints>
         <contentFilters/>
       </element>
@@ -83,8 +94,8 @@
           <seg>digital_home_impl_new_connection13</seg>
         </bo>
         <bendpoints>
-          <point x="1150.0" y="512.0"/>
-          <point x="1150.0" y="305.0"/>
+          <point x="1156.0" y="689.0"/>
+          <point x="1156.0" y="482.0"/>
         </bendpoints>
         <contentFilters/>
       </element>
@@ -115,8 +126,8 @@
           <seg>digital_home_impl_new_connection15</seg>
         </bo>
         <bendpoints>
-          <point x="1150.0" y="226.0"/>
-          <point x="1150.0" y="305.0"/>
+          <point x="1156.0" y="403.0"/>
+          <point x="1156.0" y="482.0"/>
         </bendpoints>
         <contentFilters/>
       </element>
@@ -133,8 +144,8 @@
           <seg>digital_home_impl_new_connection16</seg>
         </bo>
         <bendpoints>
-          <point x="1150.0" y="147.0"/>
-          <point x="1150.0" y="305.0"/>
+          <point x="1156.0" y="324.0"/>
+          <point x="1156.0" y="482.0"/>
         </bendpoints>
         <contentFilters/>
       </element>
@@ -151,8 +162,8 @@
           <seg>digital_home_impl_new_connection17</seg>
         </bo>
         <bendpoints>
-          <point x="1150.0" y="384.0"/>
-          <point x="1150.0" y="305.0"/>
+          <point x="1156.0" y="561.0"/>
+          <point x="1156.0" y="482.0"/>
         </bendpoints>
         <contentFilters/>
       </element>
@@ -211,8 +222,8 @@
           <seg>digital_home_impl_new_connection3</seg>
         </bo>
         <bendpoints>
-          <point x="768.0" y="196.0"/>
-          <point x="768.0" y="226.0"/>
+          <point x="772.0" y="373.0"/>
+          <point x="772.0" y="403.0"/>
         </bendpoints>
         <contentFilters/>
       </element>
@@ -285,8 +296,8 @@
           <seg>digital_home_impl_new_connection9</seg>
         </bo>
         <bendpoints>
-          <point x="788.0" y="245.0"/>
-          <point x="788.0" y="305.0"/>
+          <point x="792.0" y="422.0"/>
+          <point x="792.0" y="482.0"/>
         </bendpoints>
         <contentFilters/>
       </element>
@@ -295,8 +306,8 @@
           <seg>realization</seg>
         </bo>
         <bendpoints>
-          <point x="275.0" y="66.0"/>
-          <point x="287.0" y="66.0"/>
+          <point x="1803.0" y="433.0"/>
+          <point x="1815.0" y="433.0"/>
         </bendpoints>
         <contentFilters/>
       </element>
@@ -314,15 +325,15 @@
             <seg>feature</seg>
             <seg>client_port</seg>
           </bo>
-          <position x="232.0" y="10.0"/>
+          <position x="239.0" y="10.0"/>
           <contentFilters/>
         </element>
         <bo>
           <seg>subcomponent</seg>
           <seg>account</seg>
         </bo>
-        <position x="693.0" y="57.0"/>
-        <size width="321.0" height="59.0"/>
+        <position x="700.0" y="234.0"/>
+        <size width="324.0" height="59.0"/>
         <contentFilters>
           <filter>features</filter>
         </contentFilters>
@@ -333,7 +344,7 @@
             <seg>feature</seg>
             <seg>account_input</seg>
           </bo>
-          <position x="186.0" y="10.0"/>
+          <position x="193.0" y="10.0"/>
           <contentFilters/>
         </element>
         <element uuid="5b99e542-f5f8-427d-8d02-b75b5bd652c2" dockArea="left">
@@ -349,7 +360,7 @@
             <seg>feature</seg>
             <seg>br_input</seg>
           </bo>
-          <position x="224.0" y="157.0"/>
+          <position x="229.0" y="157.0"/>
           <contentFilters/>
         </element>
         <element uuid="8adb3eaa-1ffa-4c87-a526-eda50da9f169" dockArea="right">
@@ -357,7 +368,7 @@
             <seg>feature</seg>
             <seg>cmd_input</seg>
           </bo>
-          <position x="209.0" y="59.0"/>
+          <position x="215.0" y="59.0"/>
           <contentFilters/>
         </element>
         <element uuid="850ce5f5-a99d-4735-ab85-9bd3cc44d35f" dockArea="right">
@@ -365,7 +376,7 @@
             <seg>feature</seg>
             <seg>env_input</seg>
           </bo>
-          <position x="215.0" y="206.0"/>
+          <position x="220.0" y="206.0"/>
           <contentFilters/>
         </element>
         <element uuid="cf9f4ef2-3033-476d-acd8-6f0b0881a234" dockArea="right">
@@ -373,17 +384,16 @@
             <seg>feature</seg>
             <seg>schedule_input</seg>
           </bo>
-          <position x="179.0" y="108.0"/>
+          <position x="186.0" y="108.0"/>
           <contentFilters/>
         </element>
         <bo>
           <seg>subcomponent</seg>
           <seg>bl</seg>
         </bo>
-        <position x="333.0" y="57.0"/>
-        <size width="298.0" height="255.0"/>
+        <position x="339.0" y="234.0"/>
+        <size width="300.0" height="255.0"/>
         <contentFilters>
-          <filter>connections</filter>
           <filter>features</filter>
         </contentFilters>
       </element>
@@ -401,17 +411,16 @@
             <seg>feature</seg>
             <seg>client_port</seg>
           </bo>
-          <position x="188.0" y="10.0"/>
+          <position x="194.0" y="10.0"/>
           <contentFilters/>
         </element>
         <bo>
           <seg>subcomponent</seg>
           <seg>br</seg>
         </bo>
-        <position x="715.0" y="294.0"/>
-        <size width="277.0" height="59.0"/>
+        <position x="723.0" y="471.0"/>
+        <size width="279.0" height="59.0"/>
         <contentFilters>
-          <filter>connections</filter>
           <filter>features</filter>
         </contentFilters>
       </element>
@@ -421,7 +430,7 @@
             <seg>feature</seg>
             <seg>client_port</seg>
           </bo>
-          <position x="236.0" y="10.0"/>
+          <position x="242.0" y="10.0"/>
           <contentFilters/>
         </element>
         <element uuid="da75279c-cb16-4160-9be6-99f7103f9bbe" dockArea="left">
@@ -436,8 +445,8 @@
           <seg>subcomponent</seg>
           <seg>cmd</seg>
         </bo>
-        <position x="691.0" y="136.0"/>
-        <size width="325.0" height="59.0"/>
+        <position x="699.0" y="313.0"/>
+        <size width="327.0" height="59.0"/>
         <contentFilters>
           <filter>features</filter>
         </contentFilters>
@@ -455,8 +464,8 @@
           <seg>subcomponent</seg>
           <seg>da</seg>
         </bo>
-        <position x="1420.0" y="240.0"/>
-        <size width="241.0" height="59.0"/>
+        <position x="1432.0" y="417.0"/>
+        <size width="243.0" height="59.0"/>
         <contentFilters>
           <filter>features</filter>
         </contentFilters>
@@ -467,7 +476,7 @@
             <seg>feature</seg>
             <seg>dl_input</seg>
           </bo>
-          <position x="168.0" y="10.0"/>
+          <position x="173.0" y="10.0"/>
           <contentFilters/>
         </element>
         <element uuid="55adca59-7447-406b-aa92-f191d1f90185" dockArea="right">
@@ -475,7 +484,7 @@
             <seg>feature</seg>
             <seg>dl_output</seg>
           </bo>
-          <position x="159.0" y="59.0"/>
+          <position x="165.0" y="59.0"/>
           <contentFilters/>
         </element>
         <element uuid="eafafd84-2166-413c-84ba-fef9666fa176" dockArea="right">
@@ -483,15 +492,15 @@
             <seg>feature</seg>
             <seg>dl_stream</seg>
           </bo>
-          <position x="156.0" y="108.0"/>
+          <position x="163.0" y="108.0"/>
           <contentFilters/>
         </element>
         <bo>
           <seg>subcomponent</seg>
           <seg>dev</seg>
         </bo>
-        <position x="20.0" y="422.0"/>
-        <size width="240.0" height="157.0"/>
+        <position x="19.0" y="599.0"/>
+        <size width="243.0" height="157.0"/>
         <contentFilters>
           <filter>features</filter>
         </contentFilters>
@@ -502,7 +511,7 @@
             <seg>feature</seg>
             <seg>data_access_client</seg>
           </bo>
-          <position x="201.0" y="35.0"/>
+          <position x="210.0" y="35.0"/>
           <contentFilters/>
         </element>
         <element uuid="869faf86-3e50-45ca-a34f-dcc5da144dcf" dockArea="left">
@@ -525,11 +534,128 @@
           <seg>subcomponent</seg>
           <seg>dl</seg>
         </bo>
-        <position x="1054.0" y="215.0"/>
-        <size width="346.0" height="108.0"/>
+        <position x="1064.0" y="392.0"/>
+        <size width="348.0" height="108.0"/>
         <contentFilters>
-          <filter>subcomponents</filter>
           <filter>features</filter>
+        </contentFilters>
+      </element>
+      <element uuid="b9ad62c7-b4df-46f1-b7c0-ce57a3685b5b">
+        <element uuid="96a5c8a9-452d-46fa-a6c6-a78c6b81fd9f">
+          <bo>
+            <seg>connection</seg>
+            <seg>cancpu</seg>
+          </bo>
+          <bendpoints>
+            <point x="348.0" y="215.33333333333334"/>
+            <point x="360.0" y="215.33333333333331"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element uuid="34e0f503-803e-403c-866e-c7e0cbaeafff">
+          <bo>
+            <seg>connection</seg>
+            <seg>canext</seg>
+          </bo>
+          <bendpoints>
+            <point x="348.0" y="227.0"/>
+            <point x="354.0" y="227.0"/>
+            <point x="354.0" y="237.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element uuid="7ba34615-1ef3-44f5-b3bd-f8c1d703644c">
+          <bo>
+            <seg>connection</seg>
+            <seg>pcicpu</seg>
+          </bo>
+          <bendpoints>
+            <point x="348.0" y="166.16666666666666"/>
+            <point x="354.0" y="166.16666666666666"/>
+            <point x="354.0" y="203.66666666666669"/>
+            <point x="360.0" y="203.66666666666669"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element uuid="de811be1-7824-4a76-afc3-b432934e457a">
+          <bo>
+            <seg>connection</seg>
+            <seg>pciram</seg>
+          </bo>
+          <bendpoints>
+            <point x="348.0" y="154.5"/>
+            <point x="360.0" y="154.5"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element uuid="6ba2a201-2849-4dbe-8aa3-2ddd55436a6f" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>pcieba</seg>
+          </bo>
+          <position x="372.0" y="126.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="70c09300-ffbc-425f-a790-437444d4e76e">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>dh_cpu</seg>
+          </bo>
+          <position x="194.0" y="112.0"/>
+          <size width="110.0" height="35.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="582431ae-2d0b-4b78-ac1d-81e1e163f7cf">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>dh_ram</seg>
+          </bo>
+          <position x="194.0" y="57.0"/>
+          <size width="111.0" height="35.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="63691096-7e50-440e-b675-38375d688666">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>my_memorybus</seg>
+          </bo>
+          <position x="12.0" y="63.0"/>
+          <size width="162.0" height="35.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="81ca7b2e-d803-4bb0-bafb-02fb423c3e14">
+          <bo>
+            <seg>subcomponent</seg>
+            <seg>my_pciebus</seg>
+          </bo>
+          <position x="32.0" y="124.0"/>
+          <size width="142.0" height="35.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="415d0039-22dd-4b68-a252-dc0a6a7b1b8f">
+          <bo>
+            <seg>tag</seg>
+            <seg>sc_type</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>ecu</seg>
+        </bo>
+        <position x="58.0" y="31.0"/>
+        <size width="440.0" height="177.0"/>
+        <contentFilters>
+          <filter>subcomponentType</filter>
+          <filter>features</filter>
+          <filter>modeTransitions</filter>
+          <filter>modes</filter>
+          <filter>flowSpecifications</filter>
+          <filter>connections</filter>
+          <filter>subcomponents</filter>
+          <filter>subprogramCallSequences</filter>
+          <filter>processorFeatures</filter>
+          <filter>internalFeatures</filter>
         </contentFilters>
       </element>
       <element uuid="fe4b6a2a-166d-4770-abe5-ff10d0dd8c3c">
@@ -538,7 +664,7 @@
             <seg>feature</seg>
             <seg>client_port</seg>
           </bo>
-          <position x="217.0" y="59.0"/>
+          <position x="226.0" y="59.0"/>
           <contentFilters/>
         </element>
         <element uuid="d0ee2545-81d9-4275-afe0-3a6c98aad41a" dockArea="left">
@@ -569,10 +695,9 @@
           <seg>subcomponent</seg>
           <seg>env</seg>
         </bo>
-        <position x="691.0" y="373.0"/>
-        <size width="306.0" height="157.0"/>
+        <position x="698.0" y="550.0"/>
+        <size width="311.0" height="157.0"/>
         <contentFilters>
-          <filter>connections</filter>
           <filter>features</filter>
         </contentFilters>
       </element>
@@ -598,7 +723,7 @@
             <seg>feature</seg>
             <seg>device_event_out</seg>
           </bo>
-          <position x="228.0" y="59.0"/>
+          <position x="240.0" y="59.0"/>
           <contentFilters/>
         </element>
         <element uuid="6a251279-2190-435e-8bf4-618310e7e0d2" dockArea="right">
@@ -606,7 +731,7 @@
             <seg>feature</seg>
             <seg>gate_output</seg>
           </bo>
-          <position x="265.0" y="10.0"/>
+          <position x="275.0" y="10.0"/>
           <contentFilters/>
         </element>
         <element uuid="048269e6-56c4-4821-ac55-c9a38c57e5fa" dockArea="left">
@@ -622,17 +747,16 @@
             <seg>feature</seg>
             <seg>server_port</seg>
           </bo>
-          <position x="268.0" y="108.0"/>
+          <position x="279.0" y="108.0"/>
           <contentFilters/>
         </element>
         <bo>
           <seg>subcomponent</seg>
           <seg>gateway</seg>
         </bo>
-        <position x="280.0" y="422.0"/>
-        <size width="362.0" height="157.0"/>
+        <position x="282.0" y="599.0"/>
+        <size width="368.0" height="157.0"/>
         <contentFilters>
-          <filter>connections</filter>
           <filter>features</filter>
         </contentFilters>
       </element>
@@ -642,15 +766,15 @@
             <seg>feature</seg>
             <seg>user_input</seg>
           </bo>
-          <position x="159.0" y="10.0"/>
+          <position x="165.0" y="10.0"/>
           <contentFilters/>
         </element>
         <bo>
           <seg>subcomponent</seg>
           <seg>gui</seg>
         </bo>
-        <position x="12.0" y="155.0"/>
-        <size width="248.0" height="59.0"/>
+        <position x="12.0" y="332.0"/>
+        <size width="250.0" height="59.0"/>
         <contentFilters>
           <filter>features</filter>
         </contentFilters>
@@ -661,7 +785,7 @@
             <seg>feature</seg>
             <seg>client_port</seg>
           </bo>
-          <position x="253.0" y="10.0"/>
+          <position x="259.0" y="10.0"/>
           <contentFilters/>
         </element>
         <element uuid="32f58399-33f7-4859-8381-e7016f94b206" dockArea="left">
@@ -676,8 +800,8 @@
           <seg>subcomponent</seg>
           <seg>schedule</seg>
         </bo>
-        <position x="682.0" y="215.0"/>
-        <size width="342.0" height="59.0"/>
+        <position x="690.0" y="392.0"/>
+        <size width="344.0" height="59.0"/>
         <contentFilters>
           <filter>features</filter>
         </contentFilters>
@@ -686,8 +810,8 @@
         <seg>classifier</seg>
         <seg>digital_home.impl</seg>
       </bo>
-      <position x="104.0" y="37.0"/>
-      <size width="1673.0" height="591.0"/>
+      <position x="100.0" y="37.0"/>
+      <size width="1687.0" height="768.0"/>
       <contentFilters>
         <filter>generalizations</filter>
         <filter>features</filter>
@@ -706,35 +830,9 @@
       <seg>dh_system</seg>
     </bo>
     <position x="12.0" y="12.0"/>
-    <size width="1789.0" height="640.0"/>
+    <size width="1956.0" height="817.0"/>
     <contentFilters>
-      <filter>dataImplementations</filter>
-      <filter>busTypes</filter>
-      <filter>virtualBusTypes</filter>
-      <filter>threadImplementations</filter>
-      <filter>subprogramGroupTypes</filter>
-      <filter>processTypes</filter>
-      <filter>subprogramGroupImplementations</filter>
-      <filter>featureGroupTypes</filter>
-      <filter>abstractTypes</filter>
-      <filter>subprogramImplementations</filter>
-      <filter>threadTypes</filter>
-      <filter>systemImplementations</filter>
-      <filter>virtualBusImplementations</filter>
-      <filter>dataTypes</filter>
-      <filter>virtualProcessorTypes</filter>
-      <filter>memoryTypes</filter>
-      <filter>threadGroupImplementations</filter>
-      <filter>deviceImplementations</filter>
-      <filter>busImplementations</filter>
-      <filter>deviceTypes</filter>
-      <filter>threadGroupTypes</filter>
-      <filter>processImplementations</filter>
-      <filter>subprogramTypes</filter>
-      <filter>processorTypes</filter>
-      <filter>processorImplementations</filter>
-      <filter>virtualProcessorImplementations</filter>
-      <filter>memoryImplementations</filter>
+      <filter>classifiers</filter>
     </contentFilters>
   </element>
   <config type="package" connectionPrimaryLabelsVisible="false">

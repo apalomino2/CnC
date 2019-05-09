@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="b62f3323-d156-4929-9b37-54de079ac046" manual="true">
+    <element uuid="39f4e6ff-9b85-43d4-9556-9de90d2b1143">
+      <element uuid="276bad48-f793-4aaa-acb5-d50643d8060b">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>alarm_controller_impl_new_connection</seg>
+      </bo>
+      <bendpoints>
+        <point x="179.0" y="92.0"/>
+        <point x="179.0" y="231.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="1239645f-b881-4feb-88c7-f5b5d62fe3b3" outline="#000099">
+      <element uuid="ca5b62b5-08d4-4176-95b0-0ca4bc2559b4">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>alarm_controller_impl_new_connection2</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="2f6ac5b5-400b-4d60-af81-79988ebbbc3c">
+      <element uuid="7e522508-3252-4e08-91a3-e9122ad3ad5e">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>alarm_controller_impl_new_connection3</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="f8a63276-6fd9-4ece-b7ec-76d0898adec8">
+      <element uuid="7ced0dea-2050-4015-9b88-747982387b44">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>alarm_controller_impl_new_connection4</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="46090915-52c7-473a-bb77-be7385d674c2" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>alarm_event</seg>
+      </bo>
+      <position x="622.0" y="187.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="fcf30311-159c-421e-a2fd-4be80b05ce8b" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>alarm_new_feature</seg>
+      </bo>
+      <position y="48.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="8899bc95-c187-443a-8cf4-d76509718a7d" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>data_input</seg>
+      </bo>
+      <position x="633.0" y="48.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="0036288d-4d6d-42be-a254-ac193a37e589">
+      <element uuid="e8f02bd6-54be-4c1b-8fe6-7b2eb4c75b04" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>alarm_dev_in</seg>
+        </bo>
+        <position y="10.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="a1a5d3d7-32ba-4f4c-bb8b-0ca70c6d1e6a" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>pro_in</seg>
+        </bo>
+        <position x="340.0" y="10.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>configure_process</seg>
+      </bo>
+      <position x="193.0" y="38.0"/>
+      <size width="401.0" height="60.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element uuid="1c63824f-e9d8-4862-b00b-11554f9a3f05">
+      <element uuid="aa023dca-ffd4-44af-b3a0-4c4db5ce81ba">
+        <element uuid="0017555f-f82f-4dc8-a90e-ab2a892990c6">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>event_process_impl_new_connection</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="746a945d-f0d2-45e3-8da7-b436e4045084" outline="#000099">
+        <element uuid="cfe3d991-3905-490b-a3de-0419dae1f0e2">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>event_process_impl_new_connection2</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="529204b5-aa96-4534-aa6a-d3cffd8bccbc" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>pro_in</seg>
+        </bo>
+        <position y="69.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="19b2dd91-823a-41ba-8df7-2251ee19b9e0" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>pro_out</seg>
+        </bo>
+        <position x="363.0" y="69.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="c180d9ab-befa-4b52-a9fa-1e91c0f3a054">
+        <element uuid="43305634-c9de-477b-9b52-c98c372c3599" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>thr_in</seg>
+          </bo>
+          <position y="10.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="f8f953a6-9837-42d5-af3c-7a0af0ef0372" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>thr_out</seg>
+          </bo>
+          <position x="212.0" y="10.0"/>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>event_thread</seg>
+        </bo>
+        <position x="73.0" y="59.0"/>
+        <size width="278.0" height="60.0"/>
+        <contentFilters>
+          <filter>features</filter>
+          <filter>internalFeatures</filter>
+          <filter>processorFeatures</filter>
+          <filter>connections</filter>
+          <filter>flowSpecifications</filter>
+        </contentFilters>
+      </element>
+      <element uuid="b07fa1c7-edce-49bc-b038-aec7e0dd4861">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>publish_process</seg>
+      </bo>
+      <position x="177.0" y="118.0"/>
+      <size width="433.0" height="131.0"/>
+      <contentFilters>
+        <filter>subcomponentType</filter>
+        <filter>features</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+        <filter>connections</filter>
+        <filter>subcomponents</filter>
+        <filter>subprogramCallSequences</filter>
+        <filter>processorFeatures</filter>
+        <filter>internalFeatures</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>alarm_controller.impl</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="721.0" height="261.0"/>
+    <contentFilters>
+      <filter>features</filter>
+      <filter>internalFeatures</filter>
+      <filter>processorFeatures</filter>
+      <filter>connections</filter>
+      <filter>flowSpecifications</filter>
+      <filter>subcomponents</filter>
+    </contentFilters>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>dh_devices::alarm_controller.impl</seg>
+    </context>
+  </config>
+</diagram:Diagram>
